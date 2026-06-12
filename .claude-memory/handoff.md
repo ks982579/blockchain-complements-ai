@@ -54,13 +54,19 @@ query CLI, query/answer skill.
 - If the user says "summarize the next paper" / "summarize N papers": invoke the
   `summarize-paper` skill, which picks the next `[ ]` row in `PROGRESS.md`, and updates
   `PROGRESS.md` after each one. This is working smoothly — keep using it as-is.
-- **2026-06-12**: user decided to work on Step 4 now (got bored with summaries; 6/48
-  done, can resume anytime). Step 4 has its own atomic checklist:
-  `.claude-memory/004-vector-db/PROGRESS.md` (sections A-H, mirrors PLAN.md Step 4
-  design). Work through it top to bottom, checking off items as completed — same
-  resumability pattern as the per-paper summary table. Does not require all 48
-  summaries; build/test against whatever `summary.md` files exist (currently 6), `init`
-  is rerunnable via `update`.
-- After Step 4, build Step 5 (`research-query` skill) per `PLAN.md`.
+- **Step 4 is done (2026-06-12)**: `apps/surreal_core/` (Cargo workspace: `vectordb` +
+  `embedder` libs behind trait/builder abstractions, `cli` binary) and
+  `apps/surreal_cli.py` wrapper both built and smoke-tested with passing unit +
+  integration tests (16 total). Full details, gotchas (time crate pin, disk space,
+  SurrealDB record-link/escaping/KNN-literal/UNION quirks), and architecture notes in
+  `.claude-memory/004-vector-db/PROGRESS.md`.
+- **Next: Step 5** — `.claude/skills/research-query/SKILL.md` per `001-init/PLAN.md`
+  Step 5: takes a natural-language question, runs `apps/surreal_cli.py query` (and
+  `related` for exploratory asks), synthesizes a cited answer.
+- Note: only 6/48 papers have `summary.md` so far — the vector store currently only
+  covers those 6. Running `apps/surreal_cli.py update` after more summaries are written
+  will pick up new ones incrementally.
 - Project conventions: use `uv` for all Python (no bare pip/venv), scripts live in
-  `apps/`, not `scripts/`.
+  `apps/`, not `scripts/`. Note: this dev environment doesn't actually have `uv`
+  installed — `apps/surreal_cli.py` has no third-party deps so `python3` works
+  identically; mention if `uv` is unavailable when invoking it.

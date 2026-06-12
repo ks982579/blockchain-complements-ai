@@ -118,7 +118,20 @@ Swapping backends later = add a new `Backend` variant + matching module in `vect
 
 ## G. `apps/surreal_cli.py` (Python wrapper)
 
-- [ ] Not started.
+- [x] Staleness check: compares `target/release/surreal_core` mtime against
+      `crates/*/src/**/*.rs`, `Cargo.toml`/`Cargo.lock` (root + per-crate)
+- [x] If stale/missing: runs `cargo build --release --manifest-path
+      apps/surreal_core/Cargo.toml`, streaming output live (stdout passed through)
+- [x] Forwards subcommand + `--db-path`/`--research-dir` + subcommand args to the built
+      binary via `subprocess.run`, parses JSON stdout, pretty-prints
+- [x] Smoke test: first run triggered a 3m30s release build and returned
+      `{"papers_ingested": 6, "papers_with_edges": 6}`; second run (no source changes)
+      ran in ~0.4s with no rebuild; touching a source file triggered a fast incremental
+      rebuild (~4s) before the next invocation
+
+  **Note**: `uv` is not installed in this dev environment despite being the stated
+  project convention — ran via plain `python3` (the script has no third-party deps, so
+  both work identically). No code change needed either way.
 
 ## H. End-to-end verification
 
@@ -143,6 +156,6 @@ update` could re-break the `time` pin (see section A gotcha) or disk space (see 
 
 ## Status
 
-Sections A-F and H complete as of 2026-06-12, with passing unit + integration tests
-(section "Tests" above). **Next action: section G** — `apps/surreal_cli.py` Python
-wrapper (staleness check + cargo build + subprocess forwarding).
+Sections A-H all complete as of 2026-06-12, with passing unit + integration tests
+(section "Tests" above) and a working `apps/surreal_cli.py` wrapper. **Step 4 is done.**
+Next: Step 5 — `.claude/skills/research-query/SKILL.md` (per `001-init/PLAN.md` Step 5).
