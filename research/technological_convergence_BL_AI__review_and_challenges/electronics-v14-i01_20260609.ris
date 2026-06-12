@@ -1,0 +1,18 @@
+TY  - EJOUR
+AU  - Choi, Nakhoon 
+AU  - Kim, Heeyoul 
+TI  - Technological Convergence of Blockchain and Artificial Intelligence: A Review and Challenges
+T2  - Electronics
+PY  - 2025
+VL  - 14
+IS  - 1
+SN  - 2079-9292
+SP  - 84
+AB  - Blockchain and artificial intelligence are two of the most prominent technologies in computer science today and have attracted considerable attention from various research communities. Recently, several initiatives have been launched to explore the combination of these two pioneering technologies. The main goal is to combine the data integrity, privacy, and decentralization properties of blockchain with the ability of artificial intelligence to process, analyze, predict, and refine massive data sets. The combination of blockchain and AI technologies is expected to address key challenges in the digital realm, such as data security, transparency, and streamlined decision-making. However, there is a problem that many studies have focused on the advancement of a single technology as the main perspective. To overcome these recent research limitations, we provide a broad view of the combination of blockchain and artificial intelligence and analyze the limitations of existing research and their causes. Furthermore, we identify challenges and attempts to be addressed through this analysis. The analysis in this paper is organized into a comprehensive section dedicated to the application of artificial intelligence in blockchain and vice versa. Based on our analysis, we identify existing challenges and propose a novel framework for researchers to overcome these limitations, thus expanding new research opportunities.
+KW  - artificial intelligence
+KW  - blockchain
+KW  - technological convergence
+DO  - 10.3390/electronics14010084
+ER  -
+
+https://www.mdpi.com/2079-9292/14/1/84

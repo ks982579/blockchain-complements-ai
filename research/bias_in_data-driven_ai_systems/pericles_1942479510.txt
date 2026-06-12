@@ -1,0 +1,43 @@
+
+TY  - JOUR
+AU  - Ntoutsi, Eirini
+AU  - Fafalios, Pavlos
+AU  - Gadiraju, Ujwal
+AU  - Iosifidis, Vasileios
+AU  - Nejdl, Wolfgang
+AU  - Vidal, Maria-Esther
+AU  - Ruggieri, Salvatore
+AU  - Turini, Franco
+AU  - Papadopoulos, Symeon
+AU  - Krasanakis, Emmanouil
+AU  - Kompatsiaris, Ioannis
+AU  - Kinder-Kurlanda, Katharina
+AU  - Wagner, Claudia
+AU  - Karimi, Fariba
+AU  - Fernandez, Miriam
+AU  - Alani, Harith
+AU  - Berendt, Bettina
+AU  - Kruegel, Tina
+AU  - Heinze, Christian
+AU  - Broelemann, Klaus
+AU  - Kasneci, Gjergji
+AU  - Tiropanis, Thanassis
+AU  - Staab, Steffen
+C7  - e1356
+TI  - Bias in data-driven artificial intelligence systems—An introductory survey
+JO  - WIREs Data Mining and Knowledge Discovery
+JA  - WIREs Data Mining Knowl Discov
+VL  - 10
+IS  - 3
+SN  - 1942-4787
+UR  - https://doi.org/10.1002/widm.1356
+DO  - https://doi.org/10.1002/widm.1356
+SP  - e1356
+KW  - fairness
+KW  - fairness-aware AI
+KW  - fairness-aware machine learning
+KW  - interpretability
+KW  - responsible AI
+PY  - 2020
+AB  - Abstract Artificial Intelligence (AI)-based systems are widely employed nowadays to make decisions that have far-reaching impact on individuals and society. Their decisions might affect everyone, everywhere, and anytime, entailing concerns about potential human rights issues. Therefore, it is necessary to move beyond traditional AI algorithms optimized for predictive performance and embed ethical and legal principles in their design, training, and deployment to ensure social good while still benefiting from the huge potential of the AI technology. The goal of this survey is to provide a broad multidisciplinary overview of the area of bias in AI systems, focusing on technical challenges and solutions as well as to suggest new research directions towards approaches well-grounded in a legal frame. In this survey, we focus on data-driven AI, as a large part of AI is powered nowadays by (big) data and powerful machine learning algorithms. If otherwise not specified, we use the general term bias to describe problems related to the gathering or processing of data that might result in prejudiced decisions on the bases of demographic features such as race, sex, and so forth. This article is categorized under: Commercial, Legal, and Ethical Issues > Fairness in Data Mining Commercial, Legal, and Ethical Issues > Ethical Considerations Commercial, Legal, and Ethical Issues > Legal Issues
+ER  - 

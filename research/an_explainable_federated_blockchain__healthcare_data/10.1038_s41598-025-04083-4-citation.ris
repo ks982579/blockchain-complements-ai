@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Bhardwaj, Tanisha
+AU  - Sumangali, K.
+PY  - 2025
+DA  - 2025/07/01
+TI  - An explainable federated blockchain framework with privacy-preserving AI optimization for securing healthcare data
+JO  - Scientific Reports
+SP  - 21799
+VL  - 15
+IS  - 1
+AB  - With the rapid growth of healthcare data and the need for secure, interpretable, and decentralized machine learning systems, Federated Learning (FL) has emerged as a promising solution. However, FL models often face challenges regarding privacy preservation, transparency, and resistance to adversarial attacks. To address these limitations, this paper proposes the Privacy Preserving Federated Blockchain Explainable Artificial Intelligence Optimization (PPFBXAIO) framework, which integrates blockchain technology, Explainable AI (XAI), and optimization techniques to ensure privacy, traceability, and robustness in FL-based systems. PPFBXAIO employs Secure Hash Algorithm 256 (SHA-256) for blockchain-backed secure model updates, Min-Max normalization for feature scaling, and the Levy Grasshopper Optimization Algorithm (LGOA) for optimal feature selection and federated model tuning. The Entropy Deep Belief Network (EDBN) is used as the classifier to enhance classification accuracy and detect attacks. XAI tools like SHAP are utilized to improve model interpretability. Experimental validation was conducted using the Heart Disease dataset from Kaggle and the Wisconsin Breast Cancer dataset. Results showed that PPFBXAIO achieved 95.07% accuracy, 95.44% precision, 96.54% recall, 95.98% F1 score, and reduced training loss by 4.93% for Breast Cancer Wisconsin and achieved 93.07% accuracy, 91.19% precision, 95.39% recall, 93.24% F1 score for Heart Disease dataset. Proposed system has reduced latency by 81 ms, and improved throughput by 109 transactions per second for 100 rounds as compared to traditional models like FedAvg, FL-MPC, FL-RAEC, and PEFL. These results highlight the framework’s superior performance, privacy preservation, and practical applicability in decentralized healthcare AI systems.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-025-04083-4
+DO  - 10.1038/s41598-025-04083-4
+ID  - Bhardwaj2025
+ER  - 
+
+https://www.nature.com/articles/s41598-025-04083-4#citeas

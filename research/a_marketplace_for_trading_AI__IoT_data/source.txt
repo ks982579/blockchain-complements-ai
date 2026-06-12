@@ -1,0 +1,19 @@
+@misc{nguyen2021marketplacetradingaimodels,
+      title={A Marketplace for Trading AI Models based on Blockchain and Incentives for IoT Data}, 
+      author={Lam Duc Nguyen and Shashi Raj Pandey and Soret Beatriz and Arne Broering and Petar Popovski},
+      year={2021},
+      eprint={2112.02870},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2112.02870}, 
+}
+
+https://arxiv.org/abs/2112.02870
+
+Comments:	14 pages, 9 figures, submitted for publication
+Subjects:	Machine Learning (cs.LG); Distributed, Parallel, and Cluster Computing (cs.DC)
+Cite as:	arXiv:2112.02870 [cs.LG]
+ 	(or arXiv:2112.02870v1 [cs.LG] for this version)
+ 
+https://doi.org/10.48550/arXiv.2112.02870
+

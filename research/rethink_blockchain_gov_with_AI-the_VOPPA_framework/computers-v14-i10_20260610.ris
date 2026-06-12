@@ -1,0 +1,27 @@
+TY  - EJOUR
+AU  - Morar, Catalin D. 
+AU  - Popescu, Daniela E. 
+AU  - Novac, Ovidiu C. 
+AU  - Ghiurău, David 
+TI  - Rethinking Blockchain Governance with AI: The VOPPA Framework
+T2  - Computers
+PY  - 2025
+VL  - 14
+IS  - 10
+SN  - 2073-431X
+SP  - 425
+AB  - Blockchain governance has become central to the performance and resilience of decentralized systems, yet current models face recurring issues of participation, coordination, and adaptability. This article offers a structured analysis of governance frameworks and highlights their limitations through recent high-impact case studies. It then examines how artificial intelligence (AI) is being integrated into governance processes, ranging from proposal summarization and anomaly detection to autonomous agent-based voting. In response to existing gaps, this paper proposes the Voting Via Parallel Predictive Agents (VOPPA) framework, a multi-agent architecture aimed at enabling predictive, diverse, and decentralized decision-making. Strengthening blockchain governance will require not just decentralization but also intelligent, adaptable, and accountable decision-making systems.
+KW  - blockchain governance
+KW  - decentralized systems
+KW  - decision-making
+KW  - smartcontracts
+KW  - DAO
+KW  - autonomous agents
+KW  - artificial intelligence
+KW  - natural language processing
+KW  - machine learning
+KW  - large language models
+DO  - 10.3390/computers14100425
+ER  -
+
+https://www.mdpi.com/2073-431X/14/10/425

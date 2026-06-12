@@ -1,0 +1,19 @@
+TY  - EJOUR
+AU  - Wu, Lang 
+AU  - Ruan, Weijian 
+AU  - Hu, Jinhui 
+AU  - He, Yaobin 
+TI  - A Survey on Blockchain-Based Federated Learning
+T2  - Future Internet
+PY  - 2023
+VL  - 15
+IS  - 12
+SN  - 1999-5903
+SP  - 400
+AB  - Federated learning (FL) and blockchains exhibit significant commonality, complementarity, and alignment in various aspects, such as application domains, architectural features, and privacy protection mechanisms. In recent years, there have been notable advancements in combining these two technologies, particularly in data privacy protection, data sharing incentives, and computational performance. Although there are some surveys on blockchain-based federated learning (BFL), these surveys predominantly focus on the BFL framework and its classifications, yet lack in-depth analyses of the pivotal issues addressed by BFL. This work aims to assist researchers in understanding the latest research achievements and development directions in the integration of FL with blockchains. Firstly, we introduced the relevant research in FL and blockchain technology and highlighted the existing shortcomings of FL. Next, we conducted a comparative analysis of existing BFL frameworks, delving into the significant problems in the realm of FL that the combination of blockchain and FL addresses. Finally, we summarized the application prospects of BFL technology in various domains such as the Internet of Things, Industrial Internet of Things, Internet of Vehicles, and healthcare services, as well as the challenges that need to be addressed and future research directions.
+KW  - blockchain
+KW  - federated learning
+KW  - security and privacy
+KW  - Internet of Things
+DO  - 10.3390/fi15120400
+ER  -

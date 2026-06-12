@@ -1,0 +1,25 @@
+TY  - JOUR
+T1  - A survey on blockchain-enabled federated learning and its prospects with digital twin
+AU  - Liu, Kangde
+AU  - Yan, Zheng
+AU  - Liang, Xueqin
+AU  - Kantola, Raimo
+AU  - Hu, Chuangyue
+JO  - Digital Communications and Networks
+VL  - 10
+IS  - 2
+SP  - 248
+EP  - 264
+PY  - 2024
+DA  - 2024/04/01/
+SN  - 2352-8648
+DO  - https://doi.org/10.1016/j.dcan.2022.08.001
+UR  - https://www.sciencedirect.com/science/article/pii/S2352864822001626
+KW  - Digital twin
+KW  - Artificial intelligence
+KW  - Federated learning
+KW  - Blockchain
+AB  - Digital Twin (DT) supports real time analysis and provides a reliable simulation platform in the Internet of Things (IoT). The creation and application of DT hinges on amounts of data, which poses pressure on the application of Artificial Intelligence (AI) for DT descriptions and intelligent decision-making. Federated Learning (FL) is a cutting-edge technology that enables geographically dispersed devices to collaboratively train a shared global model locally rather than relying on a data center to perform model training. Therefore, DT can benefit by combining with FL, successfully solving the "data island" problem in traditional AI. However, FL still faces serious challenges, such as enduring single-point failures, suffering from poison attacks, lacking effective incentive mechanisms. Before the successful deployment of DT, we should tackle the issues caused by FL. Researchers from industry and academia have recognized the potential of introducing Blockchain Technology (BT) into FL to overcome the challenges faced by FL, where BT acting as a distributed and immutable ledger, can store data in a secure, traceable, and trusted manner. However, to the best of our knowledge, a comprehensive literature review on this topic is still missing. In this paper, we review existing works about blockchain-enabled FL and visualize their prospects with DT. To this end, we first propose evaluation requirements with respect to security, fault-tolerance, fairness, efficiency, cost-saving, profitability, and support for heterogeneity. Then, we classify existing literature according to the functionalities of BT in FL and analyze their advantages and disadvantages based on the proposed evaluation requirements. Finally, we discuss open problems in the existing literature and the future of DT supported by blockchain-enabled FL, based on which we further propose some directions for future research.
+ER  - 
+
+https://www.sciencedirect.com/science/article/pii/S2352864822001626

@@ -1,0 +1,27 @@
+
+TY  - JOUR
+T1  - The Applications of Blockchain in Artificial Intelligence
+AU  - Wang, Ruonan
+AU  - Luo, Min
+AU  - Wen, Yihong
+AU  - Wang, Lianhai
+AU  - Raymond Choo, Kim-Kwang
+AU  - He, Debiao
+Y1  - 2021/01/01
+PY  - 2021
+DA  - 2021/01/01
+DO  - https://doi.org/10.1155/2021/6126247
+T2  - Security and Communication Networks
+JF  - Security and Communication Networks
+JO  - Security and Communication Networks
+JA  - Security Comm Networks
+SP  - 6126247
+VL  - 2021
+IS  - 1
+PB  - John Wiley & Sons, Ltd
+UR  - https://doi.org/10.1155/2021/6126247
+Y2  - 2026/06/09
+N2  - There has been increased interest in applying artificial intelligence (AI) in various settings to inform decision-making and facilitate predictive analytics. In recent times, there have also been attempts to utilize blockchain (a peer-to-peer distributed system) to facilitate AI applications, for example, in secure data sharing (for model training), preserving data privacy, and supporting trusted AI decision and decentralized AI. Hence, in this paper, we perform a comprehensive review of how blockchain can benefit AI from these four aspects. Our analysis of 27 English-language articles published between 2018 and 2021 identifies a number of research challenges and opportunities.
+ER  - 
+
+https://onlinelibrary.wiley.com/doi/10.1155/2021/6126247

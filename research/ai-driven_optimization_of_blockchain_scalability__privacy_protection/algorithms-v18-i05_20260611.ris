@@ -1,0 +1,28 @@
+TY  - EJOUR
+AU  - Yuan, Fujiang 
+AU  - Zuo, Zihao 
+AU  - Jiang, Yang 
+AU  - Shu, Wenzhou 
+AU  - Tian, Zhen 
+AU  - Ye, Chenxi 
+AU  - Yang, Junye 
+AU  - Mao, Zebing 
+AU  - Huang, Xia 
+AU  - Gu, Shaojie 
+AU  - Peng, Yanhong 
+TI  - AI-Driven Optimization of Blockchain Scalability, Security, and Privacy Protection
+T2  - Algorithms
+PY  - 2025
+VL  - 18
+IS  - 5
+SN  - 1999-4893
+SP  - 263
+AB  - With the continuous development of technology, blockchain has been widely used in various fields by virtue of its decentralization, data integrity, traceability, and anonymity. However, blockchain still faces many challenges, such as scalability and security issues. Artificial intelligence, with its powerful data processing capability, pattern recognition ability, and adaptive optimization algorithms, can improve the transaction processing efficiency of blockchain, enhance the security mechanism, and optimize the privacy protection strategy, thus effectively alleviating the limitations of blockchain in terms of scalability and security. Most of the existing related reviews explore the application of AI in blockchain as a whole but lack in-depth classification and discussion on how AI can empower the core aspects of blockchain. This paper explores the application of artificial intelligence technologies in addressing core challenges of blockchain systems, specifically in terms of scalability, security, and privacy protection. Instead of claiming a deep theoretical integration, we focus on how AI methods, such as machine learning and deep learning, have been effectively adopted to optimize blockchain consensus algorithms, improve smart contract vulnerability detection, and enhance privacy-preserving mechanisms like federated learning and differential privacy. Through comprehensive classification and discussion, this paper provides a structured overview of the current research landscape and identifies potential directions for further technical collaboration between AI and blockchain technologies.
+KW  - AI
+KW  - blockchain
+KW  - consensus
+KW  - smart contract
+DO  - 10.3390/a18050263
+ER  -
+
+https://www.mdpi.com/1999-4893/18/5/263

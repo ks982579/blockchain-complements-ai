@@ -1,0 +1,19 @@
+TY  - EJOUR
+AU  - Oktian, Yustus E. 
+AU  - Lee, Sang-Gon 
+TI  - Blockchain-Based Federated Learning System: A Survey on Design Choices
+T2  - Sensors
+PY  - 2023
+VL  - 23
+IS  - 12
+SN  - 1424-8220
+SP  - 5658
+AB  - The vanilla federated learning is made for a trusted environment, while in contrast, its actual use cases require collaborations in an untrusted setting. For this reason, using blockchain as a trusted platform to run federated learning algorithms has gained traction lately and has become a significant research interest. This paper performs a literature survey on state-of-the-art blockchain-based federated learning systems and analyzes several design patterns researchers often take to solve existing issues through blockchain. We find about 31 design item variations throughout the whole system. Each design is further analyzed to find pros and cons, considering fundamental metrics such as robustness, efficiency, privacy, and fairness. The result shows a linear relationship between fairness and robustness in which, if we focus on improving fairness, it will indirectly become more robust. Furthermore, improving all those metrics altogether is not viable because of the efficiency trade-off. Finally, we classify the surveyed papers to spot which designs are popular among researchers and determine which areas require immediate improvements. Our investigation shows that future blockchain-based federated learning systems require more effort regarding model compression, asynchronous aggregation, system efficiency evaluation, and the application for cross-device settings.
+KW  - blockchain
+KW  - smart contract
+KW  - federated learning
+KW  - design pattern
+DO  - 10.3390/s23125658
+ER  -
+
+https://www.mdpi.com/1424-8220/23/12/5658

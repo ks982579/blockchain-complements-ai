@@ -1,0 +1,20 @@
+TY  - JOUR
+AU  - Jalbani, Akhtar
+AU  - Weerawarna, Rashikala
+AU  - Al-Zubaidi, Kussay
+PY  - 2025
+DA  - 2025/09/01
+TI  - Enhancing data provenance in AI with blockchain technology: a comprehensive quality model
+JO  - CSI Transactions on ICT
+SP  - 213
+EP  - 224
+VL  - 13
+IS  - 2
+AB  - Artificial intelligence (AI) continues to be used in many important businesses, the most important thing to be concerned about is making sure that AI systems are reliable and trustworthy. To reach these goals, it is very important to keep track of the data origin as well as history of data, which is called "data provenance." This study shows a new way to use blockchain to assess the quality of data in AI systems. Using the ISO/IEC 9126 software quality model as a starting point, we conduct a thorough study to find and explain the quality attributes that are most important for blockchain technology. To determine in how effectively blockchain technology works for AI data source, it depends upon number of quality attributes. We align quality attributes with ISO/IEC 9126 quality characteristics, such as Data Immutability, Decentralized Ownership, and Smart Contract Compliance, in order to better understand how blockchain technology works. Furthermore, we explore the potential implications and benefits of blockchain-based data provenance, such as enhanced security, transparency, and compliance with data regulations. Through this model, we highlight how blockchain technology can fill trust and reliability in AI systems, thereby fostering their broader adoption across diverse industries.
+SN  - 2277-9086
+UR  - https://doi.org/10.1007/s40012-025-00419-7
+DO  - 10.1007/s40012-025-00419-7
+ID  - Jalbani2025
+ER  - 
+
+https://link.springer.com/article/10.1007/s40012-025-00419-7

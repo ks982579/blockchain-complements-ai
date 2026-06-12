@@ -1,0 +1,27 @@
+TY  - EJOUR
+AU  - Ning, Weiguang 
+AU  - Zhu, Yingjuan 
+AU  - Song, Caixia 
+AU  - Li, Hongxia 
+AU  - Zhu, Lihui 
+AU  - Xie, Jinbao 
+AU  - Chen, Tianyu 
+AU  - Xu, Tong 
+AU  - Xu, Xi 
+AU  - Gao, Jiwei 
+TI  - Blockchain-Based Federated Learning: A Survey and New Perspectives
+T2  - Applied Sciences
+PY  - 2024
+VL  - 14
+IS  - 20
+SN  - 2076-3417
+SP  - 9459
+AB  - Federated learning, as a novel distributed machine learning mode, enables the training of machine learning models on multiple devices while ensuring data privacy. However, the existence of single-point-of-failure bottlenecks, malicious threats, scalability of federated learning implementation, and lack of incentive mechanisms have seriously hindered the development of federated learning technology. In recent years, as a distributed ledger, blockchain has the characteristics of decentralization, tamper-proof, transparency, security, etc., which can solve the issues encountered in the above-mentioned federated learning. Particularly, the integration of federated learning and blockchain leads to a new paradigm, called blockchain-based federated learning (BFL), which has been successfully applied in many application scenarios. This paper aims to provide a comprehensive review of recent efforts on blockchain-based federated learning. More concretely, we propose and design a taxonomy of blockchain-based federated learning models, along with providing a comprehensive summary of the state of the art. Various applications of federated learning based on blockchain are introduced. Finally, we expand on current trends and provide new perspectives pertaining to this new and exciting development in the field.
+KW  - blockchain
+KW  - federated learning
+KW  - blockchain-based federated learning
+KW  - distributed machine learning
+DO  - 10.3390/app14209459
+ER  -
+
+https://www.mdpi.com/2076-3417/14/20/9459

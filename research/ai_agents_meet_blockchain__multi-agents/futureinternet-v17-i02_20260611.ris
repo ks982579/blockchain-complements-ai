@@ -1,0 +1,24 @@
+TY  - EJOUR
+AU  - Karim, Md M. 
+AU  - Van, Dong H. 
+AU  - Khan, Sangeen 
+AU  - Qu, Qiang 
+AU  - Kholodov, Yaroslav 
+TI  - AI Agents Meet Blockchain: A Survey on Secure and Scalable Collaboration for Multi-Agents
+T2  - Future Internet
+PY  - 2025
+VL  - 17
+IS  - 2
+SN  - 1999-5903
+SP  - 57
+AB  - In recent years, the interplay between AI agents and blockchain has enabled secure and scalable collaboration among multi-agent systems, promoting unprecedented levels of autonomy and interoperability. AI agents play a vital role in facilitating complex decision making and improving operational efficiency in blockchain systems. This collaborative synergy is particularly evident in how multi-agent systems collectively tackle complex tasks to ensure seamless integration within these frameworks. While significant efforts have been made to integrate AI agents and blockchain, most studies overlook the broader potential of AI agents in addressing challenges such as interoperability, scalability, and privacy issues. In this paper, we bridge these gaps by illustrating the interplay between AI agents and blockchain. Specifically, we explore how AI agents enhance decentralized systems and examine blockchain’s role in enabling secure and scalable collaboration. Furthermore, we categorize practical applications across domains, such as Web3, decentralized finance (DeFi), asset management, and autonomous systems, providing practical insights and real-world use cases. Additionally, we identify key research challenges, including the complexities of multi-agent coordination, interoperability across diverse systems, and privacy maintenance in decentralized frameworks. Finally, we offer future directions in terms of governance, sovereignty, computation, and interpretability to promote a secure and responsible ecosystem.
+KW  - AI agent
+KW  - blockchain
+KW  - decentralized AI
+KW  - large language model
+KW  - multi-agent collaboration
+KW  - Web3
+DO  - 10.3390/fi17020057
+ER  -
+
+https://www.mdpi.com/1999-5903/17/2/57

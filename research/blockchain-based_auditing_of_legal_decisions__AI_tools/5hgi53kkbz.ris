@@ -1,0 +1,26 @@
+TY  - JOUR
+AB  - Generative AI tools powered by Large Language Models (LLMs) have demonstrated advanced capabilities in understanding and articulating legal facts closer to the level of legal practitioners. However, scholars hold contrasting views on the reliability of the reasoning behind a decision derived from LLMs due to its black-box nature. Law firms are vigilant in recognizing the potential risks of violating confidentiality and inappropriate exposure of sensitive legal data through the prompt sent to Generative AI. This research attempts to find an equilibrium between responsible usage and control of human legal professionals over content produced by Generative AI through regular audits. It investigates the potential of Generative AI in drafting correspondence for pre-litigation decisions derived from an eXplainable AI (XAI) algorithm. This research presents an end-to-end process of designing the architecture and methodology for a blockchain-based auditing system. It detects unauthorized alterations of data repositories containing the decisions by an XAI model and automated textual explanation by Generative AI. The automated auditing by blockchain facilitates responsible usage of AI technologies and reduces discrepancies in tracing the accountability of adversarial decisions. It conceptualizes the two algorithms. First, strategic on-chain (within blockchain) and off-chain (outside blockchain) data storage in compliance with the data protection laws and critical requirements of stakeholders in a legal firm. Second, auditing by comparison of the unique signature as Merkle roots of files stored off-chain with their immutable blockchain counterpart. A case study on liability cases under tort law demonstrates the system implementation results. Highlights •Regular audits to balance human authority and responsible use of Generative AI.•Architecture and methodology of a blockchain-based auditing system.•Generative AI potential in drafting legal decisions derived from XAI algorithms.•Ambiguous legal knowledge representation by Evidential Reasoning.•A case study on employer's liability cases to demonstrate system implementation.
+AN  - S095219762301850X
+ID  - S095219762301850X
+AU  - Sachan, Swati
+AU  - Liu (Lisa), Xi
+DB  - ScienceDirect
+DO  - 10.1016/j.engappai.2023.107666
+DP  - EBSCOhost
+JO  - Engineering Applications of Artificial Intelligence
+KW  - Legal
+KW  - Law
+KW  - Explainable AI
+KW  - Blockchain
+KW  - Generative AI
+KW  - Responsible AI
+LA  - English
+PB  - Elsevier Ltd
+SN  - 0952-1976
+TI  - Blockchain-based auditing of legal decisions supported by explainable AI and generative AI tools
+UR  - https://research.ebsco.com/linkprocessor/plink?id=820bbd91-6e31-31d2-9f24-05bb0a1d11c3
+VL  - 129
+Y1  - 2024/03/01/March 2024
+N1  - Article
+N1  - Academic Journal
+ER  - 

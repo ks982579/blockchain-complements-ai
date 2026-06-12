@@ -1,0 +1,27 @@
+TY  - JOUR
+UR  - https://doi.org/10.7717/peerj-cs.2702
+DO  - 10.7717/peerj-cs.2702
+TI  - Blockchain and explainable-AI integrated system for Polycystic Ovary Syndrome (PCOS) detection
+AU  - Jaganathan,Gowthami
+AU  - Natesan,Shanthi
+A2  - Rajaraman,Sivaramakrishnan
+DA  - 2025/02/28
+PY  - 2025
+KW  - PCOS prediction
+KW  - Machine learning
+KW  - Hyperledger fabric
+KW  - Health information exchange
+KW  - Predictive analytics
+KW  - Explainable AI
+AB  - 
+In the modern era of digitalization, integration with blockchain and machine learning (ML) technologies is most important for improving applications in healthcare management and secure prediction analysis of health data. This research aims to develop a novel methodology for securely storing patient medical data and analyzing it for PCOS prediction. The main goals are to leverage Hyperledger Fabric for immutable, private data and to integrate Explainable Artificial Intelligence (XAI) techniques to enhance transparency in decision-making. The innovation of this study is the unique integration of blockchain technology with ML and XAI, solving critical issues of data security and model interpretability in healthcare. With the Caliper tool, the Hyperledger Fabric blockchain’s performance is evaluated and enhanced. The suggested Explainable AI-based blockchain system for Polycystic Ovary Syndrome detection (EAIBS-PCOS) system demonstrates outstanding performance and records 98% accuracy, 100% precision, 98.04% recall, and a resultant F1-score of 99.01%. Such quantitative measures ensure the success of the proposed methodology in delivering dependable and intelligible predictions for PCOS diagnosis, therefore making a great addition to the literature while serving as a solid solution for healthcare applications in the near future.
+
+VL  - 11
+SP  - e2702
+T2  - PeerJ Computer Science
+JO  - PeerJ Computer Science
+J2  - PeerJ Computer Science
+SN  - 2376-5992
+ER  - 
+
+https://peerj.com/articles/cs-2702/

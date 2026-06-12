@@ -1,0 +1,109 @@
+PMID- 34840525
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20230210
+IS  - 1432-7643 (Print)
+IS  - 1433-7479 (Electronic)
+IS  - 1432-7643 (Linking)
+VI  - 26
+IP  - 9
+DP  - 2022
+TI  - Blockchain for federated learning toward secure distributed machine learning 
+      systems: a systemic survey.
+PG  - 4423-4440
+LID - 10.1007/s00500-021-06496-5 [doi]
+AB  - Federated learning (FL) is a promising decentralized deep learning technology, 
+      which allows users to update models cooperatively without sharing their data. FL 
+      is reshaping existing industry paradigms for mathematical modeling and analysis, 
+      enabling an increasing number of industries to build privacy-preserving, secure 
+      distributed machine learning models. However, the inherent characteristics of FL 
+      have led to problems such as privacy protection, communication cost, systems 
+      heterogeneity, and unreliability model upload in actual operation. Interestingly, 
+      the integration with Blockchain technology provides an opportunity to further 
+      improve the FL security and performance, besides increasing its scope of 
+      applications. Therefore, we denote this integration of Blockchain and FL as the 
+      Blockchain-based federated learning (BCFL) framework. This paper introduces an 
+      in-depth survey of BCFL and discusses the insights of such a new paradigm. In 
+      particular, we first briefly introduce the FL technology and discuss the 
+      challenges faced by such technology. Then, we summarize the Blockchain ecosystem. 
+      Next, we highlight the structural design and platform of BCFL. Furthermore, we 
+      present the attempts ins improving FL performance with Blockchain and several 
+      combined applications of incentive mechanisms in FL. Finally, we summarize the 
+      industrial application scenarios of BCFL.
+CI  - © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of 
+      Springer Nature 2021.
+FAU - Li, Dun
+AU  - Li D
+AUID- ORCID: 0000-0002-1986-7144
+AD  - College of Information Engineering at Shanghai Maritime University, Pudong, 
+      China. GRID: grid.412518.b. ISNI: 0000 0001 0008 0619
+FAU - Han, Dezhi
+AU  - Han D
+AUID- ORCID: 0000-0001-8861-5461
+AD  - College of Information Engineering at Shanghai Maritime University, Pudong, 
+      China. GRID: grid.412518.b. ISNI: 0000 0001 0008 0619
+FAU - Weng, Tien-Hsiung
+AU  - Weng TH
+AUID- ORCID: 0000-0003-3244-4127
+AD  - Department of Computer Science and Information Engineering, Providence 
+      University, Taichung City, Taiwan. GRID: grid.412550.7. ISNI: 0000 0000 9012 9465
+FAU - Zheng, Zibin
+AU  - Zheng Z
+AUID- ORCID: 0000-0001-7872-7718
+AD  - School of Software Engineering, Sun Yat-Sen University, Zhuhai, China. GRID: 
+      grid.12981.33. ISNI: 0000 0001 2360 039X
+FAU - Li, Hongzhi
+AU  - Li H
+AUID- ORCID: 0000-0002-5883-3780
+AD  - College of Information Engineering at Shanghai Maritime University, Pudong, 
+      China. GRID: grid.412518.b. ISNI: 0000 0001 0008 0619
+FAU - Liu, Han
+AU  - Liu H
+AUID- ORCID: 0000-0002-1085-9877
+AD  - College of Information Engineering at Shanghai Maritime University, Pudong, 
+      China. GRID: grid.412518.b. ISNI: 0000 0001 0008 0619
+FAU - Castiglione, Arcangelo
+AU  - Castiglione A
+AUID- ORCID: 0000-0002-7991-2410
+AD  - Dipartimento di Informatica, University of Salerno, Salerno, Italy. GRID: 
+      grid.11780.3f. ISNI: 0000 0004 1937 0335
+FAU - Li, Kuan-Ching
+AU  - Li KC
+AUID- ORCID: 0000-0003-1381-4364
+AD  - Department of Computer Science and Information Engineering, Providence 
+      University, Taichung City, Taiwan. GRID: grid.412550.7. ISNI: 0000 0000 9012 9465
+LA  - eng
+PT  - Journal Article
+DEP - 20211120
+PL  - Germany
+TA  - Soft comput
+JT  - Soft computing
+JID - 101633884
+PMC - PMC8605788
+OTO - NOTNLM
+OT  - Blockchain
+OT  - Federated learning
+OT  - Incentive mechanism
+OT  - Industrial Applications
+OT  - Smart Contract
+COIS- Conflict of interestThe authors declare that they have no known competing 
+      financial interests or personal relationships that could have appeared to 
+      influence the work reported in this paper.
+EDAT- 2021/11/30 06:00
+MHDA- 2021/11/30 06:01
+PMCR- 2021/11/20
+CRDT- 2021/11/29 06:25
+PHST- 2021/10/24 00:00 [accepted]
+PHST- 2021/11/30 06:00 [pubmed]
+PHST- 2021/11/30 06:01 [medline]
+PHST- 2021/11/29 06:25 [entrez]
+PHST- 2021/11/20 00:00 [pmc-release]
+AID - 6496 [pii]
+AID - 10.1007/s00500-021-06496-5 [doi]
+PST - ppublish
+SO  - Soft comput. 2022;26(9):4423-4440. doi: 10.1007/s00500-021-06496-5. Epub 2021 Nov 
+      20.
+      
+      
+https://link.springer.com/article/10.1007/s00500-021-06496-5
+
