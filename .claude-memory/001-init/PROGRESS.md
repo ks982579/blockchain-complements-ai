@@ -13,7 +13,8 @@ what's next.
       `apps/surreal_cli.py` (Python wrapper, init/update/query/related — revised
       2026-06-12: ChromaDB -> SurrealDB -> Rust core w/ Python wrapper) built and run.
       Details + tests: `.claude-memory/004-vector-db/PROGRESS.md`.
-- [ ] 005-query-agent: `research-query` skill built.
+- [x] 005-query-agent: `.claude/skills/research-query/SKILL.md` built and smoke-tested
+      (query + citation synthesis, with Background-section flagging).
 
 ## Known issues / decisions
 

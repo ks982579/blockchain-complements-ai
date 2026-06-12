@@ -45,9 +45,10 @@ query CLI, query/answer skill.
     each invocation is a fresh process pair, persistence is purely the on-disk
     `.surreal/research.db` file. Each subcommand opens, works, and cleanly drops the
     connection before exit (SurrealKv embedded mode is single-process).
-- **Step 5 (not started)**: `.claude/skills/research-query/SKILL.md` — takes a
-  question, runs `surreal_cli.py query` (and optionally `related` for exploratory asks),
-  synthesizes a cited answer.
+- **Step 5 (done)**: `.claude/skills/research-query/SKILL.md` — takes a question, runs
+  `surreal_cli.py query` (and optionally `related` for exploratory asks), synthesizes a
+  cited answer with Background-section flagging. Smoke-tested against the 6-paper
+  corpus with a real question, produced a well-cited answer.
 
 ## How to continue
 
@@ -60,12 +61,12 @@ query CLI, query/answer skill.
   integration tests (16 total). Full details, gotchas (time crate pin, disk space,
   SurrealDB record-link/escaping/KNN-literal/UNION quirks), and architecture notes in
   `.claude-memory/004-vector-db/PROGRESS.md`.
-- **Next: Step 5** — `.claude/skills/research-query/SKILL.md` per `001-init/PLAN.md`
-  Step 5: takes a natural-language question, runs `apps/surreal_cli.py query` (and
-  `related` for exploratory asks), synthesizes a cited answer.
-- Note: only 6/48 papers have `summary.md` so far — the vector store currently only
-  covers those 6. Running `apps/surreal_cli.py update` after more summaries are written
-  will pick up new ones incrementally.
+- **All 5 pipeline steps are now done.** Remaining work is resuming Step 3
+  summarization (42/48 papers left, see `001-init/PROGRESS.md` per-paper table — next
+  unchecked is #6 `a_marketplace_for_trading_AI__IoT_data`) and running
+  `apps/surreal_cli.py update` periodically to pick up newly written summaries
+  incrementally. The `research-query` skill currently only covers the 6 papers with
+  `summary.md`.
 - Project conventions: use `uv` for all Python (no bare pip/venv), scripts live in
   `apps/`, not `scripts/`. Note: this dev environment doesn't actually have `uv`
   installed — `apps/surreal_cli.py` has no third-party deps so `python3` works
