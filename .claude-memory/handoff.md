@@ -28,20 +28,39 @@ query CLI, query/answer skill.
   - **42 remaining** — see `.claude-memory/001-init/PROGRESS.md` per-paper table for
     which directories still have `summary.md` = `[ ]`. Next unchecked row is #6
     `a_marketplace_for_trading_AI__IoT_data`.
-- **Step 4 (not started)**: `apps/chroma_cli.py` with `init`/`update`/`query`
-  subcommands, ChromaDB `PersistentClient` in `.chroma/`, default local embeddings.
-  Chunk `summary.md` by `##` section, tag each chunk with `section` metadata
-  (overview/background/key_points/conclusion) + frontmatter fields + `id`.
+- **Step 4 (not started, revised 2026-06-12 twice)**: switched from ChromaDB to
+  SurrealDB, and from pure Python to a Rust core + Python wrapper — see
+  `.claude-memory/001-init/PLAN.md` Step 4 for full rationale/design.
+  - `apps/surreal_core/` — Rust crate (Cargo, `surrealdb` crate w/ `kv-surrealkv`
+    feature, `fastembed` for local AllMiniLM-L6-v2 embeddings, `clap` CLI) with
+    `init`/`update`/`query`/`related` subcommands, embedded via
+    `Surreal::new::<SurrealKv>(".surreal/research.db")`. JSON on stdout.
+  - `apps/surreal_cli.py` — thin Python wrapper; auto-builds the Rust binary via `cargo
+    build --release` when stale, then shells out and parses JSON. This is the only
+    entrypoint users/skills call.
+  - Schema: `paper` table (frontmatter per directory) + `chunk` table (per `##`
+    section, vector HNSW index, `DIST COSINE`, dim 384) + graph edges
+    (`cites`/`same_topic` via `RELATE`) for the `related` traversal command.
+  - Connection model: no shared in-memory/socket connection between Python and Rust —
+    each invocation is a fresh process pair, persistence is purely the on-disk
+    `.surreal/research.db` file. Each subcommand opens, works, and cleanly drops the
+    connection before exit (SurrealKv embedded mode is single-process).
 - **Step 5 (not started)**: `.claude/skills/research-query/SKILL.md` — takes a
-  question, runs `chroma_cli.py query`, synthesizes a cited answer.
+  question, runs `surreal_cli.py query` (and optionally `related` for exploratory asks),
+  synthesizes a cited answer.
 
 ## How to continue
 
 - If the user says "summarize the next paper" / "summarize N papers": invoke the
   `summarize-paper` skill, which picks the next `[ ]` row in `PROGRESS.md`, and updates
   `PROGRESS.md` after each one. This is working smoothly — keep using it as-is.
-- Once all 48 summaries are done (or the user wants to start earlier — they said they'll
-  begin Step 4 once summarization wraps up), build Step 4 (`apps/chroma_cli.py`) per the
-  spec in `PLAN.md`, then Step 5.
+- **2026-06-12**: user decided to work on Step 4 now (got bored with summaries; 6/48
+  done, can resume anytime). Step 4 has its own atomic checklist:
+  `.claude-memory/004-vector-db/PROGRESS.md` (sections A-H, mirrors PLAN.md Step 4
+  design). Work through it top to bottom, checking off items as completed — same
+  resumability pattern as the per-paper summary table. Does not require all 48
+  summaries; build/test against whatever `summary.md` files exist (currently 6), `init`
+  is rerunnable via `update`.
+- After Step 4, build Step 5 (`research-query` skill) per `PLAN.md`.
 - Project conventions: use `uv` for all Python (no bare pip/venv), scripts live in
   `apps/`, not `scripts/`.

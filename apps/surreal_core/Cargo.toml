@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/vectordb",
+    "crates/embedder",
+    "crates/cli",
+]
+
+[workspace.package]
+edition = "2021"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+async-trait = "0.1"
+
+# Disk on this host is tight; skip debug info to keep target/ small (and
+# avoid linker crashes from huge debug object files).
+[profile.dev]
+debug = 0

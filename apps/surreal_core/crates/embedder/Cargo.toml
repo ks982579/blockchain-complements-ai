@@ -1,0 +1,8 @@
+[package]
+name = "embedder"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+fastembed = "4"
+anyhow.workspace = true

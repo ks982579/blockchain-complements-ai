@@ -1,3 +1,6 @@
 *.pdf
 .venv
 materials/
+.surreal/
+.fastembed_cache/
+apps/surreal_core/target/

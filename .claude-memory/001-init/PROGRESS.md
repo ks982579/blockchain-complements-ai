@@ -9,7 +9,10 @@ what's next.
 - [x] 002-pdf-conversion: `apps/pdf_to_md.py` written, run across all `research/` dirs (48/48 converted, see 002-pdf-conversion/NOTES.md).
 - [ ] 003-summarization: `summarize-paper` skill built; summaries written per-paper
       (see checklist below; resumable across sessions).
-- [ ] 004-vector-db: `apps/chroma_cli.py` (init/update/query) built and run.
+- [ ] 004-vector-db: `apps/surreal_core/` (Rust crate, SurrealDB + fastembed) +
+      `apps/surreal_cli.py` (Python wrapper, init/update/query/related — revised
+      2026-06-12: ChromaDB -> SurrealDB -> Rust core w/ Python wrapper) built and run.
+      Atomic checklist + live status: `.claude-memory/004-vector-db/PROGRESS.md`.
 - [ ] 005-query-agent: `research-query` skill built.
 
 ## Known issues / decisions

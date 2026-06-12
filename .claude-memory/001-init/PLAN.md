@@ -65,34 +65,89 @@ start existing.
 - This session: build the skill and run it on 1-2 papers to validate the format, then
   let the user (or future sessions) continue running it across the remaining papers.
 
-## Step 4 — ChromaDB ingestion (`.claude-memory/004-vector-db/`)
+## Step 4 — SurrealDB ingestion: Rust core + Python wrapper (`.claude-memory/004-vector-db/`)
 
-- Add `chromadb` to `requirements.txt`. Use a `PersistentClient` stored in `.chroma/`
-  (add to a `.gitignore` if one exists) with the default local embedding function (no
-  API key needed).
-- `apps/chroma_cli.py` with subcommands:
-  - `init`: (re)creates the `papers` collection. Scans every `research/*/summary.md`,
-    parses YAML frontmatter (via `python-frontmatter`), splits the body into chunks by
-    `##` section (Overview / Background / Key Points / Conclusion). Each chunk is
-    embedded with metadata = frontmatter fields (minus abstract, which doesn't exist
-    anyway) + `section` + `id` (directory name).
-  - `update`: for each `summary.md`, check whether its `id` + section combination already
-    exists in the collection; add only missing ones (so re-running after adding new
-    summaries only ingests the new papers).
-  - `query "<question>" [--top-k N]`: embeds the question, returns top 5-10 (default 8)
-    matching chunks with their text + metadata (title, authors, year, doi, section,
-    source dir) for citation.
-- Background-section chunks are tagged `section: background` in metadata so the agent
-  can distinguish "this paper's own claim" from "context this paper cites from elsewhere"
-  when forming an answer — but they remain searchable.
+**Revised 2026-06-12**: switched from ChromaDB to SurrealDB, and from a pure-Python
+implementation to a Rust binary (using the official `surrealdb` Rust crate) wrapped by a
+thin Python CLI. Rationale for SurrealDB: it's a multi-model DB supporting both vector
+search (HNSW/MTREE indexes + `<|K,DIST|>` KNN operator in SurrealQL) and native graph
+relations (`RELATE` + traversal), so the same store holds paper/chunk nodes for semantic
+search *and* a citation/topic graph between papers — queries can combine "find similar
+chunks" with "what does this paper build on / what's in the same cluster." Rationale for
+Rust: exercise the Rust SDK directly (no `surrealdb` Python SDK, no PyO3/maturin bridge);
+Python's role is limited to building the Rust binary and shelling out to it.
+
+### Architecture
+
+- **`apps/surreal_core/`** — a Rust crate (binary), built with `cargo`:
+  - `Cargo.toml` deps: `surrealdb` (v2, `features = ["kv-surrealkv"]`), `tokio`
+    (`features = ["macros", "rt-multi-thread"]`), `serde`/`serde_json`, `fastembed`
+    (wraps ONNX Runtime via `ort`, ships `AllMiniLML6V2` — local embedding model, no
+    API key, auto-downloads weights on first run).
+  - Connects via `Surreal::new::<SurrealKv>(".surreal/research.db")` (embedded,
+    file-backed, no separate server process). Add `.surreal/` to `.gitignore`.
+  - Subcommands (clap-based CLI), each subcommand: open DB connection -> do work ->
+    drop connection cleanly before exit (embedded SurrealKv is single-process; a
+    held-open handle from a prior invocation would lock out the next one — see
+    "Connection lifetime" below):
+    - `init`: (re)creates `paper`/`chunk` tables + `DEFINE INDEX ... HNSW` on
+      `chunk.embedding` (`DIST COSINE`, dimension = 384 for AllMiniLM-L6-v2). Scans
+      every `research/*/summary.md` (path passed as arg from Python), parses
+      frontmatter, chunks by `##` section, embeds each chunk via `fastembed`, inserts
+      `paper` + `chunk` records. Second pass: `RELATE` `same_topic` edges from
+      frontmatter `keywords` overlap, and `cites` edges where a `## Background` section
+      can be confidently matched to another paper's `id` in the corpus.
+    - `update`: for each `summary.md`, skip if its `paper` record + all chunks already
+      exist; otherwise (re)insert and recompute its edges.
+    - `query "<question>" [--top-k N]`: embeds the question via `fastembed`, runs
+      `<|K,DIST|>` KNN over `chunk.embedding`, returns top 5-10 (default 8) chunks with
+      text + joined paper metadata (title, authors, year, doi, section, source dir) as
+      JSON on stdout.
+    - `related <paper-id> [--depth N]`: graph traversal over `cites`/`same_topic` edges
+      (1-2 hops), JSON on stdout.
+  - All subcommands print a single JSON object/array to stdout (success) or a JSON
+    `{"error": "..."}` to stderr with non-zero exit (failure) — Python parses this, no
+    human-readable text mixed into stdout.
+
+- **`apps/surreal_cli.py`** — thin Python wrapper, the only thing the user/skills invoke
+  (`uv run apps/surreal_cli.py <subcommand> ...`):
+  - Checks whether `apps/surreal_core/target/release/surreal_core` exists and is newer
+    than the crate's source files (`src/`, `Cargo.toml`/`Cargo.lock`); if stale or
+    missing, runs `cargo build --release --manifest-path apps/surreal_core/Cargo.toml`
+    (streaming cargo's output so build errors are visible) before proceeding. This means
+    the user never runs `cargo` by hand — editing the Rust source and re-running the
+    Python CLI rebuilds automatically.
+  - Forwards the subcommand + args to the built binary via `subprocess.run`, parses the
+    JSON result, and pretty-prints it (or formats it for the calling skill).
+
+### Connection lifetime ("how connections are maintained across languages")
+
+There is no persistent in-memory connection shared between Python and Rust — each
+`surreal_cli.py` invocation is a fresh OS process that spawns a fresh `surreal_core`
+process, which opens the embedded SurrealKv file, does one unit of work, and exits
+(dropping the connection so the file lock is released). **Persistence lives entirely on
+disk** (`.surreal/research.db`), not in a shared process or socket. This is the
+appropriate model for embedded SurrealKv (single-process access only) and for a CLI
+tool invoked occasionally by skills/users — no daemon needed. If a future need arises for
+a long-lived connection (e.g. a server process handling many queries without
+re-opening the file each time), that would mean switching `surreal_core` itself into a
+small persistent server (`ws://` mode) — out of scope for now, noted here for later.
+
+### Background chunks
+
+Background-section chunks are tagged `section: background` in metadata so the agent
+can distinguish "this paper's own claim" from "context this paper cites from elsewhere"
+when forming an answer — but they remain searchable.
 
 ## Step 5 — Query/Answer agent (`.claude-memory/005-query-agent/`)
 
 - Create a skill `.claude/skills/research-query/SKILL.md`: takes a natural-language
-  question, runs `apps/chroma_cli.py query`, and synthesizes an answer that cites the
+  question, runs `apps/surreal_cli.py query`, and synthesizes an answer that cites the
   source paper(s) (title, authors, year, doi/url) for each claim used — flagging if the
   best matches are `section: background` (meaning: supporting context, possibly look at
-  the cited original source instead).
+  the cited original source instead). If the user's question is more exploratory
+  ("what else relates to paper X"), the skill can also call `surreal_cli.py related` to
+  pull in graph-connected papers alongside the vector search results.
 
 ## Files/dirs to be created this session
 
@@ -109,5 +164,9 @@ start existing.
 - `summarize-paper` skill: run on 1-2 directories, confirm `summary.md` frontmatter has
   all expected fields populated correctly from the `.bib`/`.ris` files, and that section
   content is dense/useful.
-- (Step 4/5, future session): `chroma_cli.py init` then `query` with a sample question,
-  confirm results return correct source attribution.
+- (Step 4/5, future session): `surreal_cli.py init` (confirm it triggers a `cargo build
+  --release` on first run, then reuses the binary on subsequent runs unless source
+  changes) then `query` with a sample question, confirm results return correct source
+  attribution; `surreal_cli.py related <id>` returns sensible neighbors for at least one
+  paper with keyword overlap. Confirm repeated invocations don't hit SurrealKv file-lock
+  errors (each process cleanly drops its connection before exit).
