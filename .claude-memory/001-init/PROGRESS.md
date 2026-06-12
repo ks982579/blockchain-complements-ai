@@ -39,8 +39,8 @@ what's next.
 | 4 | ai-driven_optimization_of_blockchain_scalability__privacy_protection | [x] | [x] |
 | 5 | ai_model_cards-state_of_the_art__automated_use | [x] | [x] |
 | 6 | a_marketplace_for_trading_AI__IoT_data | [x] | [x] |
-| 7 | an_explainable_federated_blockchain__healthcare_data | [x] | [ ] |
-| 8 | a_review_on_blockchain_technology__AI-driven_solutions | [x] | [ ] |
+| 7 | an_explainable_federated_blockchain__healthcare_data | [x] | [x] |
+| 8 | a_review_on_blockchain_technology__AI-driven_solutions | [x] | [x] |
 | 9 | artificial_intelligence_and_blockchain-how_should_emerging_tech_be_gov | [x] | [ ] |
 | 10 | a_survey_on_blockchain-based_federated_learning | [x] | [ ] |
 | 11 | a_survey_on_blockchain-enabled_federated_learning_and__twin | [x] | [ ] |
