@@ -38,7 +38,7 @@ what's next.
 | 3 | AI_and_BC_integration_in_business__content_analysis | [x] | [x] |
 | 4 | ai-driven_optimization_of_blockchain_scalability__privacy_protection | [x] | [x] |
 | 5 | ai_model_cards-state_of_the_art__automated_use | [x] | [x] |
-| 6 | a_marketplace_for_trading_AI__IoT_data | [x] | [ ] |
+| 6 | a_marketplace_for_trading_AI__IoT_data | [x] | [x] |
 | 7 | an_explainable_federated_blockchain__healthcare_data | [x] | [ ] |
 | 8 | a_review_on_blockchain_technology__AI-driven_solutions | [x] | [ ] |
 | 9 | artificial_intelligence_and_blockchain-how_should_emerging_tech_be_gov | [x] | [ ] |
