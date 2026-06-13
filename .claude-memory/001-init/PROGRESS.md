@@ -41,33 +41,33 @@ what's next.
 | 6 | a_marketplace_for_trading_AI__IoT_data | [x] | [x] |
 | 7 | an_explainable_federated_blockchain__healthcare_data | [x] | [x] |
 | 8 | a_review_on_blockchain_technology__AI-driven_solutions | [x] | [x] |
-| 9 | artificial_intelligence_and_blockchain-how_should_emerging_tech_be_gov | [x] | [ ] |
-| 10 | a_survey_on_blockchain-based_federated_learning | [x] | [ ] |
-| 11 | a_survey_on_blockchain-enabled_federated_learning_and__twin | [x] | [ ] |
-| 12 | bassa-ML-a_blockchain_and_model_card__provenance_platform | [x] | [ ] |
+| 9 | artificial_intelligence_and_blockchain-how_should_emerging_tech_be_gov | [x] | [x] |
+| 10 | a_survey_on_blockchain-based_federated_learning | [x] | [x] |
+| 11 | a_survey_on_blockchain-enabled_federated_learning_and__twin | [x] | [x] |
+| 12 | bassa-ML-a_blockchain_and_model_card__provenance_platform | [x] | [x] |
 | 13 | bias_in_data-driven_ai_systems | [x] | [x] |
-| 14 | blockchain_and_AI_integration__transparency_in_finance | [x] | [ ] |
-| 15 | blockchain_and_explainable-AI__PCOS_detection | [x] | [ ] |
-| 16 | blockchain-as-a-platform-for-ai-transparency | [x] | [ ] |
-| 17 | blockchain-based_auditing_of_legal_decisions__AI_tools | [x] | [ ] |
-| 18 | blockchain-based_federated_learning-a_survey_and_new_perspectives | [x] | [ ] |
-| 19 | blockchain-based_federated_learning_systems__choices | [x] | [ ] |
-| 20 | blockchain-based_health_and_usage_monitoring__aerospace_structures | [x] | [ ] |
-| 21 | blockchain-enabled_federated_learning-a_survey | [x] | [ ] |
-| 22 | blockchain_federated_learning_for_IOT__comp_survey | [x] | [ ] |
-| 23 | blockchain_for_ai-review_and_open_research | [x] | [ ] |
-| 24 | blockchain_for_deep_learning-review_open_challenges | [x] | [ ] |
-| 25 | blockchain_for_explainable_and_trustworhty_AI | [x] | [ ] |
-| 26 | blockchain_for_federated_learning_toward_ml__systemic_survey | [x] | [ ] |
-| 27 | blockchain_NFT_federated_learning_and_model_cards__sliced_env | [x] | [ ] |
-| 28 | CounterweightsAndComplementarities-ConvergeAIAndBlockchain | [x] | [ ] |
-| 29 | decentralised_gov-driven_architecture__responsible_AI | [x] | [ ] |
-| 30 | enhancing_data_provenance_in_AI_with_BC__quality_model | [x] | [ ] |
-| 31 | establishing_data_provenance_for_responsible_AI_systems | [x] | [ ] |
-| 32 | exploiting_BL_to_make_AI_trustworthy__lifecycle_view | [x] | [ ] |
-| 33 | generative-AI_BC_NFT_federated_learning__6G_environment | [x] | [ ] |
-| 34 | greenthread-blockchain_non-fungible_token__fashion_platform | [x] | [ ] |
-| 35 | indy528-federated_learning__model_cards | [x] | [ ] |
+| 14 | blockchain_and_AI_integration__transparency_in_finance | [x] | [x] |
+| 15 | blockchain_and_explainable-AI__PCOS_detection | [x] | [x] |
+| 16 | blockchain-as-a-platform-for-ai-transparency | [x] | [x] |
+| 17 | blockchain-based_auditing_of_legal_decisions__AI_tools | [x] | [x] |
+| 18 | blockchain-based_federated_learning-a_survey_and_new_perspectives | [x] | [x] |
+| 19 | blockchain-based_federated_learning_systems__choices | [x] | [x] |
+| 20 | blockchain-based_health_and_usage_monitoring__aerospace_structures | [x] | [x] |
+| 21 | blockchain-enabled_federated_learning-a_survey | [x] | [x] |
+| 22 | blockchain_federated_learning_for_IOT__comp_survey | [x] | [x] |
+| 23 | blockchain_for_ai-review_and_open_research | [x] | [x] |
+| 24 | blockchain_for_deep_learning-review_open_challenges | [x] | [x] |
+| 25 | blockchain_for_explainable_and_trustworhty_AI | [x] | [x] |
+| 26 | blockchain_for_federated_learning_toward_ml__systemic_survey | [x] | [x] |
+| 27 | blockchain_NFT_federated_learning_and_model_cards__sliced_env | [x] | [x] |
+| 28 | CounterweightsAndComplementarities-ConvergeAIAndBlockchain | [x] | [x] |
+| 29 | decentralised_gov-driven_architecture__responsible_AI | [x] | [x] |
+| 30 | enhancing_data_provenance_in_AI_with_BC__quality_model | [x] | [x] |
+| 31 | establishing_data_provenance_for_responsible_AI_systems | [x] | [x] |
+| 32 | exploiting_BL_to_make_AI_trustworthy__lifecycle_view | [x] | [x] |
+| 33 | generative-AI_BC_NFT_federated_learning__6G_environment | [x] | [x] |
+| 34 | greenthread-blockchain_non-fungible_token__fashion_platform | [x] | [x] |
+| 35 | indy528-federated_learning__model_cards | [x] | [x] |
 | 36 | influence_of_blockchain_and_AI__from_Turkey | [x] | [ ] |
 | 37 | kaputa-blockchain_NFT_and_model_card__and_marketplace | [x] | [ ] |
 | 38 | luunu-blockchain_MISP_model_cards__sharing_platform | [x] | [ ] |

@@ -1,0 +1,7 @@
+CORRECTED
+
+1. Original text (Key Points, 4th bullet): "This paper claims that public vs. permissioned blockchain choice systematically trades off node-role flexibility (anonymity/TCAR/VCAR) against consensus efficiency and control, observed consistently across the surveyed systems."
+   Conflicting/missing source text (paper.md, Section 2.4): "In a public blockchain-enabled FL, each node can work with arbitrary roles and quit the FL task if it is a miner or a trainer. All nodes can perform any activities without restrictions. However, in permissioned blockchain-enabled FL, the role of the node has been preassigned and prescribed with constrained rights. Therefore, the node can only perform activities under certain rules and cannot leave the FL task arbitrarily."
+   The paper does not make any claim about a systematic CE/control trade-off "observed consistently across the surveyed systems" — this was an unsupported generalization. Changed to: "This paper distinguishes public from permissioned blockchain-enabled FL in terms of node roles and rights: in public blockchain-enabled FL, nodes can take on arbitrary roles and leave the FL task freely without restriction, whereas in permissioned blockchain-enabled FL, node roles are preassigned with constrained rights and nodes cannot leave arbitrarily."
+
+All other sections (Overview, Background, remaining Key Points bullets, Conclusion) verified PASS.

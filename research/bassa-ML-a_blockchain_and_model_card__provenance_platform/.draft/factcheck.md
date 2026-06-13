@@ -1,0 +1,13 @@
+CORRECTED
+
+1. Key Points item 3 originally read: "Bassa-ML is the first (per the paper's comparison table) blockchain-FL platform to integrate Model Card objects directly into the blockchain ledger, encoding model information (participants, generators, aggregators, generation times), quantitative analysis, and usage considerations for both local and global models."
+   Issue: The claim "the first (per the paper's comparison table)" is unsupported — Table I in paper.md (lines 253-265) has all feature-comparison cells empty/unreadable in the markdown extraction, so no claim of being "first" or uniquely featured can be verified against the paper text. The paper itself does not state Bassa-ML is "the first" anywhere.
+   Changed to: "Bassa-ML stores model information (participants, generators, aggregators, generation times), quantitative analysis, and usage considerations for both local and global models as Model Card objects directly in the blockchain ledger, providing enhanced transparency and provenance to the federated learning process." (grounded in paper.md lines 27, 95, 161).
+
+2. Key Points item 11 (last bullet) originally ended with: "...real-time predictions—claiming Bassa-ML uniquely combines all of these features including model reporting via Model Cards."
+   Issue: Same as above — Table I's comparison cells (paper.md lines 253-265) are empty in the extracted text, so there is no textual basis to confirm that Bassa-ML "uniquely combines all of these features." This is an unsupported/hallucinated inference about the table's contents.
+   Changed to: remove the unsupported claim, ending the bullet after listing the comparison dimensions: "...auditing/provenance, model reporting, and real-time predictions."
+
+3. Conclusion originally stated: "...and that federated averaging across peers produces a global model with improved aggregate accuracy and loss compared to individual local models."
+   Issue: paper.md (lines 213) only states: "In the federated learning, we trained the model with 1000 iterations. A copy of the shared model is sent to each peer at each iteration. Each peer used its own local data to train the local model. Each local model improves slightly. Then we compute the total loss and accuracy as shown in Figure 7." The paper does not make an explicit comparative claim that the global/aggregated model's accuracy and loss are "improved... compared to individual local models" — this is an exaggerated/unsupported inference.
+   Changed to: "...and that federated training across peers with model sharing also shows each local model improving slightly, with total loss and accuracy computed across peers."
