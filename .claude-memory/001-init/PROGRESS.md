@@ -7,7 +7,7 @@ what's next.
 
 - [x] 001-init: Plan written, memory structure created.
 - [x] 002-pdf-conversion: `apps/pdf_to_md.py` written, run across all `research/` dirs (48/48 converted, see 002-pdf-conversion/NOTES.md).
-- [ ] 003-summarization: `summarize-paper` skill built; summaries written per-paper
+- [x] 003-summarization: `summarize-paper` skill built; summaries written per-paper
       (see checklist below; resumable across sessions).
 - [x] 004-vector-db: `apps/surreal_core/` (Rust workspace, SurrealDB + fastembed) +
       `apps/surreal_cli.py` (Python wrapper, init/update/query/related — revised
@@ -68,16 +68,16 @@ what's next.
 | 33 | generative-AI_BC_NFT_federated_learning__6G_environment | [x] | [x] |
 | 34 | greenthread-blockchain_non-fungible_token__fashion_platform | [x] | [x] |
 | 35 | indy528-federated_learning__model_cards | [x] | [x] |
-| 36 | influence_of_blockchain_and_AI__from_Turkey | [x] | [ ] |
-| 37 | kaputa-blockchain_NFT_and_model_card__and_marketplace | [x] | [ ] |
-| 38 | luunu-blockchain_MISP_model_cards__sharing_platform | [x] | [ ] |
-| 39 | machine_learning_model_cards_transparency_review | [x] | [ ] |
-| 40 | rethink_blockchain_gov_with_AI-the_VOPPA_framework | [x] | [ ] |
-| 41 | security_and_privacy_on_blockchain | [x] | [ ] |
-| 42 | technological_convergence_BL_AI__review_and_challenges | [x] | [ ] |
-| 43 | the_applications_of_BL_in_AI | [x] | [ ] |
-| 44 | the_convergence_of_ai_and_blockchain__road_ahead | [x] | [ ] |
-| 45 | towards_blockchain-driven_secure_transparent_audit_logs | [x] | [ ] |
-| 46 | towards_semantic_versioning_of_open__hugging_face | [x] | [ ] |
-| 47 | toward_trustworthy_AI-BC-based__learning_systems | [x] | [ ] |
-| 48 | wedaGPT-generative-AI_Blockchain_self_sovereign__medicine_platform | [x] | [ ] |
+| 36 | influence_of_blockchain_and_AI__from_Turkey | [x] | [x] |
+| 37 | kaputa-blockchain_NFT_and_model_card__and_marketplace | [x] | [x] |
+| 38 | luunu-blockchain_MISP_model_cards__sharing_platform | [x] | [x] |
+| 39 | machine_learning_model_cards_transparency_review | [x] | [x] |
+| 40 | rethink_blockchain_gov_with_AI-the_VOPPA_framework | [x] | [x] |
+| 41 | security_and_privacy_on_blockchain | [x] | [x] |
+| 42 | technological_convergence_BL_AI__review_and_challenges | [x] | [x] |
+| 43 | the_applications_of_BL_in_AI | [x] | [x] |
+| 44 | the_convergence_of_ai_and_blockchain__road_ahead | [x] | [x] |
+| 45 | towards_blockchain-driven_secure_transparent_audit_logs | [x] | [x] |
+| 46 | towards_semantic_versioning_of_open__hugging_face | [x] | [x] |
+| 47 | toward_trustworthy_AI-BC-based__learning_systems | [x] | [x] |
+| 48 | wedaGPT-generative-AI_Blockchain_self_sovereign__medicine_platform | [x] | [x] |

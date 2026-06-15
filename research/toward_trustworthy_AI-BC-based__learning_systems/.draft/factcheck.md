@@ -1,0 +1,3 @@
+CORRECTED
+
+1. Background, item 3: Original text claimed the architecture "also draws on prior architectural pattern work for FL systems (Lo et al., arXiv:2101.02373)" as a design source alongside FLRA. The paper's only mention of this reference ([5]) is a joint citation with FLRA ([6]) in the unrelated sentence "federated learning is vulnerable to accountability issues [5], [6]." The paper explicitly states the architecture is based on FLRA alone: "We designed the architecture based on a reference architecture for the federated learning system named FLRA [6]." Changed the sentence to correctly describe FLRA as the explicit basis for the architecture and [5] as merely co-cited (with [6]) regarding accountability vulnerability, not as a design source.
