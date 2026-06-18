@@ -82,3 +82,4 @@ what's next.
 | 47 | toward_trustworthy_AI-BC-based__learning_systems | [x] | [x] |
 | 48 | wedaGPT-generative-AI_Blockchain_self_sovereign__medicine_platform | [x] | [x] |
 | 49 | federated_learning-strategies_for_improving_comm_efficiency | [x] | [x] |
+| 50 | do_you_need_a_blockchain | [x] | [x] |
