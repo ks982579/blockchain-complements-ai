@@ -31,19 +31,7 @@ The remainder of this article is organized as follows. In Section II, we briefly
 In the following section, we detail the required blockchain background and the involved parties. The name blockchain stems from its technical structure — a chain of blocks. Each block is linked to the previous block with a cryptographic hash. A block is a datastructure which allows to store a list of transactions. Transactions are created and exchanged by peers of the blockchain network and modify the state of the blockchain. As such, transactions can exchange monetary amounts, but are not restricted to financial transactions only and for example allow to execute arbitrary code within socalled smart contracts. 
 
 Before diving into the specific differences of permissionless and permissioned blockchains, we now describe the different participants of these networks. As applicable to any database system, we denote as _writer_ any entity which writes state to the database. In a blockchain this would correspond to a participant that is involved in the consensus protocol and helps growing the blockchain. As such, a writer is able to accumulate transactions within a block and append this block to the blockchain. Related work might also denominate a writer as a validator. We denote a _reader_ as any entity which is not extending the blockchain, but participating in either the transaction creation process, simply reading and analysing or auditing the blockchain. Note that we consider regulators and blockchain software maintainers to be outside of this scope. 
-
-**Permissionless Blockchains** Bitcoin [1] and Ethereum [2] 
-
-are instances of permissionless blockchains, which are open and decentralized. Any peer can join and leave the network as reader and writer at any time. Interestingly, there is no central entity which manages the membership, or which could ban illegitimate readers or writers. This openness implies that the written content is readable by 
-
-978-1-5386-7204-4/18/$31.00 ©2018 IEEE DOI 10.1109/CVCBT.2018.00011 
-
-45 
-
-Authorized licensed use limited to: IU Internationale Hochschule. Downloaded on June 18,2026 at 06:56:07 UTC from IEEE Xplore.  Restrictions apply. 
-
-   - any peer. With the use of cryptographic primitives however, it is technically feasible to design a permissionless blockchain which hides privacy relevant information (e.g. Zerocash[3]). 
-
+- **Permissionless Blockchains** Bitcoin [1] and Ethereum [2] are instances of permissionless blockchains, which are open and decentralized. Any peer can join and leave the network as reader and writer at any time. Interestingly, there is no central entity which manages the membership, or which could ban illegitimate readers or writers. This openness implies that the written content is readable by any peer. With the use of cryptographic primitives however, it is technically feasible to design a permissionless blockchain which hides privacy relevant information (e.g. Zerocash[3]). 
 - **Permissioned Blockchains** To only authorize a limited set of readers and writers, so called-permissioned blockchains have been recently proposed. Here, a central entity decides and attributes the right to individual peers to participate in the write or read operations of the blockchain. To provide encapsulation and privacy, reader and writer could also run in separated parallel blockchains that are interconnected. The most widely known instance of permissioned blockchains are Hyperledger Fabric and R3 Corda [4]. 
 
 ## _A. Properties_ 

@@ -83,3 +83,5 @@ what's next.
 | 48 | wedaGPT-generative-AI_Blockchain_self_sovereign__medicine_platform | [x] | [x] |
 | 49 | federated_learning-strategies_for_improving_comm_efficiency | [x] | [x] |
 | 50 | do_you_need_a_blockchain | [x] | [x] |
+| 51 | communication-efficient_learning_of__decentralized_data | [x] | [x] |
+| 52 | a_systematic_lit_review__GDPR_vs_blockchain | [x] | [x] |
