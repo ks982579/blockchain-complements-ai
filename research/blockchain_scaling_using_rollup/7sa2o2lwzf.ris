@@ -1,0 +1,52 @@
+TY  - GEN
+
+AN  - edseee.9862815
+ID  - edseee.9862815
+AU  - Thibault, L.T.
+AU  - Sarry, T.
+AU  - Hafid, A.S.
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/ACCESS.2022.3200051
+DP  - EBSCOhost
+EP  - 93054
+T2  - IEEE Access, Access, IEEE
+
+PB  - IEEE
+SN  - 21693536
+SP  - 93039
+TI  - Blockchain Scaling Using Rollups: A Comprehensive Survey
+UR  - https://research.ebsco.com/linkprocessor/plink?id=720d8ca5-a317-3bc1-b9b4-100b57d44a65
+VL  - 10
+Y1  - 2022/01/01/2022
+N1  - Periodical
+N1  - Academic Journal
+ER  - 
+
+AB  - Blockchain systems have seen much growth in recent years due to the immense potential attributed to the technology behind these systems. However, this popularity has outlined a critical scalability issue that most blockchain systems are now confronted with. With their increasing popularity comes an increasing amount of load on the system. Several scaling solutions that modify either the functioning of the underlying protocol or that build on top of them have already been proposed; however, each of these solutions comes with their advantages and disadvantages. This paper aims to survey the current state-of-the-art of rollups as a scaling solution. We discuss the mode of operation of the different types of rollups, outline state-of-the-art implementations of each type together with their features and limitations. We also conduct a performance analysis comparing these implementations. Finally, we outline avenues for future research around rollups as a scaling solution.
+KW  - Aerospace
+KW  - Bioengineering
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Components, Circuits, Devices and Systems
+KW  - Computing and Processing
+KW  - Engineered Materials, Dielectrics and Plasmas
+KW  - Engineering Profession
+KW  - Fields, Waves and Electromagnetics
+KW  - General Topics for Engineers
+KW  - Geoscience
+KW  - Nuclear Engineering
+KW  - Photonics and Electrooptics
+KW  - Power, Energy and Industry Applications
+KW  - Robotics and Control Systems
+KW  - Signal Processing and Analysis
+KW  - Transportation
+KW  - Security
+KW  - Blockchains
+KW  - Consensus protocol
+KW  - Scalability
+KW  - Proof of Work
+KW  - Throughput
+KW  - Blockchain
+KW  - scalability
+KW  - rollups
+KW  - second layer solutions
+KW  - survey

@@ -85,3 +85,7 @@ what's next.
 | 50 | do_you_need_a_blockchain | [x] | [x] |
 | 51 | communication-efficient_learning_of__decentralized_data | [x] | [x] |
 | 52 | a_systematic_lit_review__GDPR_vs_blockchain | [x] | [x] |
+| 53 | blockchain_scaling_using_rollup | [x] | [x] |
+| 54 | on_scaling_decentralized_blockchains | [x] | [x] |
+| 55 | resolving_the_trilemma_challenge_in_blockchain | [x] | [x] |
+| 56 | the_bitcoin_lightning_network-scalable_off-chain_instant_payments | [x] | [x] |

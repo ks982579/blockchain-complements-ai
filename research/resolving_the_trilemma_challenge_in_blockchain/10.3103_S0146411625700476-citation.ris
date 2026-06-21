@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Khandakar Md Shafin
+AU  - Saha Reno
+PY  - 2025
+DA  - 2025/06/01
+TI  - Resolving the Trilemma Challenge in Blockchain: An Integrated Consensus Mechanism for Balancing Security, Scalability, and Decentralization
+JO  - Automatic Control and Computer Sciences
+SP  - 297
+EP  - 316
+VL  - 59
+IS  - 3
+AB  - Finding a way to solve the trilemma, which requires striking a balance between scalability, security, and decentralization, is a persistent problem in the field of blockchain technology. In order to overcome this trilemma, this study presents a novel blockchain architecture that combines cutting-edge cryptography techniques, creative security protocols, and flexible decentralization mechanisms. Our framework is a new standard for secure, scalable, and decentralized blockchain ecosystems. It utilizes well-known techniques like zero knowledge proof (zk-SNARK), Schnorr VRF, elliptic curve cryptography (ECC), and in addition to innovative approaches for anomaly detection, incentive alignment, and stake distribution. The suggested system outperforms elite consensuses by obtaining 1600+ TPS, guaranteeing strong security against all known blockchain attacks without sacrificing scalability, and obtaining a strong decentralization score of 7.181, which, when compared to other blockchain systems in benchmark analysis, shows strong decentralization.
+SN  - 1558-108X
+UR  - https://doi.org/10.3103/S0146411625700476
+DO  - 10.3103/S0146411625700476
+ID  - Khandakar Md Shafin2025
+ER  - 
