@@ -1,0 +1,48 @@
+---
+id: an_extensive_multivocal_lit_review_of_blockchain__and_interoperability
+title: "An extensive multivocal literature review of blockchain technology: Evolution, challenges, platforms, security, and interoperability"
+authors:
+  - Monika
+  - Rajesh Bhatia
+  - Manish Kumar
+year: 2024
+venue: "Transactions on Emerging Telecommunications Technologies"
+publisher: "Wiley-Blackwell"
+volume: 35
+issue: 11
+pages: "1-50"
+doi: "10.1002/ett.5037"
+url: "https://research.ebsco.com/linkprocessor/plink?id=536b44eb-7f47-36af-aa27-a268a3299f51"
+type: article
+keywords:
+  - blockchain
+  - interoperability
+  - security
+  - blockchain platforms
+  - smart contracts
+---
+
+## Overview
+
+This 2024 multivocal literature review (Monika et al., *Trans Emerging Tel Tech*, DOI 10.1002/ett.5037) surveys the technical state of blockchain technology across five interrelated dimensions: evolution, adoption challenges, platforms, security, and interoperability. The authors argue that no prior survey has combined white and gray literature to characterize where blockchain stands today, particularly regarding platform development, cross-chain communication, and security — the two factors (security and interoperability) they identify as most decisive for adoption and sustainability. The study synthesizes 259 peer-reviewed papers (search through June 2022) plus gray literature (whitepapers, GitHub repositories, CoinMarketCap data) on 40 blockchain platforms. Its principal contributions include a chronology of blockchain "generations" (1.0 cryptocurrency, 2.0 smart contracts, 3.0 real-world DApps), a taxonomy of eight adoption challenges, a novel two-branch security taxonomy (infrastructure-specific vs. smart contract-specific, cataloguing 32 and 27 issues respectively), a comparative analysis of 40 platforms by consensus/language/architecture, a four-way classification of interoperability solutions (atomic swaps/HTLC, sidechains, bridging/relay schemes, notary/ledger-of-ledger), and a curated inventory of 53 security solutions, tools, and domain-specific languages. It closes with extensive open-research directions for both interoperability and security.
+
+## Background
+
+The paper builds heavily on prior surveys, framing its novelty against them. It situates blockchain's origin in the 2008 Bitcoin peer-to-peer electronic cash system using Nakamoto/Proof-of-Work consensus and the UTXO model, and Ethereum's 2014/2015 introduction of the EVM, Turing-complete smart contracts, account-based model, ERC-20 tokens, ICOs, and DAOs (citing Maesa & Mori on Blockchain 3.0, and Dabbagh et al. on the post-2016 surge in research interest). For scalability it draws on Zhou et al.'s taxonomy of Layer-0/1/2 solutions (payment channels, sidechains, sharding, DAG, cross-chain). It cites prior work on altcoins (Monero, Zerocash, Bitcoin Cash, Primecoin, Peercoin) and the Ethereum 2.0 merge reducing energy use by ~99.95%. On adoption, it leans on Prewett et al. (obstacles and risk categories), business-focused SLRs, and industry reports from Deloitte, PwC, Stanford, and Cambridge showing rising adoption since 2019. For security it draws on layered security reference architectures (Wang et al., Zhang et al., the ISO/IEC 15408-aligned SRA), Averin & Averina's catalogue of 25 historical attacks, and surveys of Ponzi schemes, SC vulnerabilities, and developer-challenge studies (Zou et al.). For interoperability it cites Siris et al., Koens et al., Qasse et al., Belchior et al., Robinson, Vo et al.'s "internet of blockchains" vision, Hardjono et al.'s argument that blockchain must mirror the Internet's interoperability to become mainstream, and Lohachab et al.'s 7-layer reference meta-architecture. It explicitly defers to existing comprehensive surveys on consensus algorithms, scalability, privacy/anonymity, energy consumption, and domain applications, which it excludes from its own scope.
+
+## Key Points
+
+- No prior survey covers all five technical aspects (evolution, challenges, platforms, security, interoperability) together or characterizes blockchain's current status; this is claimed as the first extensive multivocal review (white + gray literature) to do so, analyzing 259 papers and 40 platforms.
+- Blockchain evolution is framed in three generations: 1.0 (Bitcoin and altcoins as cryptocurrency), 2.0 (Ethereum/Hyperledger/Corda/EOS with smart contracts and DApps), and 3.0 (real-life applications across domains such as voting, identity, healthcare, supply chain, notary, records, IP).
+- Eight major adoption challenges are identified: security (vulnerabilities/attacks), scalability and performance, consensus mechanism selection, energy consumption/high computation cost, privacy and anonymity, interoperability, regulatory concerns, and standardization/inexperienced developers.
+- The paper proposes a novel security taxonomy splitting issues into Infrastructure-specific (IF) and Smart Contract-specific (SC), classified by level (protocol vs. application), attacker type (malicious vs. criminal), and affected functionality (services vs. ledger data) — a multi-factor classification the authors claim no prior study has done.
+- It catalogues 32 infrastructure-specific security issues (e.g., double spending, selfish mining, 51%/hash-rate, eclipse, Sybil, routing, long-range, nothing-at-stake, grinding, stake-bleeding) and 27 smart-contract-specific issues (e.g., reentrancy, timestamp dependency, unchecked math, transaction-ordering dependency, untrustworthy oracles, under-optimized SCs, Ponzi/honeypot scams), each ranked by citation frequency.
+- From analysis of 40 platforms, the authors report a clear industry shift from PoW toward PoS/PBFT consensus; Go, C++, Rust, and Java dominate platform implementation (Go and C++ used by 18 and 13 platforms); Solidity is the dominant smart-contract language; Ethereum is the leading public DApp platform and Hyperledger the leading permissioned/enterprise platform; ~80% of surveyed platforms support smart contracts; Zilliqa was first to implement sharding; and some ledgers (e.g., IOTA) use DAG rather than block chains.
+- The development trend has shifted from launching new platforms (which peaked around 2015–2020 and is declining) toward DApp and application development on existing platforms (~13,000+ DApps listed by June 2022, 3,695 on Ethereum).
+- Blockchain interoperability is classified into four solution types — atomic swaps/HTLC smart-contract solutions, sidechains (centralized, federated, or SPV two-way pegs), bridging/relay schemes (e.g., Blocknet, Wanchain, Metronome), and notary/ledger-of-ledger schemes (e.g., Cosmos, Polkadot, ICON) — each with stated advantages and limitations (e.g., atomic swaps support exchange but not transfer, and constitute an unfair American call option without premium).
+- The study inventories 53 security solutions including infrastructure defenses (consensus, cryptographic, service-attack, malicious-miner countermeasures), 40+ smart-contract security-analysis tools (Oyente, Securify, Slither, Mythril, SmartCheck, Manticore, etc.), domain-specific languages (Obsidian, Scilla, Flint, BitML, Simplicity), and formal verification techniques (model checking, theorem proving, symbolic execution).
+- Comparative tool studies conclude there is no unified benchmark or experimental setting for SC security tools; no single tool covers all vulnerabilities (combined, all tools detect only ~42% of annotated vulnerabilities; the most accurate, Mythril, detects ~27%), and Slither/Mythril show best coverage, Mythril best precision, Remix best recall, SmartCheck most effective.
+
+## Conclusion
+
+The authors conclude their survey delivers a holistic, technically-grounded picture of blockchain's progress from 2009 to 2022, supporting their central claim that security and interoperability are the most critical determinants of blockchain's future adoption and sustainability. They affirm that substantial research has addressed consensus, privacy, security, and scalability, while standardization and regulatory concerns remain the least mature and most pressing gaps. The current development trend is DApp-oriented, and the authors judge that interoperability among platforms and DApps will decide blockchain's trajectory; cross-chain research remains in its infancy, dominated by permissioned-blockchain solutions, with public-blockchain and legacy-system interoperability under-explored. They acknowledge scope limitations — the review is extensive but not systematic, excludes non-English/poster/keynote works and detailed treatment of consensus, scalability, privacy, energy, and domain applications, and stops at June 2022. Numerous open research questions are flagged: for interoperability, handling HTLC timeouts, merging solution types into full-fledged frameworks, reconciling deterministic vs. probabilistic transaction finality, trustless cross-chain messaging/consensus, standardized transaction formats, and connecting permissioned-to-permissionless and blockchain-to-legacy systems. For security, priorities include quantum-resistant cryptography, ML-based anomaly detection beyond Bitcoin, long-range and consensus-attack countermeasures, controlling mining centralization, standard benchmarks and datasets for SC security tools, formally tested domain-specific languages and bug-free compilers, automated vulnerability detection/formal verification, source-level gas optimization, automatic SC patching, and blockchain-oriented software engineering. The authors also stress the absence of standard benchmarks, workloads, and metrics for evaluating and comparing blockchain platform performance as an area needing urgent attention.

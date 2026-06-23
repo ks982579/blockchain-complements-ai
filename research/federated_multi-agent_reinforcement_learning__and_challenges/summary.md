@@ -1,0 +1,48 @@
+---
+id: federated_multi-agent_reinforcement_learning__and_challenges
+title: "Federated Multi-Agent Reinforcement Learning: A Comprehensive Survey of Methods, Applications and Challenges"
+authors:
+  - Yao Jing
+  - Bin Guo
+  - Nuo Li
+  - Ruonan Xu
+  - Zhiwen Yu
+year: 2025
+venue: "Expert Systems With Applications"
+publisher: "Elsevier Ltd"
+volume: 293
+pages: "128729"
+doi: "10.1016/j.eswa.2025.128729"
+url: "https://research.ebsco.com/linkprocessor/plink?id=d422da60-6fea-3e21-a566-824b06116ec7"
+type: article
+keywords:
+  - Federated Learning
+  - Multi-Agent Systems
+  - Reinforcement Learning
+  - Federated Multi-Agent Reinforcement Learning
+  - Distributed Optimization
+---
+
+## Overview
+
+This paper (Jing, Guo, Li, Xu, and Yu; Expert Systems With Applications 293, 2025) is the first comprehensive survey of Federated Multi-Agent Reinforcement Learning (FMARL), a paradigm that integrates the privacy-preserving, decentralized framework of Federated Learning (FL) with the adaptive, interactive coordination of Multi-Agent Reinforcement Learning (MARL). It addresses the gap that, while surveys exist for FL, MARL, and single-agent Federated Reinforcement Learning (FRL), none systematically covers FMARL, which extends FRL beyond isolated independent learners to support multiple agents interacting within shared environments under privacy and communication constraints. The paper's contributions are fourfold: (1) a rigorous unified formal definition of FMARL grounded in cooperative settings (modeling environments as MDPs or Dec-POMDPs with a tuple-based formulation and a federated constraint set covering communication, privacy, and resource limits); (2) an architectural and taxonomic characterization distinguishing client-server vs. peer-to-peer structures and classifying methods along update strategy, personalization, adaptivity, model homogeneity, and the dominant Horizontal (HFMARL) vs. Vertical (VFMARL) split; (3) a methodological review of privacy-preserving and distributed-optimization mechanisms; and (4) a broad application survey across intelligent transport, IoT, and healthcare, closing with six challenge areas and future directions. FMARL is positioned as enabling secure, scalable, efficient collaborative decision-making that protects data privacy, reduces communication overhead, mitigates limited observation, and handles non-IID data.
+
+## Background
+
+The paper builds on and cites a large body of prior work to frame FMARL. It traces FL to Google's foundational proposals (Konecny et al., 2016; McMahan et al., 2017), citing FedAvg as the canonical aggregation method, and grounds MARL in Tan (1993) and the deep RL lineage (Q-Learning, SARSA, Policy Gradient, Actor-Critic per Sutton; DQN by Mnih et al. 2015; DDQN, SAC, A3C, DDPG, PPO, REINFORCE, Q-Prop). It draws on cooperative MARL methods that use centralized training—MADDPG (Lowe et al., 2017), MAPPO (Yu et al., 2022), QMIX (Rashid et al., 2020), and VDN (Sunehag et al., 2017)—noting these face scalability and privacy limits as agent counts grow, which FMARL aims to overcome. The decision-making formalisms cited include MDP (Puterman) and Dec-POMDP (Bernstein et al., 2002). The paper situates FMARL relative to prior FRL surveys (Pinto Neto et al., 2023; Qi et al., 2021) and distributed/parallel MARL (Espeholt et al., 2018 IMPALA; Nair et al., 2015; Horgan et al., 2018), arguing the latter generally share raw data and assume IID environments without privacy safeguards. For privacy techniques it cites homomorphic encryption (Fang & Qian, 2021), SMPC (Yao, 1982; Bonawitz et al., 2017), and differential privacy (Dwork, 2008; with Laplace/Gaussian noise mechanisms; client-level DP by Geyer et al., 2017). It also references regulatory drivers such as GDPR (Voigt & Von dem Bussche, 2017) and HIPAA, the non-IID/FedAvg convergence literature (Li et al., 2019; Zhao et al., 2018), FedProx (Li et al., 2020), and distributed-optimization assumptions (L-smoothness per Stich 2018; bounded variance via SCAFFOLD/Karimireddy et al. 2020; bounded gradient dissimilarity per Wang et al. 2020).
+
+## Key Points
+
+- The paper proposes a unified formal definition of FMARL with two stages—decentralized local training and periodic federated aggregation—abstracting each agent's environment as a generic tuple (agent set, state/action spaces, reward, transition probability, discount factor), and modeling per-agent objectives as a weighted combination of local and global rewards via a trade-off parameter lambda, yielding three regimes: local-independent (lambda=1), global-collaborative (lambda=0), and hybrid (0<lambda<1).
+- It formalizes a federated constraint set composed of communication constraints (interval, bandwidth, synchronization scheme), privacy constraints (privacy budget epsilon and valid perturbation mechanism), and resource constraints (memory, energy, processing power).
+- It distinguishes two architectures—client-server (central coordinator aggregates updates, supports global consistency, but is bandwidth-limited and vulnerable to single-point failure) and peer-to-peer (decentralized many-to-many exchange, scales linearly, robust to failure, stronger for privacy-sensitive distributed settings)—and maps them to representative applications (smart homes, traffic signal control vs. energy trading, drone/robot swarms).
+- It offers single-dimension classifications of FMARL: update strategy (synchronous vs. asynchronous), personalization objective (global vs. personalized), adaptivity to dynamics (static vs. adaptive), and model-structure homogeneity (homogeneous vs. heterogeneous).
+- It argues the most fundamental classification is by information-exchange hierarchy: Horizontal FMARL (HFMARL), where agents share identical state/action spaces but operate in independent, isolated environments (parallel environments, knowledge sharing for sample efficiency; positioned as a privacy-enhanced, non-IID-capable version of distributed MARL), versus Vertical FMARL (VFMARL), where agents share a single global environment but observe complementary, vertically partitioned feature subsets under partial observability (positioned as a privacy-preserving extension of cooperative partially observable MARL).
+- It categorizes privacy-preserving methods into encryption-based approaches—Homomorphic Encryption (highest privacy, high overhead) and Secure Multi-Party Computation (no trusted third party, high communication cost)—plus Differential Privacy (noise injection and dynamic privacy-budget tuning balancing utility and privacy) and hybrid approaches, with tabulated trade-offs.
+- It categorizes distributed collaborative optimization into parameter/gradient sharing modes (full parameter, gradient, encrypted sharing) and federated aggregation algorithms (FedAvg/Weighted FedAvg, FedProx, Personalized Federated, and Adaptive Federated), including FMARL-specific variants such as QAvg/PAvg (environment heterogeneity) and AdaFedProx (RL-tuned proximal term).
+- It surveys FMARL applications across three primary domains: intelligent transport systems (traffic signal control e.g. FedLight, vehicular networks, resource management), IoT (resource allocation, task offloading, energy management of smart homes/buildings), and healthcare (mitigating non-IID medical data bias, UAV-enabled and IoMT resource allocation), plus other domains (VR/3C optimization, dynamic spectrum access, intrusion detection, edge association, client selection, cell-free massive MIMO).
+- It provides a theoretical convergence and complexity analysis showing a fundamental trade-off: more local updates (T) reduce communication frequency but increase inter-agent model divergence under heterogeneity (zeta), slowing convergence; it decomposes cost into local computation O(nRTd), communication O(nRd), and aggregation O(nd).
+
+## Conclusion
+
+The survey concludes that FMARL is an emerging and powerful paradigm uniquely suited to decentralized, privacy-sensitive, resource-constrained multi-agent systems, combining FL's privacy and FL-style aggregation with MARL's interactive coordination. As a survey it does not test a single hypothesis but synthesizes evidence (e.g., reported gains such as FADE's 92% reduction in performance loss, FedLight's faster convergence, large variance reductions in vehicular resource allocation) supporting FMARL's efficiency and privacy benefits across domains. It identifies six open challenge areas as future-research directions: (1) data heterogeneity / non-IID data (proposing personalized FRL, meta- and multi-task learning, robust/cluster-based/weighted aggregation, and federated Bayesian learning); (2) communication efficiency (gradient compression, sparsification, quantization, asynchronous and hierarchical communication); (3) scalability (hierarchical multi-agent systems, decentralized FL, parallel/distributed computation frameworks); (4) multi-agent collaboration in dynamic, non-stationary environments (transfer learning, GNN-based communication protocols, adaptive reward mechanisms); (5) privacy-preserving mechanisms (lighter/selective HE, real-time-adapted DP, scalable SMPC, hybrid schemes balancing privacy, performance, and scalability); and (6) model convergence and computational complexity (adaptive local-update frequencies, momentum-based federated averaging, hybrid coordination strategies to manage the moving-target non-stationarity of MARL). It flags scalability to large urban networks and real-world data heterogeneity as recurring unresolved limitations, and points to smart cities, autonomous systems, and intelligent edge computing as promising future application frontiers.

@@ -1,0 +1,50 @@
+---
+id: strategic_and_autonomous_orchestrations_of_ai__supply_chains
+title: "Strategic and Autonomous Orchestration of Artificial Intelligence and Blockchain Integration for Supply Chains"
+authors:
+  - Funlade Sunmola
+  - George Baryannis
+year: 2026
+venue: "Systems"
+publisher: "MDPI"
+volume: 14
+issue: 4
+pages: "363"
+doi: "10.3390/systems14040363"
+url: "https://www.mdpi.com/2079-8954/14/4/363"
+type: article
+keywords:
+  - artificial intelligence
+  - blockchain
+  - dynamic capabilities
+  - supply chain management
+  - resource orchestration
+  - sustainability
+---
+
+## Overview
+
+This is a conceptual/theory paper (Sunmola & Baryannis, MDPI *Systems*, vol. 14, art. 363, 2026) that proposes the Dynamic Resource Orchestration Framework for AI-Blockchain Integrated Supply Chains (DROF-AIBC). It addresses what the authors call the "orchestration gap": although AI and blockchain are widely recognised as complementary supply-chain enablers, in practice they remain fragmented tools linked only by manual data exchange rather than integrated, programmable logic, so analytical insights are rarely bound to verifiable execution. The framework is built on a three-phase methodology: a PRISMA-guided systematic literature review of 48 Scopus-indexed journal articles (2018-2025, search yielding 1419 records), a Braun-and-Clarke thematic analysis yielding five themes, and synthesis into the framework. Grounded in Resource Orchestration Theory (ROT) and Dynamic Capabilities Theory (DCT), DROF-AIBC conceptualises an "intelligent conductor", a coordination mechanism that fuses AI-driven analytics with smart-contract-based execution to configure, optimise, and monitor digital resource bundles in response to external signals, closing the loop between analytics and execution. The paper positions this "autonomous orchestration" as a roadmap for Industry 5.0, embedding human-centricity via Explainable AI (a blockchain-recorded "provenance of logic"), circular-economy sustainability, and systemic resilience, and offers five testable propositions plus a staged managerial adoption pathway.
+
+## Background
+
+The paper builds on and cites substantial prior work to frame its argument. It draws on supply-chain resilience and viability theory (Ivanov & Dolgui), arguing that supply networks must sense, absorb, and adapt to shocks while sustaining performance. It cites prior work positioning AI and blockchain as core enablers of visibility, coordination, and data-driven decision-making across organisational boundaries (Sharma et al.; Tiwari et al.). On blockchain, it draws on studies showing that permissioned ledgers and smart contracts support multi-party workflows with trusted data sharing (Wang et al.), and on prototypes for blockchain-backed messaging with latency/throughput trade-offs (Lau et al.). On AI, it cites work on prescriptive analytics for resilience (Smyth et al.) and causal machine learning for scenario-based intervention planning beyond pattern recognition (Wyrembek, Baryannis & Brintrup), noting these raise requirements for robustness, monitoring, and explainability. It references privacy-preserving/federated learning for compliant information sharing (Zheng et al.). Theoretically, the paper grounds itself in Resource Orchestration Theory which extends the Resource-Based View by stressing that advantage comes from managerial structuring, bundling, and leveraging of resources rather than mere ownership, and in Dynamic Capabilities Theory articulated as sensing, seizing, and transforming. It cites prior applications of ROT to supply-chain resilience, IT-capability alignment, and innovation, and of DCT to agility, adaptability, ambidexterity, and resilience. For explainability it builds on neurosymbolic XAI reviews (Kosasih et al.) and prior SHAP/knowledge-graph/LLM explanation work (including the authors' own halal-compliance framework). The review corpus itself (Tables 1-3) supplies the empirical backdrop, spanning agrifood, pharmaceuticals/healthcare, manufacturing, logistics, humanitarian, and seafood domains.
+
+## Key Points
+
+- The paper identifies and names an "orchestration gap" in AI-blockchain supply-chain integration: existing implementations couple the two technologies only at a technical/data level (AI informs forecasts, blockchain records events) linked by manual data exchange, but rarely coordinate them at the architectural or decision-making level.
+- It proposes DROF-AIBC, a framework of five nested layers described from outside inward: (1) External Dynamic Supply Chain Environment (volatility, regulation, sustainability/resilience demands acting as trigger); (2) Dynamic Capabilities Cycle (Sensing-Seizing-Transforming as an iterative feedback loop); (3) Strategic Enablers and Oversight Layer (Coordination, Governance, Digital Capabilities & Infrastructure Readiness); (4) Resource Orchestration Core (Structuring-Bundling-Leveraging of AI and blockchain into self-configuring resource bundles); and (5) innermost Supply Chain Performance & Competitive Advantage core.
+- It introduces the "intelligent conductor" concept: a coordination capability residing in the Coordination sub-layer that synchronises AI systems and blockchain networks through rules and optimisation strategies, configuring resource bundles (AI models + smart contracts) for automated governance and near-real-time adaptation.
+- It defines "autonomous orchestration" as the coordinated configuration and continuous adaptation of AI and blockchain resources, where analytical outputs are systematically linked to programmable smart-contract execution under predefined governance policies and auditable logic.
+- It contributes a theoretical synthesis of ROT and DCT for digital resources: ROT supplies the micro-level managerial logic (structuring, bundling, leveraging) while DCT supplies the adaptive/evolutionary logic (sensing, seizing, transforming), positioning AI and blockchain as dynamic strategic assets rather than auxiliary tools.
+- It claims AI and blockchain are mutually compensating: blockchain provides decentralised trust, immutability, and provenance but is a passive infrastructure unable to generate insight, while AI provides prediction and decision support but lacks inherent auditability; an orchestration layer is required to realise their combined value.
+- It advances human-centricity through Explainable AI that generates decision rationales recorded on-chain, creating a verifiable "provenance of logic" and enabling human oversight at the level of validation rather than execution (a human-in-the-loop model).
+- It positions DROF-AIBC as a foundational roadmap for Industry 5.0, operationalising the shift from Industry 4.0's technical "how" toward human-centricity, sustainability (active reinforcement of circular-economy behaviours, not passive reporting), and systemic resilience (closed-loop disruption responses such as auto-rerouting shipments or triggering conditional payments).
+- It distinguishes DROF-AIBC from conventional, cyber-physical, and big-data orchestration paradigms (Table 5): unlike these, it uniquely unifies analytical decision-making, programmable execution, and explainability via decentralised self-executing smart-contract governance and proactive self-optimisation.
+- It maps each of the five literature-derived themes (transparency/traceability, integration architecture, sustainability/circular economy, socio-technical barriers, risk/resilience/explainable adaptive decision-making) to specific design requirements and framework components (Table 4), grounding the architecture in identified gaps.
+- It offers five testable propositions linking integrated AI-blockchain orchestration to higher transparency/data consistency, XAI-plus-audit-trails to stakeholder trust, autonomous orchestration to resilience, AI-smart-contract alignment to operational efficiency, and AI-monitoring-plus-provenance to sustainability outcomes.
+- It provides a staged managerial adoption pathway (foundational readiness, integration and alignment, operational scaling) and surfaces architectural trade-offs (public vs. permissioned ledgers, latency, energy/consensus cost vs. sustainability).
+
+## Conclusion
+
+The paper concludes that it has answered its three research questions: RQ1 (the review reveals a vibrant but fragmented landscape of isolated implementations with weak integration and limited treatment of sustainability and resilience), RQ2 (five emerging themes shift orchestration from a technical-integration problem to a strategic and adaptive capability), and RQ3 (DROF-AIBC integrates ROT and DCT into a continuous cycle linking resource configuration with adaptation). Because the paper is conceptual, its claims are framed as a theoretically grounded, literature-derived architecture and a set of propositions rather than empirically validated findings; the propositions are explicitly offered "for future empirical testing." The authors acknowledge limitations: the review used Scopus only (possibly missing Web of Science/IEEE Xplore niche studies), excluded conference papers and grey literature, relied on subjective thematic interpretation with no inter-coder reliability metric, and performed no bibliometric/network analysis. The framework itself remains conceptual and unvalidated, is pitched at the inter-organisational (multi-actor) rather than intra-firm level, is most applicable to digitally mature or transitioning supply chains, and assumes a continuum (not full automation) of decision support, semi-automated execution, and policy-driven automation. Future-research directions include: longitudinal case studies and simulation-based stress tests to validate the propositions; development of middleware and intelligent agents mediating AI, blockchain, and legacy systems (adaptive routing, trust negotiation, decentralised decision-making); investigation of behavioural, cultural, and incentive factors shaping socio-organisational adoption across multi-stakeholder networks; and research into privacy-preserving mechanisms and XAI for autonomous machine-led decisions to support trust and compliance.

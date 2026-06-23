@@ -1,0 +1,41 @@
+---
+id: byzantine-robust_decentralized_coordination_of_llm_agents
+title: "Byzantine-Robust Decentralized Coordination of LLM Agents"
+authors:
+  - Yongrae Jo
+  - Chanik Park
+year: 2025
+venue: "arXiv"
+doi: "10.48550/arXiv.2507.14928"
+url: "https://arxiv.org/abs/2507.14928"
+type: misc
+keywords:
+  - Blockchain
+  - Multi-Agent
+  - Large Language Model
+---
+
+## Overview
+
+This paper (Jo & Park, POSTECH) proposes DecentLLMs, a decentralized, leaderless consensus architecture for Byzantine-robust coordination of large language model (LLM) agents deployed on open blockchain platforms. The authors argue that existing blockchain-based Byzantine-robust multi-agent systems rely on leader-driven coordination that suffers from two specific drawbacks: (1) vulnerability to targeted attacks on the leader, where consecutive Byzantine leaders force repeated consensus rounds and inflate latency (especially costly given high LLM invocation latency), and (2) acceptance of an underperforming leader proposal as the final answer once it secures a quorum, even when higher-quality alternatives exist. DecentLLMs separates agents into two roles: worker agents that generate candidate answers concurrently and in parallel, and evaluator agents that independently score and rank every answer, aggregating their scores with a Byzantine-robust Geometric Median (GM) algorithm to select the single best answer in one communication round. Experiments on the MMLU-Pro benchmark show DecentLLMs improves answer accuracy over quorum-based voting and keeps consensus latency roughly constant (~221s) as Byzantine agents increase, while tolerating Byzantine evaluators up to the GM's theoretical fault threshold.
+
+## Background
+
+The paper builds on a body of prior work that it cites to motivate and support its design. It notes that single LLMs suffer from hallucinations, factual fabrication, logical inconsistency, and bias toward early tokens (citing Huang et al.'s hallucination survey [23]), and that multi-LLM-agent collaboration, quorum-based voting, and multi-round debate have been proposed to mitigate these issues and improve answer quality (citing Du et al. [7], Smit et al. [14], "More Agents Is All You Need" [15], and other multi-agent surveys). It states that running several LLM instances concurrently on the same prompt is known to improve quality and reduce hallucinations [15]. The authors frame the emergence of Byzantine threats as a consequence of deploying agents on open peer-to-peer/decentralized GPU networks (io.net, Akash, Bittensor [24]–[26]), where backdoor attacks and adversarial agents proliferate [27], [28]. The paper's two main baselines are prior blockchain-based Byzantine-robust systems: BlockAgents [19], which uses a fixed-leader, multi-round debate-style consensus requiring a majority vote, and Trusted MultiLLMN [20], which uses a HotStuff-like [21] rotating-leader Weighted Byzantine Fault Tolerance (WBFT) scheme requiring a two-thirds quorum of reputation-weighted votes. For its robustness mechanism, the paper draws on the Byzantine machine learning literature, adopting the Geometric Median [22] and contrasting it with Krum [30] and Bulyan [31]. It also positions itself within the distributed-systems tradition, noting that leader-based state machine replication (e.g., PBFT [35]) has known bottlenecks and complex view-change protocols, which leaderless approaches like Narwhal [36] address. Implementation leans on established prompting strategies (role-play, chain-of-thought, few-shot), Weiszfeld's algorithm [32] for computing the GM, and the MMLU-Pro benchmark [34].
+
+## Key Points
+
+- DecentLLMs introduces a leaderless, decentralized consensus architecture for Byzantine-robust multi-agent LLM systems in which all agents within a role participate equally, eliminating the designated leader entirely.
+- The paper identifies two concrete drawbacks of leader-driven Byzantine-robust coordination: (1) consensus latency increases (potentially near-linearly) when consecutive Byzantine leaders force the protocol to restart with new leaders or retry rounds, and (2) a leader's underperforming proposal can be finalized through quorum voting even when higher-quality answers exist among other agents.
+- The architecture splits agents into worker agents (W, size Nw), which independently generate answers in parallel without inter-agent communication, and evaluator agents (E, size Ne), which independently score and rank all worker answers; both groups are assumed to have an honest majority (fw < ⌊(Nw−1)/2⌋, fe < ⌊(Ne−1)/2⌋).
+- The protocol runs synchronously in three phases: answer generation, answer-quality evaluation, and Byzantine-robust score consensus, using Byzantine reliable broadcast to defend against fork attacks and non-responsive agents.
+- Evaluators score each answer along five quality criteria drawn from the hallucination taxonomy: factual contradiction, factual fabrication, instruction inconsistency, context inconsistency, and logical inconsistency, each scored 0–20 (10 = neutral), producing a per-answer score vector of dimension C=5.
+- Score aggregation uses the Geometric Median (GM) algorithm, which finds the vector minimizing the sum of Euclidean distances to all evaluator score vectors; the authors choose GM over Krum and Bulyan because it offers higher Byzantine resilience, tolerating f ≤ ⌊(n−1)/2⌋ Byzantine vectors versus ⌊(n−2)/2⌋ for Krum and ⌊(n−3)/4⌋ for Bulyan, and argue GM's high computational cost is acceptable because C and Ne are small.
+- Ties for the highest robust score are broken deterministically by selecting the answer with the largest hash of (answer ∥ most-recent block hash); final results (prompt, answers, evaluations, signatures) are recorded on-chain for later reconfiguration of agent groups.
+- Empirically, DecentLLMs answered 71/100 MMLU-Pro problems correctly, versus 64 for 2/3-quorum voting (a 7% improvement) and 50 for majority-quorum voting (a 21% improvement), because it evaluates and ranks all answers rather than finalizing a single leader's proposal.
+- DecentLLMs maintains roughly constant consensus latency (~221 seconds) regardless of the number of Byzantine agents because it needs only a single round of all-to-all evaluator communication, whereas both leader-driven baselines show near-linear latency growth (up to thousands of seconds) as Byzantine leaders increase.
+- A Byzantine-resilience experiment with 8 honest evaluators shows DecentLLMs continues selecting an honest worker's correct answer with up to 6 Byzantine evaluators present, but fails once a 7th is added (violating the GM threshold f < ⌊15/2⌋, i.e., f must stay below 7), at which point the Byzantine worker's answer is incorrectly selected, empirically confirming the GM's theoretical fault tolerance bound (up to 6 Byzantine evaluators).
+
+## Conclusion
+
+The paper concludes that a leaderless consensus design successfully addresses both identified weaknesses of leader-driven systems: it achieves faster (near-constant) consensus under Byzantine conditions and consistently selects higher-quality answers via Byzantine-robust GM aggregation, with experiments supporting both the accuracy and latency claims and confirming Byzantine resilience up to the GM's theoretical threshold. The authors are candid about limitations and open questions. Their case study (Table I) reveals that evaluators do not always score reliably: some incorrect answers received high scores while some correct answers (e.g., w3) received low scores, so improving evaluator scoring reliability is flagged as important future work. They note that high variance among honest evaluator scores can make the GM more vulnerable to Byzantine influence, and that workers' answer quality must be high enough to fully leverage the GM's fault-tolerance threshold (since honest answers scored below a Byzantine answer can prevent correct selection). Proposed future directions include applying multi-round debate in two ways, to refine worker answers (peer exchange or evaluator feedback) and to reduce evaluator score variance, and using DecentLLMs as an AI-driven blockchain oracle, whose key challenge is producing reliable, consistent outputs from non-deterministic LLMs suitable for smart-contract execution.

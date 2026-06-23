@@ -10,6 +10,24 @@ Building a pipeline so the user (writing a research paper, slow reader) can quer
 citations. Five-step lifecycle: PDF->Markdown, per-paper summaries, ChromaDB ingestion,
 query CLI, query/answer skill.
 
+## Status update (2026-06-23) — Step 3 COMPLETE
+
+All 5 pipeline steps are done AND all summarization is finished. Every summarizable
+paper (rows 1-101 in `001-init/PROGRESS.md` minus the 2 deferred) now has a `summary.md`
+with frontmatter and a `.draft/factcheck.md`. The 41 papers added 2026-06-23 (rows
+61-101) were summarized in **eco mode** (`summarize-paper-eco`) this session in groups of
+10/10/10/9. Only 2 papers remain deferred: **#64** `a_multi-agent_framework_for__information_systems`
+(unconvertible to markdown, no paper.md) and **#67** `autonomous_agents_on_blockchains-standards__trust_boundaries`
+(121 pp, over the 50-page limit).
+
+**OUTSTANDING ACTION (cross-machine):** the ~41 new summaries are NOT yet ingested into
+the SurrealDB vector store, which lives on a *different machine*. On that machine, run
+`apps/surreal_cli.py update` to ingest them incrementally; the `research-query` skill will
+then cover the full corpus instead of just the original 60.
+
+The rest of this file below is the older (2026-06-12) status and remains accurate for
+architecture/how-to-continue details.
+
 ## Current status (as of 2026-06-12)
 
 - **Step 1 (done)**: `.claude-memory/001-init/` has `PLAN.md` and `PROGRESS.md`.

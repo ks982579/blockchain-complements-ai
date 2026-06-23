@@ -7,10 +7,14 @@ what's next.
 
 - [x] 001-init: Plan written, memory structure created.
 - [x] 002-pdf-conversion: `apps/pdf_to_md.py` written, run across all `research/` dirs (48/48 converted, see 002-pdf-conversion/NOTES.md).
-- [~] 003-summarization: `summarize-paper` skill built; summaries written per-paper
-      (see checklist below; resumable across sessions). 2026-06-23: 41 new paper
-      directories added. 39 still need summaries; 2 are deferred (see "Papers deferred"
-      below). Original 60 remain summarized.
+- [x] 003-summarization: `summarize-paper`/`summarize-paper-eco` skills built; summaries
+      written per-paper (see checklist below; resumable across sessions). 2026-06-23: all
+      99 summarizable papers done (rows 1-101 minus the 2 deferred below). The 41 papers
+      added 2026-06-23 (rows 61-101) were summarized in eco mode across this session in
+      groups of 10/10/10/9; each has frontmatter + a `.draft/factcheck.md` audit trail.
+      Only #64 and #67 remain deferred (see "Papers deferred" below). NOTE: the new
+      summaries are NOT yet ingested into the SurrealDB vector store (which lives on a
+      different machine) — run `apps/surreal_cli.py update` there to pick them up.
 - [x] 004-vector-db: `apps/surreal_core/` (Rust workspace, SurrealDB + fastembed) +
       `apps/surreal_cli.py` (Python wrapper, init/update/query/related — revised
       2026-06-12: ChromaDB -> SurrealDB -> Rust core w/ Python wrapper) built and run.
@@ -106,44 +110,44 @@ These are intentionally NOT being summarized in the current pass:
 | 58 | a_blockchain_integration_to_support__multi-agent_systems | [x] | [x] |
 | 59 | a_decision_model_for_blockchain_applicability__conversation_system | [x] | [x] |
 | 60 | a_survey_of_multi-agent_deep_reinforcement_learning_w_comm | [x] | [x] |
-| 61 | a_decision_framework_for_blockchain_platforms__edge_computing | [x] | [ ] (9 pp) |
-| 62 | ai-based_crypto_tokens-the_illusion_of_decentralized_ai | [x] | [ ] (14 pp) |
-| 63 | ai_oracle-a_blockchain-powered__ai_agents | [x] | [ ] (10 pp) |
+| 61 | a_decision_framework_for_blockchain_platforms__edge_computing | [x] | [x] |
+| 62 | ai-based_crypto_tokens-the_illusion_of_decentralized_ai | [x] | [x] |
+| 63 | ai_oracle-a_blockchain-powered__ai_agents | [x] | [x] |
 | 64 | a_multi-agent_framework_for__information_systems | — unconvertible | — DEFERRED (no md) |
-| 65 | an_extensive_multivocal_lit_review_of_blockchain__and_interoperability | [x] | [ ] (50 pp) |
-| 66 | a_ten-step_decision_path_to_determine_when__blockchain_technologies | [x] | [ ] (18 pp) |
+| 65 | an_extensive_multivocal_lit_review_of_blockchain__and_interoperability | [x] | [x] |
+| 66 | a_ten-step_decision_path_to_determine_when__blockchain_technologies | [x] | [x] |
 | 67 | autonomous_agents_on_blockchains-standards__trust_boundaries | [x] | — DEFERRED (121 pp >50) |
-| 68 | betaweb-towards_a_blockchain-enabled_trustworthy_agentic_web | [x] | [ ] (21 pp) |
-| 69 | blockagents-towards_byzantine__via_blockchain | [x] | [ ] (6 pp) |
-| 70 | blockchain_and_the_future_of_the_internet__comprehensive_review | [x] | [ ] (25 pp) |
-| 71 | blockchain-based_coordination-assessing__smart_contracts | [x] | [ ] (21 pp) |
-| 72 | blockchain-enhanced_incentive-campatible_mechanisms__learning_systems | [x] | [ ] (17 pp) |
-| 73 | blockchain_for_large_language_model_security__holistic_survey | [x] | [ ] (20 pp) |
-| 74 | blockchain_intelligence-when_blockchain_meets_ai | [x] | [ ] (5 pp) |
-| 75 | blockchain_meets_llms-a_living__bidirectional_integration | [x] | [ ] (17 pp) |
-| 76 | blockchain-powered_collaboration_in_heterogeneous_swarms_of_robots | [x] | [ ] (18 pp) |
-| 77 | blockchain_solutions_for_multi-agent_robotic_systems__open_questions | [x] | [ ] (5 pp) |
-| 78 | byzantine-robust_decentralized_coordination_of_llm_agents | [x] | [ ] (9 pp) |
-| 79 | decentralized_multi-agent_system_with_trust-aware_communication | [x] | [ ] (7 pp) |
-| 80 | erc-8004-trustless_agents | [x] | [ ] (~12 pp) |
-| 81 | evaluating_blockchain_technology_implementation_risks__making_approach | [x] | [ ] (29 pp) |
-| 82 | evaluating_suitability_of_applying_blockchain | [x] | [ ] (4 pp) |
-| 83 | federated_multi-agent_reinforcement_learning__and_challenges | [x] | [ ] (23 pp) |
-| 84 | framework_for_determining_the_suitability__to_consider | [x] | [ ] (23 pp) |
-| 85 | multi-agent_coordination_across_diverse_applications-a_survey | [x] | [ ] (23 pp) |
-| 86 | multi-agent_systems_and_blockchain__literature_review | [x] | [ ] (15 pp) |
-| 87 | secure_multi-llm_agentic_AI_and_agentification__zero-trust-a_survey | [x] | [ ] (35 pp) |
-| 88 | securing_federated_learning_with_blockchains-a_systematic_literature_review | [x] | [ ] (35 pp) |
-| 89 | self-evolving_multi-agent_reinforcement_learning__open-ended_environments | [x] | [ ] (6 pp) |
-| 90 | sok-blockchain_agent-to-agent_payments | [x] | [ ] (21 pp) |
-| 91 | sok-bridging_trust_into_the_blockchain__on-chain_identity | [x] | [ ] (9 pp) |
-| 92 | sok-security_and_privacy_of_ai_agents_for_blockchain | [x] | [ ] (13 pp) |
-| 93 | sok-security_of_auto_llm_agents_in_agentic_commerce | [x] | [ ] (17 pp) |
-| 94 | strategic_and_autonomous_orchestrations_of_ai__supply_chains | [x] | [ ] (32 pp) |
-| 95 | the_agent_economy-a_blockchain-based_foundation_for_autonomous_ai_agents | [x] | [ ] (17 pp) |
-| 96 | the_paradox_of_ai_knowledge-a_blockchain-based__media_industry | [x] | [ ] (32 pp) |
-| 97 | the_trust_paradox_in_llm-based_multi-agent_systems | [x] | [ ] (18 pp) |
-| 98 | towards_transparent_and_incentive-compatible__blockchain-driven_approach | [x] | [ ] (15 pp) |
-| 99 | web3_x_ai_agents-landscape_integrations_and_foundational_challenges | [x] | [ ] (14 pp) |
-| 100 | what_blockchain_alternative_do_you_need | [x] | [ ] (17 pp) |
-| 101 | when_not_to_use_machine_learning-a__and_limitations | [x] | [ ] (7 pp) |
+| 68 | betaweb-towards_a_blockchain-enabled_trustworthy_agentic_web | [x] | [x] |
+| 69 | blockagents-towards_byzantine__via_blockchain | [x] | [x] |
+| 70 | blockchain_and_the_future_of_the_internet__comprehensive_review | [x] | [x] |
+| 71 | blockchain-based_coordination-assessing__smart_contracts | [x] | [x] |
+| 72 | blockchain-enhanced_incentive-campatible_mechanisms__learning_systems | [x] | [x] |
+| 73 | blockchain_for_large_language_model_security__holistic_survey | [x] | [x] |
+| 74 | blockchain_intelligence-when_blockchain_meets_ai | [x] | [x] |
+| 75 | blockchain_meets_llms-a_living__bidirectional_integration | [x] | [x] |
+| 76 | blockchain-powered_collaboration_in_heterogeneous_swarms_of_robots | [x] | [x] |
+| 77 | blockchain_solutions_for_multi-agent_robotic_systems__open_questions | [x] | [x] |
+| 78 | byzantine-robust_decentralized_coordination_of_llm_agents | [x] | [x] |
+| 79 | decentralized_multi-agent_system_with_trust-aware_communication | [x] | [x] |
+| 80 | erc-8004-trustless_agents | [x] | [x] |
+| 81 | evaluating_blockchain_technology_implementation_risks__making_approach | [x] | [x] |
+| 82 | evaluating_suitability_of_applying_blockchain | [x] | [x] |
+| 83 | federated_multi-agent_reinforcement_learning__and_challenges | [x] | [x] |
+| 84 | framework_for_determining_the_suitability__to_consider | [x] | [x] |
+| 85 | multi-agent_coordination_across_diverse_applications-a_survey | [x] | [x] |
+| 86 | multi-agent_systems_and_blockchain__literature_review | [x] | [x] |
+| 87 | secure_multi-llm_agentic_AI_and_agentification__zero-trust-a_survey | [x] | [x] |
+| 88 | securing_federated_learning_with_blockchains-a_systematic_literature_review | [x] | [x] |
+| 89 | self-evolving_multi-agent_reinforcement_learning__open-ended_environments | [x] | [x] |
+| 90 | sok-blockchain_agent-to-agent_payments | [x] | [x] |
+| 91 | sok-bridging_trust_into_the_blockchain__on-chain_identity | [x] | [x] |
+| 92 | sok-security_and_privacy_of_ai_agents_for_blockchain | [x] | [x] |
+| 93 | sok-security_of_auto_llm_agents_in_agentic_commerce | [x] | [x] |
+| 94 | strategic_and_autonomous_orchestrations_of_ai__supply_chains | [x] | [x] |
+| 95 | the_agent_economy-a_blockchain-based_foundation_for_autonomous_ai_agents | [x] | [x] |
+| 96 | the_paradox_of_ai_knowledge-a_blockchain-based__media_industry | [x] | [x] |
+| 97 | the_trust_paradox_in_llm-based_multi-agent_systems | [x] | [x] |
+| 98 | towards_transparent_and_incentive-compatible__blockchain-driven_approach | [x] | [x] |
+| 99 | web3_x_ai_agents-landscape_integrations_and_foundational_challenges | [x] | [x] |
+| 100 | what_blockchain_alternative_do_you_need | [x] | [x] |
+| 101 | when_not_to_use_machine_learning-a__and_limitations | [x] | [x] |

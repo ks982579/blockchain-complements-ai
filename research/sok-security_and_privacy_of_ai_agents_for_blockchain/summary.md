@@ -1,0 +1,46 @@
+---
+id: sok-security_and_privacy_of_ai_agents_for_blockchain
+title: "SoK: Security and Privacy of AI Agents for Blockchain"
+authors:
+  - Nicolò Romandini
+  - Carlo Mazzocca
+  - Kai Otsuki
+  - Rebecca Montanari
+year: 2025
+venue: "2025 7th International Conference on Blockchain Computing and Applications (BCCA)"
+publisher: "IEEE"
+pages: "708-720"
+doi: "10.1109/BCCA66705.2025.11229689"
+url: "https://research.ebsco.com/linkprocessor/plink?id=9fa29afd-bda7-3420-b0dd-ebf1d413b4bd"
+type: inproceedings
+keywords:
+  - AI Agents
+  - LLMs
+  - Blockchain
+  - Smart Contract
+  - Security
+  - Privacy
+---
+
+## Overview
+
+This paper (Romandini, Mazzocca, Otsuki, Montanari; IEEE BCCA 2025) presents the first Systematization of Knowledge (SoK) dedicated specifically to AI agents for blockchain (which the authors abbreviate "AI4B"), with a focused emphasis on their security and privacy dimensions. It addresses the problem that blockchain and smart contracts, while foundational to Web3, remain too complex for non-expert users (key management, smart-contract logic, unintuitive interfaces) and that LLM-powered AI agents have emerged as intelligent intermediaries that abstract this complexity for tasks such as analyzing on-chain data, optimizing transaction strategies, and detecting smart-contract vulnerabilities. The authors argue existing surveys treat AI agents in isolation (general agent surveys, or agent security/privacy surveys) without anchoring them to the blockchain domain, leaving a gap this SoK fills. Its contributions are: (1) a novel autonomy-based taxonomy of AI4B agents (Conversational, Instruction-following, Goal-directed) plus a four-layer reference architecture; (2) a systematization of practical applications and their security/privacy vulnerabilities; (3) an analysis of the LLMs and benchmark datasets used; and (4) identification of open challenges and research directions. A central theme is that as agents gain autonomy and access to sensitive data (e.g., private keys), they expand the threat landscape and introduce new attack surfaces in the Web3 ecosystem.
+
+## Background
+
+The paper builds on and cites a broad body of prior work to frame its argument. On blockchain fundamentals, it draws on work describing decentralized ledgers, consensus (PoW/PoS), smart contracts (originally proposed by Nick Szabo in the mid-1990s), DeFi, DAOs, oracles, and decentralized identity. It cites known usability and security barriers, including the DAO Hack as a canonical smart-contract exploit. On the AI side, it grounds itself in transformer-based LLMs (GPT, LLaMA, Mixtral, Claude), alignment via RLHF, Retrieval-Augmented Generation (RAG), and tool-use/memory/multi-agent coordination frameworks. The paper says (citing others) that emerging agent communication protocols standardize interoperability and secure exchange: Model Context Protocol (MCP), Agent-to-Agent (A2A, using agent cards), Agent Network Protocol (ANP, using Decentralized Identifiers and end-to-end encryption), Agora (decentralized agent marketplaces), and MIT's NANDA (automated negotiation). For related surveys, it notes Geren et al. examine using blockchain to mitigate LLM security risks, general agent surveys exist but ignore blockchain, and Wang et al. cover agent security/privacy but only mention blockchain as an audit tool. It adopts Cheng et al.'s five-component LLM-agent framework (Planning, Memory, Rethinking, Environments, Action) and builds its architecture on cited systems including ElizaOS/Eliza, Nguyen et al.'s multi-agent chatbot, DeCoAgent, supply-chain traceability systems, and crypto portfolio agents. Its threat discussion cites external findings on prompt injection, fake-memory/context-manipulation attacks (Patlan et al.), over-privileged agents accessing excess private data, and AI-driven market instability/flash crashes.
+
+## Key Points
+
+- The paper proposes a novel taxonomy classifying AI agents for blockchain (AI4B) along a spectrum of increasing autonomy based on how they process user input: Conversational agents (answer read-only queries about on-chain/off-chain data), Instruction-following agents (translate explicit natural-language commands into validated blockchain transactions), and Goal-directed agents (autonomously plan and execute multi-step strategies such as portfolio rebalancing and yield optimization).
+- It introduces a comprehensive four-layer reference architecture for AI4B systems: Application Layer (intent capture via GUI/CLI/voice/chat), AI Agent Layer (the cognitive core: NLU, planning/reasoning, memory/context, validation, tool orchestration, and agent-to-agent coordination), Blockchain Interaction Layer (RPC/WebSocket clients, APIs, contract ABIs, indexers, wallet integration, human-in-the-loop), and Blockchain Layer (networks, VMs, consensus). The three lower layers are shared across agent classes; the key differences arise within the AI Agent Layer (Planner, Validator, Tool Mapper/Controller, Evaluator/Observer).
+- The paper systematizes AI agents for interacting with blockchain into four application categories: analyzing/interacting with on-chain data (e.g., Toyoda et al., Nguyen et al., ElizaOS), supply chain traceability (e.g., farm-to-fork RAG agents by Benzinho/Santos et al.), portfolio management and DeFi trading (e.g., CryptoTrade, Luo et al., and Autonomous Economic Agents via Fetch.ai/Olas), and DAO governance and coordination (e.g., AgentDAO).
+- It enumerates six categories of threats/risks for blockchain-interacting agents: erroneous behavior causing irreversible financial losses, security vulnerabilities/exploits (wallet draining, prompt injection), context manipulation and fake-memory attacks, privacy leakage of sensitive on-chain data, autonomy-induced market risks (volatility, collusion, flash crashes), and over-reliance with loss of human oversight.
+- For smart-contract development, the paper systematizes AI-agent support across the lifecycle: development (translating high-level requirements/policies into contract code, e.g., Chat2Code; formal methods such as Finite State Machines per Luo et al.), auditing (multi-agent vulnerability detection such as LLM-SmartAudit, Smartify, two-stage Detector/Reasoner fine-tuning, FELLMVP ensemble learning, and SCALM's step-back prompting + RAG for bad-practice detection), and deployment (gas optimization and platform-compatibility checks).
+- It identifies four threats specific to smart-contract agents: domain-specific language bias (LLMs underperform on under-represented languages like Solidity, Vyper, Move), model dependence/adaptability (single point of failure, degradation against evolving vulnerabilities), hallucination propagation cascading through multi-agent pipelines, and sensitive-information exposure during deployment/auditing (especially with third-party/cloud AI).
+- The paper provides a critical analysis of benchmark datasets (e.g., Not-So-Smart Contracts, SmartBugs, DAppSCAN, Code4rena, Etherscan-derived sets), noting that small curated sets lack real-world complexity while large crawled sets contain duplicates/noise/skew, Solidity dominates while Vyper and Move are sparse, severity annotations are rare, and preprocessing is poorly standardized, hurting reproducibility.
+- Key takeaways stated by the authors: AI agents meaningfully bridge the blockchain usability gap but introduce novel risks proportional to their autonomy; most smart-contract agents target vulnerability detection but lack a common reference benchmark, and no AI agents yet adequately address the deployment phase.
+
+## Conclusion
+
+The paper concludes that AI agents are transforming blockchain applications across supply chain, DeFi, DAO governance, and autonomous economic coordination, but that their growing autonomy and deep integration introduce a spectrum of new risks that the literature has not adequately addressed. As a systematization rather than an empirical study, its "results" are the taxonomy, reference architecture, and structured analysis, which support its central thesis that a blockchain-specific treatment of agent security and privacy was missing and necessary. The authors note several limitations and open research directions: (A) the lack of common, high-quality, representative benchmark datasets is a critical bottleneck, especially for low-resource languages like Vyper and Rust, motivating community-endorsed open benchmarks; (B) privacy-preserving AI agents are needed to handle private keys and credentials securely, with MCP and A2A as foundational building blocks; (C) accountability and auditability mechanisms are underdeveloped, motivating blockchain-native audit trails that record not just actions but the reasoning, risk assessments, and decision criteria behind them; (D) user-experience and human-AI collaboration research is needed for consent management, progressive disclosure, and risk-adaptive human involvement given irreversible transactions; and (E) multi-chain agents must be developed to operate seamlessly across heterogeneous protocols, VMs, and execution environments (e.g., EVM chains, Cosmos/IBC). The paper positions itself as groundwork for the secure, trustworthy, and responsible deployment of AI agents in decentralized ecosystems.
