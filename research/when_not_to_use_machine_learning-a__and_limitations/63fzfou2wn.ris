@@ -1,0 +1,15 @@
+TY  - GEN
+AB  - The unparalleled success of artificial intelligence (AI) in the technology sector has catalyzed an enormous amount of research in the scientific community. It has proven to be a powerful tool, but as with any rapidly developing field, the deluge of information can be overwhelming, confusing and sometimes misleading. This can make it easy to become lost in the same hype cycles that have historically ended in the periods of scarce funding and depleted expectations known as AI Winters. Furthermore, while the importance of innovative, high-risk research cannot be overstated, it is also imperative to understand the fundamental limits of available techniques, especially in young fields where the rules appear to be constantly rewritten and as the likelihood of application to high-stakes scenarios increases. In this perspective, we highlight the guiding principles of data-driven modeling, how these principles imbue models with almost magical predictive power, and how they also impose limitations on the scope of problems they can address. Particularly, understanding when not to use data-driven techniques, such as machine learning, is not something commonly explored, but is just as important as knowing how to apply the techniques properly. We hope that the discussion to follow provides researchers throughout the sciences with a better understanding of when said techniques are appropriate, the pitfalls to watch for, and most importantly, the confidence to leverage the power they can provide.
+AN  - edsarx.2210.02666
+ID  - edsarx.2210.02666
+AU  - Carbone, M. R.
+DB  - arXiv
+DO  - 10.48550/arXiv.2210.02666
+DP  - EBSCOhost
+KW  - Computer Science - Machine Learning
+KW  - Condensed Matter - Materials Science
+TI  - When not to use machine learning: a perspective on potential and limitations
+UR  - https://research.ebsco.com/linkprocessor/plink?id=cdbea48d-6e7e-3ed6-b0db-fed25de7bec3
+Y1  - 2022/10/06/20221006
+N1  - Working Paper
+ER  - 

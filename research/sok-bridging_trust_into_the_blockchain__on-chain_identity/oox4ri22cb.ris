@@ -1,0 +1,40 @@
+TY  - GEN
+AB  - Identifying users who are issuing transactions on the blockchain is required to adhere to the ongoing regulation of blockchain-based services and applications. This systematic review explores the current status, identifies research gaps, and outlines future research directions for establishing trusted and privacy-compliant identities on the blockchain (on-chain identity). A systematic search term was applied across various scientific databases, collecting 2232 potentially relevant research papers. These papers were narrowed down in two methodologically executed steps to 98 and finally to 13 relevant sources. The relevant articles were then systematically analyzed based on a set of screening questions. The results of the selected studies provide insightful findings on the mechanisms of on-chain identities. On-chain identities are established using zero-knowledge proofs, public key infrastructure/certificates, and web of trust approaches. The technologies and architectures used by the authors are also highlighted. Trust has emerged as a key research gap, manifesting in two ways: firstly, a gap in how to trust the digital identity representation of a physical human; secondly, a gap in how to trust identity providers that issue identity confirmations on-chain. Potential future research avenues are suggested to help fill the current gaps in establishing trust and on-chain identities.
+AN  - edseee.10732621
+ID  - edseee.10732621
+AU  - Vaziry, Awid
+AU  - Barman, Kaustabh
+AU  - Herbke, Patrick
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/BRAINS63024.2024.10732621
+DP  - EBSCOhost
+EP  - 9
+T2  - 2024 6th Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS), Blockchain Research & Applications for Innovative Networks and Services (BRAINS), 2024 6th Conference on
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Systematics
+KW  - Protocols
+KW  - Law
+KW  - Public key
+KW  - Market research
+KW  - Regulation
+KW  - Fabrics
+KW  - Blockchains
+KW  - Logic
+KW  - Guidelines
+KW  - Blockchain
+KW  - Distributed Ledger Technology
+KW  - On-Chain
+KW  - Trust
+KW  - Identity Management
+KW  - Systematic Literature Review
+KW  - SoK
+PB  - IEEE
+SN  - 979-8-3503-6784-3
+SN  - 28353021
+SP  - 1
+TI  - SoK: Bridging Trust into the Blockchain A Systematic Review on On-Chain Identity
+UR  - https://research.ebsco.com/linkprocessor/plink?id=46dc20cf-0d52-3622-8c44-bdd6e3f7e19f
+Y1  - 2024/10/09/20241009
+N1  - Conference
+N1  - Conference Paper
+ER  - 

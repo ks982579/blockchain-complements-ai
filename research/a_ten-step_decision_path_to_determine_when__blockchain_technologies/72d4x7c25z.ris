@@ -1,0 +1,34 @@
+TY  - JOUR
+AB  - Many organizations are looking at blockchain technologies. However, the drawbacks of blockchain databases (e.g., scalability, capacity, latency, privacy) mean that the technology is not always appropriate. This article presents a ten-step decision path that can help determine whether the application of blockchain is justified and, if so, which kind of blockchain technology to use. We describe how this decision path was used to develop a blockchain prototype for the Danish maritime shipping industry.
+AN  - 136739898
+ID  - 136739898
+AU  - Pedersen, Asger B.
+AU  - Risius, Marten
+AU  - Beck, Roman
+DB  - Business Source Ultimate
+DO  - 10.17705/2msqe.00010
+DP  - EBSCOhost
+EP  - 17
+IS  - 2
+JO  - MIS Quarterly Executive
+KW  - Blockchains
+KW  - Maritime shipping
+KW  - Technological innovations
+KW  - Supply chain management
+KW  - Decision making
+KW  - Technology
+KW  - Deep sea, coastal and Great Lakes water transportation (except by ferries)
+KW  - Navigational Services to Shipping
+KW  - Other Support Activities for Water Transportation
+KW  - Marine shipping agencies
+LA  - eng
+PB  - Association for Information Systems
+SN  - 1540-1960
+SP  - 1
+TI  - A Ten-Step Decision Path to Determine When to Use Blockchain Technologies.
+UR  - https://research.ebsco.com/linkprocessor/plink?id=53f557e1-3dfe-35db-8802-d38dfbbedbf7
+VL  - 18
+Y1  - 2019/06/01/Jun2019
+N1  - Article
+N1  - Academic Journal
+ER  - 

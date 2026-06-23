@@ -1,0 +1,14 @@
+TY  - GEN
+AB  - We propose the Agent Economy, a blockchain-based foundation where autonomous AI agents operate as economic peers to humans. Current agents lack independent legal identity, cannot hold assets, and cannot receive payments directly. We established fundamental differences between human and machine economic actors and demonstrated that existing human-centric infrastructure cannot support genuine agent autonomy. We showed that blockchain technology provides three critical properties enabling genuine agent autonomy: permissionless participation, trustless settlement, and machine-to-machine micropayments. We propose a five-layer architecture: (1) Physical Infrastructure (hardware & energy) through DePIN protocols; (2) Identity & Agency establishing on-chain sovereignty through W3C DIDs and reputation capital; (3) Cognitive & Tooling enabling intelligence via RAG and MCP; (4) Economic & Settlement ensuring financial autonomy through account abstraction; and (5) Collective Governance coordinating multi-agent systems through Agentic DAOs. We identify six core research challenges and examine ethical and regulatory implications. This paper lays groundwork for the Internet of Agents (IoA), a global decentralized network where autonomous machines and humans interact as equal economic participants.
+AN  - edsarx.2602.14219
+ID  - edsarx.2602.14219
+AU  - Xu, Minghui
+DB  - arXiv
+DO  - 10.48550/arXiv.2602.14219
+DP  - EBSCOhost
+KW  - Cryptography and Security
+TI  - The Agent Economy: A Blockchain-Based Foundation for Autonomous AI Agents
+UR  - https://research.ebsco.com/linkprocessor/plink?id=b3366541-a3fe-35d1-880f-47d175773cfa
+Y1  - 2026/02/15/20260215
+N1  - Working Paper
+ER  - 

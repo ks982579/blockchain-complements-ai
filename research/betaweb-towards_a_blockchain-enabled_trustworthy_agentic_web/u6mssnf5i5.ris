@@ -1,0 +1,21 @@
+TY  - GEN
+AB  - The rapid development of large language models (LLMs) has significantly propelled the development of artificial intelligence (AI) agents, which are increasingly evolving into diverse autonomous entities, advancing the LLM-based multi-agent systems (LaMAS). However, current agentic ecosystems remain fragmented and closed. Establishing an interconnected and scalable paradigm for Agentic AI has become a critical prerequisite. Although Agentic Web proposes an open architecture to break the ecosystem barriers, its implementation still faces core challenges such as privacy protection, data management, and value measurement. Existing centralized or semi-centralized paradigms suffer from inherent limitations, making them inadequate for supporting large-scale, heterogeneous, and cross-domain autonomous interactions. To address these challenges, this paper introduces the blockchain-enabled trustworthy Agentic Web (BetaWeb). By leveraging the inherent strengths of blockchain, BetaWeb not only offers a trustworthy and scalable infrastructure for LaMAS but also has the potential to advance the Web paradigm from Web3 (centered on data ownership) towards Web3.5, which emphasizes ownership of agent capabilities and the monetization of intelligence. Beyond a systematic examination of the BetaWeb framework, this paper presents a five-stage evolutionary roadmap, outlining the path of LaMAS from passive execution to advanced collaboration and autonomous governance. We also conduct a comparative analysis of existing products and discuss key challenges of BetaWeb from multiple perspectives. Ultimately, we argue that deep integration between blockchain and LaMAS can lay the foundation for a resilient, trustworthy, and sustainably incentivized digital ecosystem. A summary of the enabling technologies for each stage is available at https://github.com/MatZaharia/BetaWeb.
+AN  - edsarx.2508.13787
+ID  - edsarx.2508.13787
+AU  - Guo, Zihan
+AU  - Zhou, Yuanjian
+AU  - Wang, Chenyi
+AU  - You, Linlin
+AU  - Bian, Minjie
+AU  - Zhang, Weinan
+DB  - arXiv
+DO  - 10.48550/arXiv.2508.13787
+DP  - EBSCOhost
+KW  - Multiagent Systems
+KW  - Artificial Intelligence
+KW  - Networking and Internet Architecture
+TI  - BetaWeb: Towards a Blockchain-enabled Trustworthy Agentic Web
+UR  - https://research.ebsco.com/linkprocessor/plink?id=b2c731ff-30dd-3aac-99a8-c2be82446762
+Y1  - 2025/08/19/20250819
+N1  - Working Paper
+ER  - 

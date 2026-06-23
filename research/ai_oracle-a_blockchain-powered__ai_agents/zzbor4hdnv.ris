@@ -1,0 +1,37 @@
+TY  - GEN
+AB  - Large Language Models (LLMs) such as GPT and similar architectures have revolutionized artificial intelligence by enabling machines to understand and generate human-like text. However, these models are inherently statistical predictors rather than real-time reasoning systems, leading to fundamental limitations in accessing up-to-date information and verifying factual accuracy. This issue is particularly critical in high-stakes domains such as cryptocurrency markets, decentralized finance (DeFi), and autonomous AI agents, where real-time, verifiable, and tamper-proof information is essential for decision-making.In this paper, we introduce AI Oracle, a novel framework that integrates blockchain-powered oracles with LLMs and autonomous agents to ensure real-time access to cryptographically verified knowledge. We compare AI Oracle with both standalone LLMs and retrieval-based systems using the Model Context Protocol (MCP), highlighting significant advantages in factual reliability, adversarial robustness, and interpretability. AI Oracle combines decentralized consensus, immutable storage, and cryptographic attestation to equip AI agents with enhanced resistance to manipulation, hallucination, and misinformation.Beyond architectural improvements, we explore the broader applicability of AI Oracle across domains that require provable correctness and trust—ranging from real-world asset (RWA) tokenization to autonomous agent coordination and decentralized governance. By positioning AI Oracle as a trust-minimized epistemic infrastructure, we propose a new paradigm in AI systems: the fusion of decentralized trust with autonomous reasoning, enabling agents to operate with resilience, transparency, and embedded verifiability across dynamic environments.
+AN  - edseee.11068814
+ID  - edseee.11068814
+AU  - Fu, Shange
+AU  - Xie, Min
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/CVC65719.2025.00007
+DP  - EBSCOhost
+EP  - 10
+T2  - 2025 Crypto Valley Conference (CVC), Crypto Valley Conference (CVC), 2025, CVC
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Computing and Processing
+KW  - Protocols
+KW  - Finance
+KW  - Training data
+KW  - Decentralized applications
+KW  - Real-time systems
+KW  - Cognition
+KW  - Autonomous agents
+KW  - Tokenization
+KW  - Cryptocurrency
+KW  - Artificial intelligence
+KW  - Price Oracle
+KW  - Blockchain Technology
+KW  - LLM
+KW  - AI Agent
+KW  - RWA
+PB  - IEEE
+SN  - 979-8-3315-8749-9
+SP  - 1
+TI  - AI Oracle: A Blockchain-Powered Oracle for LLMs and AI Agents
+UR  - https://research.ebsco.com/linkprocessor/plink?id=0e26536d-b238-3679-a0c9-8cf9e4a6e987
+Y1  - 2025/06/05/20250605
+N1  - Conference
+N1  - Conference Paper
+ER  - 

@@ -1,0 +1,26 @@
+TY  - GEN
+AB  - Various distributed ledger technologies (DLTs), such as blockchain, have evolved significantly in recent years. These technologies provide a robust and effective solution for providing confidentiality, integrity, nonrepudiation, authentication, and transparency. While blockchain has many advantages, it has various limitations as well, such as complexity, low throughput, privacy, and so on. We discuss the issues that must be considered when deciding whether to use these technologies in a given case or not. We describe the operation of blockchain, application areas where blockchain is suitable, and those where it is not. We also discuss the applicability of other emerging DLTs, apart from blockchain technology, such as Hashgraph, Zcash, Nano coin, and IOTA.
+AN  - edsair.doi.dedup.....34e25283e3de8f81b0fcfc6b354a6fc8
+ID  - edsair.doi.dedup.....34e25283e3de8f81b0fcfc6b354a6fc8
+AU  - Vikas Hassija
+AU  - Sherali Zeadally
+AU  - Ishan Jain
+AU  - Aman Tahiliani
+AU  - Vinay Chamola
+AU  - Shashank Gupta 0002
+DB  - OpenAIRE
+DO  - 10.1002/ett.4334
+DP  - EBSCOhost
+T2  - Transactions on Emerging Telecommunications Technologies
+KW  - 0202 electrical engineering, electronic engineering, information engineering
+KW  - 02 engineering and technology
+LA  - English
+PB  - Wiley
+SN  - 21613915
+TI  - Framework for determining the suitability of blockchain: Criteria and issues to consider
+UR  - https://research.ebsco.com/linkprocessor/plink?id=0c25b423-0d13-3d87-b05c-2d9bc578c3f3
+VL  - 32
+Y1  - 2021/07/29/20210729
+N1  - Article
+N1  - Academic Journal
+ER  - 

@@ -1,0 +1,31 @@
+TY  - JOUR
+AB  - Global supply chains face intensifying pressures from disruption, regulatory complexity, and sustainability mandates, requiring a shift toward more resilient and adaptive coordination. While artificial intelligence (AI) and blockchain have been recognised as complementary enablers, their implementation remains largely fragmented, existing as isolated tools linked by manual data exchange rather than integrated, programmable logic. This paper addresses this orchestration gap by proposing the Dynamic Resource Orchestration Framework for AI-Blockchain Integrated Supply Chains (DROF-AIBC). Grounded in Resource Orchestration Theory (ROT) and Dynamic Capabilities Theory (DCT), the framework provides a theoretical foundation for the strategic and autonomous orchestration of digital resources. Unlike classic supply chain orchestration, which focuses on the linear coordination of physical assets and legacy systems, DROF-AIBC conceptualises an "intelligent conductor" as a coordination mechanism combining AI-driven analytics and smart contract-based execution. This mechanism supports the configuration, optimisation, and monitoring of resources in response to changing external signals, effectively closing the loop between analytical insights and verifiable execution. The paper further substantiates how this autonomous capability serves as a foundational roadmap for the Industry 5.0 paradigm, embedding human-centricity through Explainable AI (XAI) to provide a "provenance of logic", promoting circular economy sustainability, and fostering systemic resilience in turbulent environments. The framework aims to provide both a theoretical foundation and a practical roadmap for orchestrating AI and blockchain to advance resilient, sustainable and adaptive supply chains.
+AN  - 193461675
+ID  - 193461675
+AU  - Sunmola, Funlade
+AU  - Baryannis, George
+DB  - Complementary Index
+DO  - 10.3390/systems14040363
+DP  - EBSCOhost
+IS  - 4
+JO  - Systems
+KW  - ARTIFICIAL intelligence
+KW  - BLOCKCHAINS
+KW  - DYNAMIC capabilities
+KW  - SUPPLY chain management
+KW  - RESOURCE allocation
+KW  - SUSTAINABILITY
+KW  - INDUSTRY 4.0
+LA  - eng
+PB  - MDPI
+SN  - 2079-8954
+SP  - 363
+TI  - Strategic and Autonomous Orchestration of Artificial Intelligence and Blockchain Integration for Supply Chains.
+UR  - https://research.ebsco.com/linkprocessor/plink?id=6cf29e07-b018-33e2-a063-a37f9fb50b87
+VL  - 14
+Y1  - 2026/04/01/Apr2026
+N1  - Article
+N1  - Academic Journal
+ER  - 
+
+https://www.mdpi.com/2079-8954/14/4/363

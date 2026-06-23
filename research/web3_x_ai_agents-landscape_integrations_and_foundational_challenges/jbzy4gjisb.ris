@@ -1,0 +1,24 @@
+TY  - GEN
+AB  - The convergence of Web3 technologies and AI agents represents a rapidly evolving frontier poised to reshape decentralized ecosystems. This paper presents the first and most comprehensive analysis of the intersection between Web3 and AI agents, examining five critical dimensions: landscape, economics, governance, security, and trust mechanisms. Through an analysis of 133 existing projects, we first develop a taxonomy and systematically map the current market landscape (RQ1), identifying distinct patterns in project distribution and capitalization. Building upon these findings, we further investigate four key integrations: (1) the role of AI agents in participating in and optimizing decentralized finance (RQ2); (2) their contribution to enhancing Web3 governance mechanisms (RQ3); (3) their capacity to strengthen Web3 security via intelligent vulnerability detection and automated smart contract auditing (RQ4); and (4) the establishment of robust reliability frameworks for AI agent operations leveraging Web3's inherent trust infrastructure (RQ5). By synthesizing these dimensions, we identify key integration patterns, highlight foundational challenges related to scalability, security, and ethics, and outline critical considerations for future research toward building robust, intelligent, and trustworthy decentralized systems with effective AI agent interactions.
+AN  - edsarx.2508.02773
+ID  - edsarx.2508.02773
+AU  - Shen, Yiming
+AU  - Zhang, Jiashuo
+AU  - Shao, Zhenzhe
+AU  - Luo, Wenxuan
+AU  - Wang, Yanlin
+AU  - Chen, Ting
+AU  - Zheng, Zibin
+AU  - Chen, Jiachi
+DB  - arXiv
+DO  - 10.48550/arXiv.2508.02773
+DP  - EBSCOhost
+KW  - Computers and Society
+KW  - Artificial Intelligence
+KW  - General Economics
+KW  - Economics
+TI  - Web3 x AI Agents: Landscape, Integrations, and Foundational Challenges
+UR  - https://research.ebsco.com/linkprocessor/plink?id=ad2c25aa-c546-34ca-86d1-8ec74fe9c872
+Y1  - 2025/08/04/20250804
+N1  - Working Paper
+ER  - 

@@ -1,0 +1,24 @@
+TY  - GEN
+AB  - Recent advancements in multi-agent systems based on large language models (LLM) have shown potential for problem-solving and planning tasks. However, most existing LLM-based multi-agent approaches show vulnerability against byzantine attacks. First, agents instantiated on diverse LLMs may inherit biases present in the LLMs and thus exhibit deception behavior. Second, as the number of agents grows, collusive behavior among multiple malicious agents poses a potential threat. In this paper, we propose BlockAgents, an innovative framework that integrates blockchain into LLM-based cooperative multi-agent systems to mitigate byzantine behaviors. BlockAgents completes multi-agent collaboration through a unified workflow including role assignment, proposal statement, evaluation, and decision-making. To help the agent who contributes the most to the group thinking process acquire accounting rights, we propose a proof-of-thought (PoT) consensus mechanism combined with stake-based miner designation and multi-round debate-style voting. To effectively distinguish valid and abnormal answers, we design a multi-metric prompt-based evaluation method for each evaluator to score each proposal by carefully and comprehensively considering multiple dimensions. Experiments on three datasets show that BlockAgents reduces the interference of poisoning attacks on accuracy to less than 3% and reduces the success rate of backdoor attacks to less than 5%, demonstrating the resistance ability against Byzantine attacks.
+AN  - edscma.3674445
+ID  - edscma.3674445
+AU  - Chen, Bei
+AU  - Li, Gaolei
+AU  - Lin, Xi
+AU  - Wang, Zheng
+AU  - Li, Jianhua
+DB  - ACM Full-Text Collection
+DO  - 10.1145/3674399.3674445
+DP  - EBSCOhost
+EP  - 192
+T2  - Proceedings of the ACM Turing Award Celebration Conference - China 2024
+KW  - Blockchain
+KW  - Large Language Model (LLM)
+KW  - Multi-Agent System (MAS)
+LA  - English
+SP  - 187
+TI  - BlockAgents: Towards Byzantine-Robust LLM-Based Multi-Agent Coordination via Blockchain
+UR  - https://research.ebsco.com/linkprocessor/plink?id=69dc2faf-8c0b-37f2-9243-5309ddeb9b39
+Y1  - 2024/07/05/20240705
+N1  - Conference Proceeding
+ER  - 

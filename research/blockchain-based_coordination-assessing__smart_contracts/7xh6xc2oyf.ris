@@ -1,0 +1,32 @@
+TY  - JOUR
+AB  - A common use case for blockchain smart contracts (SC) is that of governing interaction amongst mutually untrusted parties, by automatically enforcing rules for interaction. However, while many contributions in the literature assess SC computational expressiveness, an evaluation of their power in terms of coordination (i.e., governing interaction) is still missing. This is why in this paper we test mainstream SC implementations by evaluating their expressive power in coordinating both inter-users and inter-SC activities. To do so, we exploit the archetypal Linda coordination model as a benchmark—a common practice in the field of coordination models and languages—by discussing to what extent mainstream blockchain technologies support its implementation. As they reveal some notable limitations (affecting, in particular, coordination between SC) we then show how Tenderfone, a custom blockchain implementation providing for a more expressive notion of SC, addresses the aforementioned limitations.
+AN  - edsdoj.7793fb0ab8a34d999c9a0dd69f284649
+ID  - edsdoj.7793fb0ab8a34d999c9a0dd69f284649
+AU  - Giovanni Ciatto
+AU  - Stefano Mariani
+AU  - Alfredo Maffi
+AU  - Andrea Omicini
+DB  - Directory of Open Access Journals
+DO  - 10.3390/info11010052
+DP  - EBSCOhost
+EP  - 52
+IS  - 1
+JO  - Information
+KW  - blockchain
+KW  - smart contracts
+KW  - coordination
+KW  - linda
+KW  - tenderfone
+KW  - Information technology
+KW  - T58.5-58.64
+LA  - English
+PB  - MDPI AG
+SN  - 20782489
+SP  - 52
+TI  - Blockchain-Based Coordination: Assessing the Expressive Power of Smart Contracts
+UR  - https://research.ebsco.com/linkprocessor/plink?id=aee2aedd-65ed-3b1c-8aba-aa6936f1e6dd
+VL  - 11
+Y1  - 2020/01/01/2020
+N1  - article
+N1  - Academic Journal
+ER  - 

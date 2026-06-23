@@ -1,0 +1,27 @@
+TY  - GEN
+AB  - With the growing development and deployment of large language models (LLMs) in both industrial and academic fields, their security and safety concerns have become increasingly critical. However, recent studies indicate that LLMs face numerous vulnerabilities, including data poisoning, prompt injections, and unauthorized data exposure, which conventional methods have struggled to address fully. In parallel, blockchain technology, known for its data immutability and decentralized structure, offers a promising foundation for safeguarding LLMs. In this survey, we aim to comprehensively assess how to leverage blockchain technology to enhance LLMs' security and safety. Besides, we propose a new taxonomy of blockchain for large language models (BC4LLMs) to systematically categorize related works in this emerging field. Our analysis includes novel frameworks and definitions to delineate security and safety in the context of BC4LLMs, highlighting potential research directions and challenges at this intersection.Through this study, we aim to stimulate targeted advancements in blockchain-integrated LLM security.
+AN  - edscma.3715075
+ID  - edscma.3715075
+AU  - Geren, Caleb
+AU  - Board, Amanda
+AU  - Dagher, Gaby G.
+AU  - Andersen, Tim
+AU  - Zhuang, Jun
+DB  - ACM Full-Text Collection
+DO  - 10.1145/3715073.3715075
+DP  - EBSCOhost
+EP  - 20
+IS  - 2
+T2  - ACM SIGKDD Explorations Newsletter
+CY  - New York, NY, USA
+LA  - English
+PB  - ACM
+SN  - 19310145
+SN  - 19310153
+SP  - 1
+TI  - Blockchain for Large Language Model Security and Safety: A Holistic Survey
+UR  - https://research.ebsco.com/linkprocessor/plink?id=829f0edd-661b-35dd-88ab-f12fbcb91163
+VL  - 26
+Y1  - 2025/01/22/20250122
+N1  - Academic Journal
+ER  - 

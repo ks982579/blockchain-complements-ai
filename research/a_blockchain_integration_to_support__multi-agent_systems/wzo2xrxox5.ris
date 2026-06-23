@@ -1,0 +1,27 @@
+TY  - JOUR
+AB  - Multi-Agent systems technology can offer valuable tools to develop applications in domains involving transactions of assets. However, they usually do not have a proper support for reliable and decentralized recording of the transactions that are common in this kind of system. This support can be provided by the Blockchain technology. Furthermore, it is important to have means to represent in the system concepts that are intangible, such as asset and ownership. This paper presents a model of integration between Multi-Agent Systems and Blockchain where an artificial institution connects the intangible concepts related to transactions of assets to the concrete elements composing the system. An application example illustrates an implementation following the proposed integration model, showing its advantages and limitations. In the example, agents contract each other to provide services upon the payment of a dealt value through a system based on cryptocurrencies and blockchain. It highlights the essential contributions of the proposed approach to systems where agents transact assets: regulation of the system, representation of the notion of asset that does not depend on agents, and reliable recording of transactions based on Blockchain. Highlights •Blockchain provides reliability and decentralization for autonomous asset traders.•Blockchain is part of the environment in Multi-Agent Systems.•Artificial Institutions assign asset-related meaning to records in Blockchain.
+AN  - S0952197621003821
+ID  - S0952197621003821
+AU  - Papi, Fernando Gomes
+AU  - Hübner, Jomi Fred
+AU  - de Brito, Maiquel
+DB  - ScienceDirect
+DO  - 10.1016/j.engappai.2021.104534
+DP  - EBSCOhost
+JO  - Engineering Applications of Artificial Intelligence
+KW  - Blockchain
+KW  - Multi-agent systems
+KW  - Institutions
+KW  - Assets
+LA  - English
+PB  - Elsevier Ltd
+SN  - 0952-1976
+TI  - A Blockchain integration to support transactions of assets in multi-agent systems
+UR  - https://research.ebsco.com/linkprocessor/plink?id=5e5ecfc6-32a5-3d08-9649-852f63fccfc5
+VL  - 107
+Y1  - 2022/01/01/January 2022
+N1  - Article
+N1  - Academic Journal
+ER  - 
+
+https://pdf.sciencedirectassets.com/271095/1-s2.0-S0952197621X00097/1-s2.0-S0952197621003821/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECgaCXVzLWVhc3QtMSJHMEUCIQDIPTfKjJmirAP9exZep%2BRR3sv%2Bp5tseE23cziEP1zZCQIgNO81GygLH4KxQrxc%2B3ym5AXzsmdfXW%2FwuDMzRM17K%2BYquwUI8f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDAkjDl8O2K9Om7ftKSqPBXuI9OANiYQtqbeC%2B3xv6j4Qk%2FQxKfEB3jHkiEemulK5sOoCJjn%2FamGThhnWC3t2rNiJXkGeI2k%2FtkKOluEUyS8bTTbx3QFihCAQcmbH9W%2FQksou3IiKUYVoJtuGBDh14EQ0uysR7xWjXOPc25Y3HsTFHk%2FMz1RG4fIrWIKcTlD156FhwU1uUEtfCI3VPOlPJvP3g25VvJWzAsPMgK5ALuu3hNN58XTxquHBtD92XzsrWB9kgCiIlJfl3Ru8hNZ7Pyf4Ved4mlxbaFe%2FnXIxGxA5qYKxIccWI%2BfUbpI6yhTub55djP7%2FlXtW3%2FXlE5PdxMkcaAVW9zN%2FfQcauhnCmf7gOYxjxctf%2FVrRC8BUvfu2mprztQdBO9AMabRyjWP7aU%2Ff11t57Mv4DeePHDPX4r%2FpjoTxEbgCG2P0pZsJas7q8JGPbziT%2Fr2YPC7VP3jtQByTiOwdVdZr6SMnVy7T5MnvpGOg%2FBT88jwXUU9mhdlQ7%2FXGhfyvfqLUYWY5FNVcHeoYDRzzV6fDY4ZSIrxH4ockGnfQ6L75CGT5QeIb%2FD0JKT%2BFzg7DlyAaYH9uag2MaZhlGFNbC1aN6HWoHroiFNj%2BAoNxBsu8zmQHPaEzpE%2FUElBxDT6OFAPhFBUSqAGUYZmzpdCD04kGRtb%2Bvclhk5Xwh0vqNP5g8ZC3w%2BQaHxkjJkZFDjC537UieViwWtM2IlUldBwCiMuOiHzRa%2BdU0GsReSk%2ButlWGwTb0KMrdkvu8hQfkNeNiNmo4HBJCPgf7ELbYKiXsxMhwTmZDJAerKZx0bvd7zimSgsYJpPeBGK3MnhDUaeEKmk2c3oGt6QRW%2FPQcFHOuYuM7iv078YrqBae%2FXCcbPRZq2Ia3U59Jawwl4Xg0QY6sQEPILQuRNBah8oPtMbcaTbiopDxuqBcYt%2FlwHCwgKUv97M9TBE0TEDC1p7M4ylaZwJaIJaofC4EDzoIWmxqrSsg091l4zaVOsTpHbk9l8S6n1D1YsLGr1VUnt0kqoTJ%2FmaG3wxuKNHhsMZSWJq%2BXFIp3jDIBMvAPYjlGhK3UqEqeWdScoKJQT%2BJ%2FEZf2uZTEvfEvXwIqvTudPEvJlX%2FqQvLyQjKwRSbw%2F%2FboCZ30%2FfoPYU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260621T172001Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVRIQ5KGA%2F20260621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=deff621b80a77fcfc834d4263b9dfe9e0ad0c407fa899483ba5b04c9d0a0bbb2&hash=ba1cd87643cd5091f7f779a733a289bf3096885e935cdffab1685d4cf70a6af6&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0952197621003821&tid=spdf-993410a5-44a1-431f-a7a3-85726487343e&sid=7912cc605aac79427a6b6ef4ca6c3a63b393gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f0b0e5609500607585f&rr=a0f4ae78ef6d79df&cc=ie

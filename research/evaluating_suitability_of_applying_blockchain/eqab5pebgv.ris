@@ -1,0 +1,32 @@
+TY  - GEN
+AB  - Blockchain is an emerging technology for decentralized and transactional data sharing across a large network of untrusted participants. It enables new forms of distributed software architectures, where agreement on shared states can be established without trusting a central integration point. As a database and computational platform, blockchain has both advantages and disadvantages compared with conventional techniques. Blockchain may be an appropriate choice for some use cases while conventional technologies will be more appropriate for other use cases. A major difficulty for practitioners to decide whether or not to use blockchain is that limited product data or reliable technology evaluation available to assess the suitability of blockchains. In this paper, we propose an evaluation framework that comprises a list of criteria and a typical process for practitioners to assess the suitability of applying blockchain using these criteria based on the characteristics of the use cases. We then use several existing industrial trails to evaluate the feasibility of our framework.
+AN  - edseee.8292816
+ID  - edseee.8292816
+AU  - Lo, Sin Kuang
+AU  - Xu, Xiwei
+AU  - Chiam, Yin Kia
+AU  - Lu, Qinghua
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/ICECCS.2017.26
+DP  - EBSCOhost
+EP  - 161
+T2  - 2017 22nd International Conference on Engineering of Complex Computer Systems (ICECCS), Engineering of Complex Computer Systems (ICECCS), 2017 22nd International Conference on
+KW  - Computing and Processing
+KW  - Supply chains
+KW  - Medical services
+KW  - Cryptography
+KW  - Contracts
+KW  - Distributed databases
+KW  - Government
+KW  - blockchain
+KW  - suitability
+KW  - evaluation
+PB  - IEEE
+SN  - 978-1-5386-2431-9
+SP  - 158
+TI  - Evaluating Suitability of Applying Blockchain
+UR  - https://research.ebsco.com/linkprocessor/plink?id=b066f2fd-9201-37ac-9a53-0baecdbe4a18
+Y1  - 2017/11/01/2017
+N1  - Conference
+N1  - Conference Paper
+ER  - 

@@ -1,0 +1,40 @@
+TY  - GEN
+AB  - Blockchain and smart contracts have garnered significant interest in recent years as the foundation of a decentralized, trustless digital ecosystem, thereby eliminating the need for traditional centralized authorities. Despite their central role in powering Web3, their complexity still presents significant barriers for non-expert users. To bridge this gap, Artificial Intelligence (AI)-based agents have emerged as valuable tools for interacting with blockchain environments, supporting a range of tasks, from analyzing on-chain data and optimizing transaction strategies to detecting vulnerabilities within smart contracts. While interest in applying AI to blockchain is growing, the literature still lacks a comprehensive survey that focuses specifically on the intersection with AI agents. Most of the related work only provides general considerations, without focusing on any specific domain. This paper addresses this gap by presenting the first Systematization of Knowledge dedicated to AI-driven systems for blockchain, with a special focus on their security and privacy dimensions, shedding light on their applications, limitations, and future research directions.
+AN  - edseee.11229689
+ID  - edseee.11229689
+AU  - Romandini, Nicolo
+AU  - Mazzocca, Carlo
+AU  - Otsuki, Kai
+AU  - Montanari, Rebecca
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/BCCA66705.2025.11229689
+DP  - EBSCOhost
+EP  - 720
+T2  - 2025 7th International Conference on Blockchain Computing and Applications (BCCA), Blockchain Computing and Applications (BCCA), 2025 7th International Conference on
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Computing and Processing
+KW  - Engineering Profession
+KW  - General Topics for Engineers
+KW  - Surveys
+KW  - Privacy
+KW  - Smart contracts
+KW  - Ecosystems
+KW  - Focusing
+KW  - Trustless services
+KW  - Blockchains
+KW  - Complexity theory
+KW  - Security
+KW  - Artificial intelligence
+KW  - AI Agents
+KW  - LLMs
+KW  - Blockchain
+KW  - Smart Contract
+PB  - IEEE
+SN  - 979-8-3315-0296-6
+SP  - 708
+TI  - SoK: Security and Privacy of AI Agents for Blockchain
+UR  - https://research.ebsco.com/linkprocessor/plink?id=9fa29afd-bda7-3420-b0dd-ebf1d413b4bd
+Y1  - 2025/10/14/20251014
+N1  - Conference
+N1  - Conference Paper
+ER  - 

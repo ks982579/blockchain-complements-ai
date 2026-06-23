@@ -1,0 +1,24 @@
+TY  - GEN
+AB  - Agentic AI rivals human capabilities across a wide range of domains. Looking ahead, it is foreseeable that AI agents will autonomously handle complex workflows and interactions. Early prototypes of this paradigm are emerging, e.g., OpenClaw and Moltbook, signaling a shift toward Agent-to-Agent (A2A) ecosystems. However, despite these promising blueprints, critical trust and security challenges remain, particularly in scenarios involving financial transactions. Ensuring secure and reliable payment mechanisms between unknown and untrusted agents is crucial to complete a fully functional and trustworthy A2A ecosystem. Although blockchain-based infrastructures provide a natural foundation for this setting, via programmable settlement, transparent accounting, and open interoperability, trust and security challenges have not yet been fully addressed. Hence, for the first time, we systematize blockchain-based A2A payments, e.g., X402, with a four-stage lifecycle: discovery, authorization, execution, and accounting. We categorize representative designs at each stage and identify key challenges, including weak intent binding, misuse under valid authorization, payment-service decoupling, and limited accountability. We highlight future directions for strengthening cross-stage consistency, enabling behavior-aware control, and supporting compositional payment workflows across agents and systems.
+AN  - edsarx.2604.03733
+ID  - edsarx.2604.03733
+AU  - Zhang, Yuanzhe
+AU  - Xiang, Yuexin
+AU  - Lei, Yuchen
+AU  - Wang, Qin
+AU  - Qiu, Tian
+AU  - Sun, Yujing
+AU  - Zarkov, Spiridon
+AU  - Yuen, Tsz Hon
+AU  - Deppeler, Andreas
+AU  - Yu, Jiangshan
+AU  - Lam, Kwok-Yan
+DB  - arXiv
+DO  - 10.48550/arXiv.2604.03733
+DP  - EBSCOhost
+KW  - General Finance
+TI  - SoK: Blockchain Agent-to-Agent Payments
+UR  - https://research.ebsco.com/linkprocessor/plink?id=2b290531-f2c1-3b75-a21f-461916d50290
+Y1  - 2026/04/04/20260404
+N1  - Working Paper
+ER  - 

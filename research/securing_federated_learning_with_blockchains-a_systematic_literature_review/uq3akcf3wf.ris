@@ -1,0 +1,31 @@
+TY  - GEN
+AB  - Federated learning (FL) is a promising framework for distributed machine learning that trains models without sharing local data while protecting privacy. FL exploits the concept of collaborative learning and builds privacy-preserving models. Nevertheless, the integral features of FL are fraught with problems, such as the disclosure of private information, the unreliability of uploading model parameters to the server, the communication cost, etc. Blockchain, as a decentralized technology, is able to improve the performance of FL without requiring a centralized server and also solves the above problems. In this paper, a systematic literature review on the integration of Blockchain in federated learning was considered with the analysis of the existing FL problems that can be compensated. Through carefully screening, most relevant studies are included and research questions cover the potential security and privacy attacks in traditional federated learning that can be solved by blockchain as well as the characteristics of Blockchain-based FL. In addition, the latest Blockchain-based approaches to federated learning have been studied in-depth in terms of security and privacy, records and rewards, and verification and accountability. Furthermore, open issues related to the combination of Blockchain and FL are discussed. Finally, future research directions for the robust development of Blockchain-based FL systems are proposed.
+AN  - edsswe.oai.DiVA.org.bth.23698
+ID  - edsswe.oai.DiVA.org.bth.23698
+AU  - Qammar, Attia
+AU  - Karim, Ahmad
+AU  - Ning, Huansheng
+AU  - Ding, Jianguo
+DB  - SwePub
+DO  - 10.1007/s10462-022-10271-9
+DP  - EBSCOhost
+EP  - 3985
+IS  - 5
+T2  - Artificial Intelligence Review
+KW  - Federated learning
+KW  - Blockchain
+KW  - Security
+KW  - Privacy
+KW  - Blockchain-based FL
+KW  - Systematic literature review
+LA  - English
+SN  - 02692821
+SN  - 15737462
+SP  - 3951
+TI  - Securing federated learning with blockchain: a systematic literature review
+UR  - https://research.ebsco.com/linkprocessor/plink?id=71c9a9c1-ae82-35a0-ae3c-66d0925fc74f
+VL  - 56
+Y1  - 2023/01/01/2023
+N1  - Review-Article
+N1  - Review
+ER  - 

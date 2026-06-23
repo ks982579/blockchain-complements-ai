@@ -1,0 +1,24 @@
+TY  - GEN
+AB  - Multi-agent coordination studies the underlying mechanism enabling the trending spread of diverse multi-agent systems (MAS) and has received increasing attention, driven by the expansion of emerging applications and rapid AI advances. This survey outlines the current state of coordination research across applications through a unified understanding that answers four fundamental coordination questions: (1) what is coordination; (2) why coordination; (3) who to coordinate with; and (4) how to coordinate. Our purpose is to explore existing ideas and expertise in coordination and their connections across diverse applications, while identifying and highlighting emerging and promising research directions. First, general coordination problems that are essential to varied applications are identified and analyzed. Second, a number of MAS applications are surveyed, ranging from widely studied domains, e.g., search and rescue, warehouse automation and logistics, and transportation systems, to emerging fields including humanoid and anthropomorphic robots, satellite systems, and large language models (LLMs). Finally, open challenges about the scalability, heterogeneity, and learning mechanisms of MAS are analyzed and discussed. In particular, we identify the hybridization of hierarchical and decentralized coordination, human-MAS coordination, and LLM-based MAS as promising future directions.
+AN  - edsarx.2502.14743
+ID  - edsarx.2502.14743
+AU  - Sun, Lijun
+AU  - Yang, Yijun
+AU  - Duan, Qiqi
+AU  - Shi, Yuhui
+AU  - Lyu, Chao
+AU  - Chang, Yu-Cheng
+AU  - Lin, Chin-Teng
+AU  - Shen, Yang
+DB  - arXiv
+DO  - 10.48550/arXiv.2502.14743
+DP  - EBSCOhost
+KW  - Computer Science - Multiagent Systems
+KW  - Computer Science - Artificial Intelligence
+TI  - Multi-Agent Coordination across Diverse Applications: A Survey
+UR  - https://research.ebsco.com/linkprocessor/plink?id=1e8d7ca1-b937-367e-855a-788c4aa424ff
+Y1  - 2025/02/20/20250220
+N1  - Working Paper
+ER  - 
+
+https://arxiv.org/abs/2502.14743

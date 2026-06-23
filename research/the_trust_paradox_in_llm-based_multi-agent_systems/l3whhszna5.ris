@@ -1,0 +1,20 @@
+TY  - GEN
+AB  - Multi-agent systems powered by large language models are advancing rapidly, yet the tension between mutual trust and security remains underexplored. We introduce and empirically validate the Trust-Vulnerability Paradox (TVP): increasing inter-agent trust to enhance coordination simultaneously expands risks of over-exposure and over-authorization. To investigate this paradox, we construct a scenario-game dataset spanning 3 macro scenes and 19 sub-scenes, and run extensive closed-loop interactions with trust explicitly parameterized. Using Minimum Necessary Information (MNI) as the safety baseline, we propose two unified metrics: Over-Exposure Rate (OER) to detect boundary violations, and Authorization Drift (AD) to capture sensitivity to trust levels. Results across multiple model backends and orchestration frameworks reveal consistent trends: higher trust improves task success but also heightens exposure risks, with heterogeneous trust-to-risk mappings across systems. We further examine defenses such as Sensitive Information Repartitioning and Guardian-Agent enablement, both of which reduce OER and attenuate AD. Overall, this study formalizes TVP, establishes reproducible baselines with unified metrics, and demonstrates that trust must be modeled and scheduled as a first-class security variable in multi-agent system design.
+AN  - edsarx.2510.18563
+ID  - edsarx.2510.18563
+AU  - Xu, Zijie
+AU  - Qi, Minfeng
+AU  - Wu, Shiqing
+AU  - Zhang, Lefeng
+AU  - Wei, Qiwen
+AU  - He, Han
+AU  - Li, Ningran
+DB  - arXiv
+DO  - 10.48550/arXiv.2510.18563
+DP  - EBSCOhost
+KW  - Cryptography and Security
+TI  - The Trust Paradox in LLM-Based Multi-Agent Systems: When Collaboration Becomes a Security Vulnerability
+UR  - https://research.ebsco.com/linkprocessor/plink?id=9ca2afa1-0267-3b6b-ab6b-d139b8d612da
+Y1  - 2025/10/21/20251021
+N1  - Working Paper
+ER  - 

@@ -1,0 +1,29 @@
+TY  - JOUR
+AB  - Highlights •Presents formal definition and architecture of Federated Multi-Agent Reinforcement Learning (FMARL).•Summarizes key methodologies and categorizes FMARL types, providing a structured overview.•Explores diverse applications of FMARL across multiple domains.•Identifies critical challenges and explores future research opportunities to drive advancements in FMARL technologies. Multi-Agent Reinforcement Learning (MARL) and Federated Learning (FL) have achieved significant advancements in addressing complex, large-scale problems across various domains. As demands grow for solutions that balance decentralized decision-making with data privacy, the emerging paradigm of Federated Multi-Agent Reinforcement Learning (FMARL) has drawn increasing attention. FMARL integrates the collaborative, privacy-preserving framework of FL with the adaptive, multi-agent coordination of MARL, enabling efficient and secure decision-making across distributed, dynamic environments. Despite its growing popularity, FMARL research lacks a comprehensive analysis of its methods, applications, and open challenges. Therefore, this survey aims to fill this gap by systematically reviewing FMARL approaches from multiple perspectives, categorizing current methods, exploring diverse application scenarios, and discussing critical challenges. This work offers valuable insights for researchers, promoting a deeper understanding and future advancements in FMARL.
+AN  - S0957417425023474
+ID  - S0957417425023474
+AU  - Jing, Yao
+AU  - Gu, Bin
+AU  - Li, Nuo
+AU  - Xu, Ruonan
+AU  - Yu, Zhiwen
+DB  - ScienceDirect
+DO  - 10.1016/j.eswa.2025.128729
+DP  - EBSCOhost
+JO  - Expert Systems With Applications
+KW  - Federated Learning
+KW  - Multi-Agent Systems
+KW  - Reinforcement Learning
+KW  - Federated Multi-Agent Reinforcement Learning
+KW  - Distributed Optimization
+LA  - English
+PB  - Elsevier Ltd
+SN  - 0957-4174
+TI  - Federated Multi-Agent Reinforcement Learning: A Comprehensive Survey of Methods, Applications and Challenges
+UR  - https://research.ebsco.com/linkprocessor/plink?id=d422da60-6fea-3e21-a566-824b06116ec7
+Y1  - 2025/01/01/2025
+N1  - Review Article
+N1  - Academic Journal
+ER  - 
+
+https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417425X00257/1-s2.0-S0957417425023474/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECgaCXVzLWVhc3QtMSJHMEUCIQCZRNmD%2FLa%2FJY1pZ03A7Ue6BAv5%2FIvT4MAolKQ%2Bes2aEQIgC2AcV3i2A9ZmxQbO38XJsuZeYAwjxctqPGnl%2BtE4PLAqvAUI8f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDIu%2BUcOLgZA2HuwoCSqQBRwWtpaOEyP0jpfCUz5vAZDLfWgIsVOUP0UdfKfPqZQJQ8NYNKq1BDkbAfYHklEZ%2BDVSnsslCP%2FlIgPkkaT28cAUMQpHkD6F%2Bw2uH4fIk3unBETJ3XHMXyIcBl1mYzBxReRKz5Ex1HQWJGtLKvjPjkzywjCnrmMbAZBGcX3bgHEUy2VCrFIJQgLeG1%2FqN6fJdOB4WEdkTXQgPOUeRx9GkxeSzQkoJic7HaE9axNm2pOx%2B4Z0ShGe0FmgQiCqiUhuEsR9srnfTkGyWLOVfalv4DgV47JfDNqXOybqP81xTOLPKqtiQdwoDbp4BGTCmjQzh%2B20ldC3igm8eoJprTOUrdkdyBqnpzb0lNjS8m6P2r4sNx1%2BMM9J7%2BDMAZuv%2FKfN808tGuaXNx1vjwio57yoJ1br3Tnmo9ZnFBQOQ3y2CNdtScVYhgV4%2BhtSWm2VF91B%2FqKtXOSX0tN79yJFH75Sv8d5y%2F7MpMW9uxpIlK5DWLBdUCJkSd9Lt1MVy9hdIqvAZ7E4QbJxUf8uL8cxPDXYoSBtQ2zXgZjKRr1gy92dS9R%2F3hsYvoDRe6WA8ttCA2c%2FHIqiLgJ96bEvJGXDfwYnLIOcsy7x2bF3CK121VLJfmjWrfxhl4jSVtHAl%2F8FTRZkr%2FB8sfMBnv7kW9rE5oa%2FH2uA1%2BmN%2F2EvwCGesmwS0OL9oT%2BzlbOWPx6NM0ATxwyTgZJFKBN5oe5b2nSTLzbwJa5dpX35Mhqa2%2FZFpQQGekb5jdZTGIlNrnIA1u7gXNWnAVSyXlm%2Flu9LD%2F0vqwqqNI3S19n1dIDo4%2FpfQP8OF1pTgvZEyMQlIn1b8tnGdXiRB1ULhB%2FC8TELVcGmHF3juMPKdwbrltueD1TfyWfKs5aiMJ2F4NEGOrEBwtpGyApmgfIX5OyzSANEvRewr3aIYuymrZNOpDzJUcnOSg92vqOKZT6iaXW%2F2F9JmVQYeY5kKeX6q5kQgkJ6%2Bws2uQtbuivPgGecqs1%2BIwSTTNbsS0Nad10nBhFH4C%2FhITPWawgEARyPR8OPSj9FGSyMNTuL0qVqlPrIvVtlOIcakJr%2FPzPGnrIiylTrWdd%2FijrilZY%2FUgX%2Fr1hUZzpI3p2tLwufqE5EXIfr8XVRArm%2B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260621T165954Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYUSUDHE63%2F20260621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a8421994c431d4fb8856dadf14c2a397251fcff3c1479bbbe24ec9a5246f8672&hash=357e601b1332aa302b28f91fd0202f171e64058669fdeff0138789aabc3b1d97&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417425023474&tid=spdf-28af64b7-a0ff-4249-b2fa-009efeb53bf9&sid=7912cc605aac79427a6b6ef4ca6c3a63b393gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f0b0e5609505e535f57&rr=a0f49100cefebdbb&cc=ie

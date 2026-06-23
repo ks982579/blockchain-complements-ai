@@ -1,0 +1,39 @@
+TY  - JOUR
+AB  - Objective: This study aims to identify and prioritize the potential risks associated with adopting blockchain technology in the supply chain of Small and Medium-sized Enterprises (SMEs) operating in the automotive industry. Methodology: A fuzzy Multi-Criteria Decision-Making (MCDM) approach is employed. The Stepwise Weight Assessment Ratio Analysis (SWARA) method is used to determine the relative importance of identified blockchain implementation risks while accounting for ambiguity and subjectivity in expert judgments. The proposed framework is validated through a case study involving SMEs in the automotive sector, where expert evaluations are collected and modeled using fuzzy numbers to improve the robustness and accuracy of the results. Results: The findings indicated that security, technical, and organizational risks were the most important ones. Additionally, the sub-risks of privacy/confidentiality of information, lack of necessary policies and regulations, and cyber-attacks with values of 0.1224, 0.0933, and 0.0927 were recognized as the most critical, respectively. These results highlight the areas that require immediate managerial and regulatory attention to ensure successful blockchain implementation. Conclusion: This study demonstrates that integrating fuzzy sets with SWARA method provides a systematic and reliable approach for assessing blockchain adoption risks under uncertainty. The proposed framework offers practical guidance for supply chain managers and policymakers seeking to mitigate implementation risks and achieve sustainable competitive advantages through blockchain technology.
+AN  - 194275457
+ID  - 194275457
+AU  - Dehshiri, Seyyed Jalaladdin Hosseini
+AU  - Amiri, Maghsoud
+DB  - Business Source Ultimate
+DO  - 10.22059/imj.2026.410718.1008287
+DP  - EBSCOhost
+EP  - 264
+IS  - 2
+JO  - Industrial Management Journal (IMJ)
+KW  - Blockchains
+KW  - Risk assessment
+KW  - Supply chain management
+KW  - Automobile industry
+KW  - Small business
+KW  - Multiple criteria decision making
+KW  - Automobile Manufacturing
+KW  - New Car Dealers
+KW  - Automobile and light-duty motor vehicle manufacturing
+KW  - New and used automobile and light-duty truck merchant wholesalers
+KW  - Automobile and Other Motor Vehicle Merchant Wholesalers
+KW  - Motor Vehicle Body Manufacturing
+KW  - Internet Publishing and Broadcasting and Web Search Portals
+KW  - Wired Telecommunications Carriers
+KW  - Fuzzy decision making
+KW  - Internet security
+LA  - eng
+PB  - University of Tehran, Faculty of Management
+SN  - 2008-5885
+SP  - 237
+TI  - Evaluating Blockchain Technology Implementation Risks in the Automotive Industry: A Fuzzy Decision-Making Approach.
+UR  - https://research.ebsco.com/linkprocessor/plink?id=ccf6597e-a002-3cc6-89b7-f24ce0488510
+VL  - 18
+Y1  - 2026/04/01/2026
+N1  - Article
+N1  - Academic Journal
+ER  - 

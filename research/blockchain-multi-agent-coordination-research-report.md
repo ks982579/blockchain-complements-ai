@@ -128,19 +128,19 @@ The benefit is real but bounded. The applications are concentrated in open, adve
 
 ## Works Cited (IEEE)
 
-[1] R. Sikora and M. J. Shaw, "A multi-agent framework for the coordination and integration of information systems," *Management Science*, vol. 44, no. 11-part-2, pp. S65–S78, 1998. *(verify pagination on retrieval)*
+[1] R. Sikora and M. J. Shaw, "A multi-agent framework for the coordination and integration of information systems," *Management Science*, vol. 44, no. 11-part-2, pp. S65–S78, 1998. *(verify pagination on retrieval)* x
 
-[2] L. Sun, Y. Yang, Q. Duan, Y. Shi, C. Lyu, Y.-C. Chang, C.-T. Lin, and Y. Shen, "Multi-agent coordination across diverse applications: A survey," *arXiv preprint*, arXiv:2502.14743, 2025.
+[2] L. Sun, Y. Yang, Q. Duan, Y. Shi, C. Lyu, Y.-C. Chang, C.-T. Lin, and Y. Shen, "Multi-agent coordination across diverse applications: A survey," *arXiv preprint*, arXiv:2502.14743, 2025. x
 
-[3] D. Calvaresi, A. Dubovitskaya, J. P. Calbimonte, K. Taveter, and M. Schumacher, "Multi-agent systems and blockchain: Results from a systematic literature review," in *Advances in Practical Applications of Agents, Multi-Agent Systems, and Complexity (PAAMS 2018)*, Springer, 2018, pp. 110–126.
+[3] D. Calvaresi, A. Dubovitskaya, J. P. Calbimonte, K. Taveter, and M. Schumacher, "Multi-agent systems and blockchain: Results from a systematic literature review," in *Advances in Practical Applications of Agents, Multi-Agent Systems, and Complexity (PAAMS 2018)*, Springer, 2018, pp. 110–126. x
 
-[4] S. Ciatto, S. Mariani, et al., "Blockchain-based coordination: Assessing the expressive power of smart contracts," *Information*, vol. 11, no. 1, art. 52, 2020. *(verify full author list on retrieval)*
+[4] S. Ciatto, S. Mariani, et al., "Blockchain-based coordination: Assessing the expressive power of smart contracts," *Information*, vol. 11, no. 1, art. 52, 2020. *(verify full author list on retrieval)* x
 
-[5] I. Afanasyev, A. Kolotov, R. Rezin, K. Danilov, A. Kashevnik, and V. Jotsov, "Blockchain solutions for multi-agent robotic systems: Related work and open questions," in *Proc. 24th Conf. of Open Innovations Association (FRUCT)*, 2019.
+[5] I. Afanasyev, A. Kolotov, R. Rezin, K. Danilov, A. Kashevnik, and V. Jotsov, "Blockchain solutions for multi-agent robotic systems: Related work and open questions," in *Proc. 24th Conf. of Open Innovations Association (FRUCT)*, 2019. x
 
-[6] J. Peña Queralta and T. Westerlund, "Blockchain-powered collaboration in heterogeneous swarms of robots," *arXiv preprint*, arXiv:1912.01711, 2019.
+[6] J. Peña Queralta and T. Westerlund, "Blockchain-powered collaboration in heterogeneous swarms of robots," *arXiv preprint*, arXiv:1912.01711, 2019. x
 
-[7] (Author list to verify), "A blockchain integration to support transactions of assets in multi-agent systems," *Engineering Applications of Artificial Intelligence*, 2021. *(complete authors and volume/pages on retrieval; used primarily as a citation hub for Kapitonov et al. 2017/2018, Mariani et al. 2017, Ciatto et al. 2018)*
+[7] (Author list to verify), "A blockchain integration to support transactions of assets in multi-agent systems," *Engineering Applications of Artificial Intelligence*, 2021. *(complete authors and volume/pages on retrieval; used primarily as a citation hub for Kapitonov et al. 2017/2018, Mariani et al. 2017, Ciatto et al. 2018)* x
 
 [8] M. M. Karim, D. H. Van, S. Khan, Q. Qu, and Y. Kholodov, "AI agents meet blockchain: A survey on secure and scalable collaboration for multi-agents," *Future Internet*, vol. 17, no. 2, art. 57, 2025, doi: 10.3390/fi17020057.
 
@@ -158,11 +158,13 @@ The benefit is real but bounded. The applications are concentrated in open, adve
 
 [15] M. De Rossi, D. Crapis, J. Ellis, and E. Reppel, "ERC-8004: Trustless Agents," *Ethereum Improvement Proposal (ERC-8004)*, 2025. [Online]. *(cite the primary EIP text on retrieval)*
 
+#here
+
 [16] "x402: An open standard for internet-native payments," x402 white paper, 2025. [Online]. Available: https://www.x402.org/x402-whitepaper.pdf
 
 [17] (Author list to verify), "SoK: Blockchain agent-to-agent payments," *arXiv preprint*, arXiv:2604.03733, 2026.
 
-[18] (Author list to verify), "Autonomous agents on blockchains: Standards, execution models, and trust boundaries," *arXiv preprint*, arXiv:2601.04583, 2026.
+[18] (Author list to verify), "Autonomous agents on blockchains: Standards, execution models, and trust boundaries," *arXiv preprint*, arXiv:2601.04583, 2026. (121 pages)
 
 [19] (Author list to verify), "The agent economy: A blockchain-based foundation for autonomous AI agents," *arXiv preprint*, arXiv:2602.14219, 2026.
 

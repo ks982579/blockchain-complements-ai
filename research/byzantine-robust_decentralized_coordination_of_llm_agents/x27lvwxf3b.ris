@@ -1,0 +1,16 @@
+TY  - GEN
+AB  - Collaboration among multiple large language model (LLM) agents is a promising approach to overcome inherent limitations of single-agent systems, such as hallucinations and single points of failure. As LLM agents are increasingly deployed on open blockchain platforms, multi-agent systems capable of tolerating malicious (Byzantine) agents have become essential. Recent Byzantine-robust multi-agent systems typically rely on leader-driven coordination, which suffers from two major drawbacks. First, they are inherently vulnerable to targeted attacks against the leader. If consecutive leaders behave maliciously, the system repeatedly fails to achieve consensus, forcing new consensus rounds, which is particularly costly given the high latency of LLM invocations. Second, an underperforming proposal from the leader can be accepted as the final answer even when higher-quality alternatives are available, as existing methods finalize the leader's proposal once it receives a quorum of votes. To address these issues, we propose DecentLLMs, a novel decentralized consensus approach for multi-agent LLM systems, where worker agents generate answers concurrently and evaluator agents independently score and rank these answers to select the best available one. This decentralized architecture enables faster consensus despite the presence of Byzantine agents and consistently selects higher-quality answers through Byzantine-robust aggregation techniques. Experimental results demonstrate that DecentLLMs effectively tolerates Byzantine agents and significantly improves the quality of selected answers.
+AN  - edsarx.2507.14928
+ID  - edsarx.2507.14928
+AU  - Jo, Yongrae
+AU  - Park, Chanik
+DB  - arXiv
+DO  - 10.48550/arXiv.2507.14928
+DP  - EBSCOhost
+KW  - Distributed, Parallel, and Cluster Computing
+KW  - Artificial Intelligence
+TI  - Byzantine-Robust Decentralized Coordination of LLM Agents
+UR  - https://research.ebsco.com/linkprocessor/plink?id=912d8b26-99c1-3401-8550-c088ab361fd5
+Y1  - 2025/07/20/20250720
+N1  - Working Paper
+ER  - 

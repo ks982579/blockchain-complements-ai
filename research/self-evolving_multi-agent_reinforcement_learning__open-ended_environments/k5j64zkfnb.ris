@@ -1,0 +1,51 @@
+TY  - GEN
+AB  - We propose a self-evolving multi-agent reinforcement learning (SE-MARL) system for decentralized decisionmaking in open-ended settings. Agents co-evolve with populationbased meta-learning and automatic curriculum generation, with a lightweight evolution loop that intermittently evolves architectures and hyperparameters and retains Pareto-efficient policies. To make the method more realistic, we construct a city-scale, large-scale fleet control benchmark from NYC TLC trip histories (2014-2019) and map observed demand and travel time into a partially observable, non-stationary environment. In zero-shot expansions, distribution shifts, and unseen agent types, SEMARL maintains coordination by means of on-policy distillation and local message passing without imposing any global controller. In experiments, the method outperforms decentralized training and deployment and non-evolutionary MARL baselines on task reward and regret and scales to thousands of agents. Ablations show that both self-evolution and curriculum signals are necessary for robustness, and that emergent specialization is responsible for sample efficiency. These results suggest an operational path to adaptive, robust decentralized systems from openly available, real-world data.
+AN  - edseee.11426025
+ID  - edseee.11426025
+AU  - Wasnik, Harsh
+AU  - Wasnik, Yash
+AU  - Khatokar, Rishab
+AU  - Gajwe, Dhawal
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/ICAECT68478.2026.11426025
+DP  - EBSCOhost
+EP  - 6
+T2  - 2026 Sixth International Conference on Advances in Electrical, Computing, Communications and Sustainable Technologies (ICAECT), Advances in Electrical, Computing, Communications and Sustainable Technologies (ICAECT), 2026 Sixth International Conference on
+KW  - Aerospace
+KW  - Bioengineering
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Components, Circuits, Devices and Systems
+KW  - Computing and Processing
+KW  - Engineered Materials, Dielectrics and Plasmas
+KW  - Fields, Waves and Electromagnetics
+KW  - General Topics for Engineers
+KW  - Geoscience
+KW  - Photonics and Electrooptics
+KW  - Power, Energy and Industry Applications
+KW  - Robotics and Control Systems
+KW  - Signal Processing and Analysis
+KW  - Training
+KW  - Metalearning
+KW  - Tracking loops
+KW  - Message passing
+KW  - Computational modeling
+KW  - Decision making
+KW  - Reinforcement learning
+KW  - Stability analysis
+KW  - Robustness
+KW  - History
+KW  - Multi-agent reinforcement learning
+KW  - Decentralized decision-making
+KW  - Evolutionary meta-learning
+KW  - Open-ended environments
+KW  - NYC TLC trip data
+PB  - IEEE
+SN  - 979-8-3315-7322-5
+SN  - 979-8-3315-7323-2
+SP  - 1
+TI  - Self-Evolving Multi-Agent Reinforcement Learning Systems for Decentralized Decision-Making in Open-Ended Environments
+UR  - https://research.ebsco.com/linkprocessor/plink?id=b813b29f-2448-3a45-b68e-6a3cd0d50f18
+Y1  - 2026/01/08/20260108
+N1  - Conference
+N1  - Conference Paper
+ER  - 

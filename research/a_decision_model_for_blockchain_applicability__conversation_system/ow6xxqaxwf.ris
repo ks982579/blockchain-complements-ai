@@ -1,0 +1,27 @@
+TY  - JOUR
+AB  - Conversation systems usually suffer from the challenge of knowledge management from multiple human experts. The current mechanism used in knowledge-based conversation system is always based on centralized servers, which may be problematic in terms of transparency and security. Blockchain solutions are currently being proposed improve the security and efficiency in different domains. However, there are various blockchain platforms with different characteristics, and conversation system implemented using blockchain platform is not in place yet. In this paper, we clearly identified the requirement analysis of knowledge-based conversation system and present a decision model for identify the best fitting blockchain platform for knowledge-based conversation system. In the proposed method, multiple measurements including Analytical Hierarchy Process (AHP), Fuzzy analytical hierarchy process (FAHP), and Fuzzy Technique for Order Preference by Similarity to Ideal Solution (FTOPSIS) are utilized to analyze and create consistent result together, which can be used for the selection of blockchain platforms and improve the efficiency of the decision-making process.
+AN  - S095070512100054X
+ID  - S095070512100054X
+AU  - Yang, Wenli
+AU  - Garg, Saurabh
+AU  - Huang, Zhiqiang
+AU  - Kang, Byeong
+DB  - ScienceDirect
+DO  - 10.1016/j.knosys.2021.106791
+DP  - EBSCOhost
+JO  - Knowledge-Based Systems
+KW  - Blockchain platform
+KW  - Conversation system
+KW  - Knowledge-based
+KW  - Decision model
+KW  - Multiple measurements
+LA  - English
+PB  - Elsevier B.V.
+SN  - 0950-7051
+TI  - A decision model for blockchain applicability into knowledge-based conversation system
+UR  - https://research.ebsco.com/linkprocessor/plink?id=1b114774-af75-3745-a39b-cd83294ee8cf
+VL  - 220
+Y1  - 2021/05/23/23 May 2021
+N1  - Article
+N1  - Academic Journal
+ER  - 

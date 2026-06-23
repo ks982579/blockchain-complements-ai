@@ -1,0 +1,19 @@
+TY  - GEN
+AB  - One of the key challenges in the collaboration within heterogeneous multi-robot systems is the optimization of the amount and type of data to be shared between robots with different sensing capabilities and computational resources. In this paper, we present a novel approach to managing collaboration terms in heterogeneous multi-robot systems with blockchain technology. Leveraging the extensive research of consensus algorithms in the blockchain domain, we exploit key technologies in this field to be integrated for consensus in robotic systems. We propose the utilization of proof of work systems to have an online estimation of the available computational resources at different robots. Furthermore, we define smart contracts that integrate information about the environment from different robots in order to evaluate and rank the quality and accuracy of each of the robots' sensor data. This means that the key parameters involved in heterogeneous robotic collaboration are integrated within the Blockchain and estimated at all robots equally without explicitly sharing information about the robots' hardware or sensors. Trustability is based on the verification of data samples that are submitted to the blockchain within each data exchange transaction and validated by other robots operating in the same environment. Initial results are reported which show the viability of the concepts presented in this paper.
+AN  - edsarx.1912.01711
+ID  - edsarx.1912.01711
+AU  - Queralta, Jorge Peña
+AU  - Westerlund, Tomi
+DB  - arXiv
+DO  - 10.48550/arXiv.1912.01711
+DP  - EBSCOhost
+KW  - Computer Science - Cryptography and Security
+KW  - Computer Science - Multiagent Systems
+KW  - Computer Science - Robotics
+TI  - Blockchain-Powered Collaboration in Heterogeneous Swarms of Robots
+UR  - https://research.ebsco.com/linkprocessor/plink?id=8c7270c2-5f3b-34be-af0f-4318e7f7343f
+Y1  - 2019/11/23/20191123
+N1  - Working Paper
+ER  - 
+
+https://arxiv.org/abs/1912.01711

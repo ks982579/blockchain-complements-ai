@@ -1,0 +1,35 @@
+TY  - JOUR
+AB  - This paper describes a framework for the coordination and integration of information systems. By modeling typical enterprise information systems as consisting of multiple agents with different functionalities, the methodology provides the representational formalism, coordination mechanisms, and control schemes necessary for integrating heterogeneous units of an information system while meeting such performance criteria as overall effectiveness, efficiency, responsiveness, and robustness.The framework is applied to the development of a manufacturing information system for managing the production processes for making printed circuit boards. Performance results confirm that the system integration framework is important to support complex business processes that involve multiple steps of activities processed by a group of agents across a variety of functionalities.
+AN  - 1647973
+ID  - 1647973
+AU  - Sikora, Riyaz
+AU  - Shaw, Michael J.
+DB  - Business Source Ultimate
+DO  - 10.1287/mnsc.44.11.S65
+DP  - EBSCOhost
+EP  - S78
+IS  - 11
+JO  - Management Science (INFORMS)
+KW  - Information resources management
+KW  - System integration
+KW  - Information technology management
+KW  - Systems engineering
+KW  - Database management
+KW  - Organizational structure
+KW  - Production management (Manufacturing)
+KW  - Strategic information system
+KW  - Data Processing, Hosting, and Related Services
+KW  - All Other Information Services
+KW  - Process, Physical Distribution, and Logistics Consulting Services
+KW  - Computer Systems Design Services
+LA  - eng
+PB  - INFORMS: Institute for Operations Research & the Management Sciences
+SN  - 0025-1909
+SP  - S65
+TI  - A Multi-Agent Framework for the Coordination and Integration of Information Systems.
+UR  - https://research.ebsco.com/linkprocessor/plink?id=23572183-7b69-3ca6-8207-b31df16a7ac8
+VL  - 44
+Y1  - 1998/11/02/Nov98 Part 2 of 2
+N1  - Article
+N1  - Academic Journal
+ER  - 

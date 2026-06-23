@@ -1,0 +1,27 @@
+TY  - JOUR
+AB  - Ensuring trust, fairness, and long-term efficiency in multi-agent systems poses significant challenges, particularly under partially competitive and decentralized settings where strategic manipulation and collusion can arise. This paper proposes a blockchain-enhanced framework that integrates smart contracts with multi-agent reinforcement learning (MARL) to design incentive-compatible mechanisms for strategic agent coordination. The framework utilizes the decentralized and tamper-resistant nature of blockchain to record agent behaviors on-chain, enforce transparency, and implement automated penalty and reward mechanisms through smart contracts. We embed these mechanisms into a Multi-Agent Soft Actor-Critic (MASAC) algorithm, aligning local decision-making with global system objectives. Experimental validation in two representative domains—automated market bidding and intelligent traffic control—demonstrates that the proposed approach significantly improves social welfare, reduces collusion success rates, enhances fairness, and increases behavioral robustness under noise. Ablation studies further reveal the complementary contributions of each system component. This work lays the foundation for scalable, transparent, and incentive-aligned coordination in decentralized intelligent agent systems.<br />
+AN  - edssjs.E6565612
+ID  - edssjs.E6565612
+AU  - Tian, Ke
+DB  - Springer Nature Journals
+DO  - 10.1038/s41598-025-20247-8
+DP  - EBSCOhost
+IS  - 1
+JO  - Scientific Reports
+CY  - London
+KW  - Blockchain
+KW  - Multi-agent reinforcement learning
+KW  - Incentive-compatible mechanism
+KW  - Smart contracts
+KW  - Decentralized coordination
+KW  - Information and Computing Sciences
+LA  - English
+PB  - Nature Publishing Group UK
+SN  - 20452322
+TI  - Blockchain-enhanced incentive-compatible mechanisms for multi-agent reinforcement learning systems
+UR  - https://research.ebsco.com/linkprocessor/plink?id=70f4e46c-6139-379e-a5a7-cf4dc3349718
+VL  - 15
+Y1  - 2025/12/01/2025
+N1  - Original Paper
+N1  - Academic Journal
+ER  - 

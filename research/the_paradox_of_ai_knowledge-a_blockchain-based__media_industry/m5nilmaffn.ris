@@ -1,0 +1,30 @@
+TY  - JOUR
+AB  - AI text-to-video systems, such as OpenAI's Sora, promise substantial efficiency gains in media production but also pose risks of biased outputs, opaque optimization, and deceptive content. Using the Orientation–Stimulus–Orientation–Response (O-S-O-R) model, we conduct an empirical study with 209 Chinese new media professionals and employ structural equation modeling to examine how information elaboration relates to AI knowledge, perceptions, and adoption intentions. Our findings reveal a knowledge paradox: higher objective AI knowledge negatively moderates elaboration, suggesting that centralized information ecosystems can misguide even well-informed practitioners. Building on these behavioral insights, we propose a blockchain-based governance framework that operationalizes five mechanisms to enhance oversight and trust while maintaining efficiency: Expert Assessment DAOs, Community Validation DAOs, real-time algorithm monitoring, professional integrity protection, and cross-border coordination. While our study focuses on China's substantial new media market, the observed patterns and design principles generalize to global contexts. This work contributes empirical grounding for Web3-enabled AI governance, specifies implementable smart-contract patterns for multi-stakeholder validation and incentives, and outlines a research agenda spanning longitudinal, cross-cultural, and implementation studies.
+AN  - 188952536
+ID  - 188952536
+AU  - Wu, Jing
+AU  - Cai, Yaoyi
+DB  - Academic Search Ultimate
+DO  - 10.3390/fi17100479
+DP  - EBSCOhost
+IS  - 10
+JO  - Future Internet
+KW  - Artificial intelligence
+KW  - Decentralization in management
+KW  - Digital media
+KW  - Information processing
+KW  - Decentralization in government
+KW  - Local mass media
+KW  - China
+KW  - Internet Publishing and Broadcasting and Web Search Portals
+LA  - eng
+PB  - MDPI
+SN  - 1999-5903
+SP  - 479
+TI  - The Paradox of AI Knowledge: A Blockchain-Based Approach to Decentralized Governance in Chinese New Media Industry.
+UR  - https://research.ebsco.com/linkprocessor/plink?id=aaa490e0-6fcb-3c9a-9e16-365680126bbc
+VL  - 17
+Y1  - 2025/10/01/Oct2025
+N1  - Article
+N1  - Academic Journal
+ER  - 

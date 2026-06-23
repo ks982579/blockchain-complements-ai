@@ -1,0 +1,28 @@
+TY  - JOUR
+AB  - Blockchain is challenging the status quo of the central trust infrastructure currently prevalent in the Internet towards a design principle that is underscored by decentralization, transparency, and trusted auditability. In ideal terms, blockchain advocates a decentralized, transparent, and more democratic version of the Internet. Essentially being a trusted and decentralized database, blockchain finds its applications in fields as varied as the energy sector, forestry, fisheries, mining, material recycling, air pollution monitoring, supply chain management, and their associated operations. In this paper, we present a survey of blockchain-based network applications. Our goal is to cover the evolution of blockchain-based systems that are trying to bring in a renaissance in the existing, mostly centralized, space of network applications. While re-imagining the space with blockchain, we highlight various common challenges, pitfalls, and shortcomings that can occur. Our aim is to make this work as a guiding reference manual for someone interested in shifting towards a blockchain-based solution for one's existing use case or automating one from the ground up.
+AU  - Hassan, Fakhar ul
+AU  - Ali, Anwaar
+AU  - Rahouti, Mohamed
+AU  - Latif, Siddique
+AU  - Kanhere, Salil
+AU  - Singh, Jatinder
+AU  - Al-Fuqaha, Ala
+AU  - Janjua, Umar
+AU  - Mian, Adnan Noor
+AU  - Qadir, Junaid
+AU  - Crowcroft, Jon
+DO  - 10.48550/arXiv.1904.00733
+DB  - arXiv
+DP  - arXiv
+JO  - arXiv
+KW  - Cryptography and Security (cs.CR)
+KW  - Blockchain
+KW  - Decentralization
+KW  - Network applications
+PB  - arXiv
+TI  - Blockchain and the Future of the Internet: A Comprehensive Review
+UR  - https://arxiv.org/abs/1904.00733
+Y1  - 2020///
+N1  - arXiv:1904.00733 [cs.CR]
+N1  - Preprint
+ER  -

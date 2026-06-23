@@ -1,0 +1,41 @@
+TY  - GEN
+AB  - The emergence of Large Language Models (LLMs) is rapidly accelerating the development of autonomous multiagent systems (MAS), paving the way for the Internet of Agents. However, traditional centralized MAS architectures present significant challenges, including single points of failure, vulnerability to censorship, inherent scalability limitations, and critical trust issues. We propose a novel Decentralized Multi-Agent System (DMAS) architecture designed to overcome these fundamental problems by enabling trust-aware, scalable, and censorship-resistant interactions among autonomous agents. Our DMAS features a decentralized agent runtime underpinned by a blockchain-based architecture. We formalize a trust-aware communication protocol that leverages cryptographic primitives and on-chain operations to provide security properties: verifiable interaction cycles, communication integrity, authenticity, non-repudiation, and conditional confidentiality, which we further substantiate through a comprehensive security analysis. Our performance analysis validates the DMAS as a scalable and efficient solution for building trustworthy multi-agent systems.
+AN  - edseee.11245224
+ID  - edseee.11245224
+AU  - Ding, Yepeng
+AU  - Twabi, Ahmed
+AU  - Yu, Junwei
+AU  - Zhang, Lingfeng
+AU  - Kondo, Tohru
+AU  - Sato, Hiroyuki
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/ISPA67752.2025.00198
+DP  - EBSCOhost
+EP  - 1445
+T2  - 2025 IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA), Parallel and Distributed Processing with Applications (ISPA), 2025 IEEE International Symposium on, ISPA
+KW  - Computing and Processing
+KW  - Distributed processing
+KW  - Runtime
+KW  - Protocols
+KW  - Scalability
+KW  - Large language models
+KW  - Non-repudiation
+KW  - Censorship
+KW  - Performance analysis
+KW  - Internet
+KW  - Multi-agent systems
+KW  - multi-agent system
+KW  - blockchain
+KW  - agent-to-agent
+KW  - large language model
+KW  - self-sovereign identity
+PB  - IEEE
+SN  - 979-8-3315-6684-5
+SN  - 21589208
+SP  - 1439
+TI  - Decentralized Multi-Agent System with Trust-Aware Communication
+UR  - https://research.ebsco.com/linkprocessor/plink?id=e36b4700-c83a-301a-920d-ccc8d088cc45
+Y1  - 2025/10/10/20251010
+N1  - Conference
+N1  - Conference Paper
+ER  - 

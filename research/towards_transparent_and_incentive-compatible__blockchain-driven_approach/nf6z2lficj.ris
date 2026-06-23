@@ -1,0 +1,45 @@
+TY  - GEN
+AB  - Large Language Models (LLMs) have enabled autonomous agents capable of complex reasoning and collaboration, yet coordinating such agents in decentralized environments remains challenging due to the lack of centralized control for aligning behavior and sustaining long-term cooperation. This paper addresses this challenge from a mechanism-design perspective and proposes a behavior-shaping incentive mechanism for decentralized LLM-based multi-agent systems. The mechanism explicitly models agent utility as a function of task rewards, capability mismatch, and workload, and couples short-term utility optimization with long-term trust formation through dynamic reputation updates and capability-weight adaptation. By jointly shaping task assignment probabilities, reputation evolution, and skill profiles over repeated interactions, the mechanism incentivizes cooperative behavior and discourages strategic misrepresentation or overload. To operationalize this incentive design in a trust-minimized setting, we implement a lightweight blockchain-based enforcement layer that provides verifiable identity binding, task assignment commitment, and immutable logging of incentive-relevant state transitions. We evaluate the proposed mechanism through 50-round simulations involving 20 agents and 100 tasks, using GPT-4-based agents integrated with Solidity smart contracts. The results demonstrate improved task success rates, stable utility distributions, and emergent agent specialization, highlighting the effectiveness of incentive-centric design for trustworthy coordination among decentralized LLM agents.
+AN  - edseee.11368731
+ID  - edseee.11368731
+AU  - Qi, M.
+AU  - Zhu, T.
+AU  - Zhang, L.
+AU  - Li, N.
+AU  - Tan, Y.
+AU  - Zhou, W.
+DB  - IEEE Xplore Digital Library
+DO  - 10.1109/TNSE.2026.3659486
+DP  - EBSCOhost
+EP  - 6720
+T2  - IEEE Transactions on Network Science and Engineering, Network Science and Engineering, IEEE Transactions on, IEEE Trans. Netw. Sci. Eng.
+KW  - Communication, Networking and Broadcast Technologies
+KW  - Computing and Processing
+KW  - Components, Circuits, Devices and Systems
+KW  - Signal Processing and Analysis
+KW  - Blockchains
+KW  - Cognition
+KW  - Multi-agent systems
+KW  - Collaboration
+KW  - Smart contracts
+KW  - Resource management
+KW  - Centralized control
+KW  - Autonomous agents
+KW  - Adaptation models
+KW  - Trees (botanical)
+KW  - Large language models
+KW  - multi-agent systems
+KW  - blockchain
+KW  - smart contracts
+KW  - and incentive mechanisms
+PB  - IEEE
+SN  - 23274697
+SN  - 2334329X
+SP  - 6706
+TI  - Toward Transparent and Incentive-Compatible Collaboration in Decentralized LLM Multi-Agent Systems: A Blockchain-Driven Approach
+UR  - https://research.ebsco.com/linkprocessor/plink?id=e4f36731-3fba-31e4-a0ae-55459b3c46b2
+VL  - 13
+Y1  - 2026/01/01/2026
+N1  - Periodical
+N1  - Academic Journal
+ER  - 
